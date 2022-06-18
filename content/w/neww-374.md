@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ time .Date }}
+title: "Neww 374"
+date: 2022-06-18 16:08:38 -0300 -03
 description:
 original: https://incels.wiki/w/Incel
 categories:
