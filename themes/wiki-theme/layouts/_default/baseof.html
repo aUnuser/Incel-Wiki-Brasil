@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body>
+    <noscript>
+        <h1>Este site usa Javascript.</h1>
+    </noscript>
+    {{- partial "header.html" . -}}
+    <main{{ if .IsHome }} class="home-main"{{ end }}>
+        {{ if .IsHome }}
+        <div class="home-top-panel">
+            <div class="panel-inner-wrapper">
+                <span class="welcome">Bem vindo à</span>
+                <a href="/" class="home-title">{{ .Site.Title }}</a>{{ with .Site.Params.site_subtitle }},{{ end }}
+            </div>
+            {{ with .Site.Params.site_subtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
+            {{ $artcount := len (where .Site.RegularPages "Section" "==" "w") }}
+            <div class="article-count">
+                <a href="">{{ $artcount }}</a>&nbsp;artigos em português
+            </div>
+        </div>
+        {{ else }}
+        <h1>{{ .Page.Title }}</h1>
+        {{ end }}
+        <div id="content">
+            {{- block "main" . }}{{- end }}
+        </div>
+    </main>
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>

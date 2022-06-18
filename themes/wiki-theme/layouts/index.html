@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="home-content">
+  {{ .Content }}
+</div>
+{{ with $.Site.Data.home_panels }}
+<div class="panels">
+  {{ with .featured_article }}
+  {{ range sort .panels "weight" }}
+  <div class="panel{{ if .isfullwidth }} full-width{{ end }}"
+    style="border: 1px solid {{ .border_color }}; background: {{ .background_color }}">
+    <div class="panel-title"
+      style="border: 1px solid {{ .title_border_color }}; background: {{ .title_background_color }}">{{ .title |
+      markdownify }}
+    </div>
+    {{ with .images }}
+    {{ range . }}
+    <div class="image-wrapper" style="max-width: {{ add .width 2 }}px;">
+      <img src="{{ .path }}" width="{{ .width }}" heigth="{{ .heigth }}">
+      {{ with .caption }}<div class="image-caption">{{ . | markdownify }}</div>{{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+    <div class="panel-content">{{ .content | markdownify }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    {{ $styles := resources.Get "/css/styles.scss" |  resources.ToCSS | resources.Fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+</head>

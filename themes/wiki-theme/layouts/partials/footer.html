@@ -1,0 +1,19 @@
+<footer>
+    <a href="" class="last-modified">
+        <div class="last-mod-inner-wrapper">
+            <i class="icon clock"></i>
+            <span>Ver histórico desta página.</span>
+            <i class="icon chevron-footer"></i>
+        </div>
+    </a>
+    <div class="footer-content">
+        <div class="footer-site-title">{{ .Site.Title }}</div>
+        {{- with .Site.Menus.footer -}}
+        <div class="footer-menu">
+            {{- range $index, $item := . -}}
+            <a href="{{ .URL }}" title="{{ .Title }}">{{- if gt $index 0 -}}&nbsp;&bull;&nbsp;{{- end -}}{{ .Name | markdownify }}</a>
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+</footer>

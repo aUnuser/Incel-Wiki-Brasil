@@ -1,0 +1,33 @@
+baseURL: "http://example.org/"
+title: Incel Wiki Brasil
+theme: wiki-theme
+
+languageCode: pt
+defaultContentLanguage: pt
+timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+params:
+  date_format: "15h04m UTCMST de 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
+  site_subtitle: "a tradução não-oficial da [Incel Wiki](https://incels.wiki/)."
+
+menu:
+  footer:
+    - identifier: sobre
+      name: Sobre
+      title: sobre
+      url: /sobre/
+      weight: 1
+    - identifier: disclaimer
+      name: Disclaimer
+      title: disclaimer
+      url: /disclaimer/
+      weight: 2
+
+taxonomies:
+  category: categories
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
