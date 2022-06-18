@@ -38,9 +38,7 @@ panels:
         width: 216
         heigth: 118
     content: | 
-      The [Battle of St. Charles]() was fought on June 17, 1862, at St. Charles, Arkansas, during the American Civil War. Earlier in 1862, a force commanded by Samuel R. Curtis, a major general of the Union Army, became bogged down in northern Arkansas. A Union relief force was sent up the White River to resupply Curtis. The Confederates had constructed fortifications near St. Charles.
-
-      ([Full article...]())
+      The [Battle of St. Charles]() was fought on June 17, 1862, at St. Charles, Arkansas, during the American Civil War. Earlier in 1862, a force commanded by Samuel R. Curtis, a major general of the Union Army, became bogged down in northern Arkansas. A Union relief force was sent up the White River to resupply Curtis. The Confederates had constructed fortifications near St. Charles. ([Full article...]())
   important_articles:
     title: Artigos Importantes
     weight: 3
