@@ -230,7 +230,7 @@ body {
         body .home-main #content .panels .panel .image-wrapper {
           float: right;
           clear: both;
-          margin-left: 1.4rem; }
+          margin-left: 1rem; }
       body .home-main #content .panels .full-width {
         width: 100%; }
   body footer .last-modified {
