@@ -161,23 +161,6 @@ body {
                     font-size: 120%;
                 }
 
-                .image-wrapper {
-                    margin: .5rem 0;
-                    margin: auto;
-
-                    img {
-                        max-width: 100%;
-                        height: auto;
-                    }
-
-                    .image-caption {
-                        word-wrap: break-word;
-                        font-size: 0.8125rem;
-                        line-height: 1.5;
-                        color: #54595d;
-                    }
-                }
-
                 .panel-content {
                     &>p:last-child {
                         margin-bottom: 0;
@@ -187,6 +170,17 @@ body {
                         padding-left: 2rem;
                     }
                 }
+            }
+        }
+
+        .fig-wrapper {
+            margin: auto;
+            .fig {
+                max-width: 100%;
+                height: auto;
+            }
+            .fig-caption {
+                font-size: .8125em;
             }
         }
     }
@@ -317,18 +311,11 @@ body {
             #content {
                 .panels {
                     display: flex;
-
-                    justify-content: space-between;
                     flex-wrap: wrap;
+                    justify-content: space-between;
 
                     .panel {
-                        width: 46.5%;
-
-                        .image-wrapper {
-                            float: right;
-                            clear: both;
-                            margin-left: 1rem;
-                        }
+                        width: calc(50% - 1.5rem);
                     }
 
                     .full-width {
