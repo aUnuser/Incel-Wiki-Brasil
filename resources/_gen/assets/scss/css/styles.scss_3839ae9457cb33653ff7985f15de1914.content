@@ -298,11 +298,13 @@ body {
       width: calc(50% - 1.5rem); }
     body .home-main #content .panels .full-width {
       width: 100%; }
-  body .single-main .mobile-single-top-bar > ul li a, body .single-main .mobile-single-top-bar > ul li span {
-    cursor: inherit;
+  body .single-main .mobile-single-top-bar > ul li a {
     font-size: inherit; }
-    body .single-main .mobile-single-top-bar > ul li a .lang, body .single-main .mobile-single-top-bar > ul li a .download, body .single-main .mobile-single-top-bar > ul li a .edit, body .single-main .mobile-single-top-bar > ul li span .lang, body .single-main .mobile-single-top-bar > ul li span .download, body .single-main .mobile-single-top-bar > ul li span .edit {
+    body .single-main .mobile-single-top-bar > ul li a .lang, body .single-main .mobile-single-top-bar > ul li a .download, body .single-main .mobile-single-top-bar > ul li a .edit {
       margin-right: .5rem; }
+  body .single-main .mobile-single-top-bar > ul li .inactive-link {
+    cursor: inherit;
+    opacity: .25; }
   body footer .last-modified {
     padding-left: 0;
     padding-right: 0; }

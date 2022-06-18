@@ -437,10 +437,13 @@ body {
             .mobile-single-top-bar {
                 &>ul {
                     li {
-                        a, span {
-                            cursor: inherit;
+                        a {
                             font-size: inherit;
                             .lang, .download, .edit {margin-right: .5rem;}
+                        }
+                        .inactive-link {
+                            cursor: inherit;
+                            opacity: .25;
                         }
                     }
                 }

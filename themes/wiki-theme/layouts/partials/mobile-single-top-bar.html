@@ -2,15 +2,15 @@
     <ul>
         {{ if .Page.Params.original }}
         <li>
-            <a id="top-link" href="{{ $.Page.Params.original }}" target="_blank" rel="noopener noreferrer">
+            <a href="{{ $.Page.Params.original }}" target="_blank" rel="noopener noreferrer">
                 <i class="icon lang">
                 </i>
                 Artigo original
             </a>
         </li>
         {{ else }}
-        <li><span target="_blank" rel="noopener noreferrer" class="top-link inactive"><i class="icon lang"></i>Artigo
-                original</span></li>
+        <li><a class="inactive-link"><i class="icon lang"></i>Artigo
+                original</a></li>
         {{ end }}
         <li><a href=""><i class="icon download"></i>Baixar PDF</a></li>
         <li><a href=""><i class="icon edit"></i>Editar</a></li>
