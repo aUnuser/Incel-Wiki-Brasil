@@ -200,7 +200,7 @@ body {
             box-shadow: inset 0 -1px 3px #00000014;
 
             .mobile-header {
-                margin: 0 1rem;
+                margin: 0 .5rem;
                 height: 3.375em;
                 display: flex;
                 align-items: center;
@@ -252,13 +252,12 @@ body {
                 display: block;
                 border-bottom: solid 1px #c8ccd1;
                 color: #72777d;
-                padding-top: 0.75em;
-                padding-bottom: 0.75em;
+                padding: .75rem 1rem;
                 font-size: 0.875rem;
                 transition: background-color 250ms, color 250ms;
 
                 .last-mod-inner-wrapper {
-                    width: 90%;
+
                     margin: auto;
                     display: flex;
                     align-items: center;
@@ -339,7 +338,24 @@ body {
             }
         }
 
-        footer {}
+        footer {
+            .last-modified {
+                padding-left: 0;
+                padding-right: 0;
+
+                .last-mod-inner-wrapper {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 90%;
+                }
+            }
+
+            .footer-content {
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+            }
+        }
     }
 }
 
