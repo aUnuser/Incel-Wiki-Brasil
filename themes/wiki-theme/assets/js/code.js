@@ -1,11 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     var single_content = document.querySelector("#single-main > #content");
     var single_content_headers = single_content.getElementsByTagName("h2");
+    var degrees = 180;
     Object.keys(single_content_headers).forEach(function (i) {
         var header = single_content_headers[i];
         var towrap = Object.values(nextUntil(header, "h2"));
         var wrapper = document.createElement("section");
-        wrapper = wrapAll(towrap, wrapper);
+        if(header.parentNode.id != "toc"){
+            wrapper = wrapAll(towrap, wrapper);
+        }
+        
     });
 
     if (window.innerWidth < 1200) {
@@ -32,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function onClick () {
+        console.log(this.querySelector("#collapse-chevron").style.transform);
+        this.querySelector("#collapse-chevron").style.transform = "rotate(" + degrees + "deg)";
+        degrees += 180;
+        console.log(degrees);
         var section = this.nextElementSibling;
         section.classList.toggle("hidden");
     }

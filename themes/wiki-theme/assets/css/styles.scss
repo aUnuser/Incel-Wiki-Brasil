@@ -110,6 +110,27 @@ body {
         padding: 0;
     }
 
+    .icon-small:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-width: 1em;
+        min-height: 1em;
+        background-repeat: no-repeat;
+        background-size: 1em 1em;
+        background-position: center;
+    }
+
+    .icon-small {
+        width: 1em;
+        height: 1em;
+        min-width: 1em;
+        min-height: 1em;
+        flex-basis: 1em;
+        line-height: 1em;
+    }
+
     .button {
         background-color: #f8f9fa;
         color: #202122;
@@ -156,7 +177,7 @@ body {
     }
 
     .hidden {
-        display:none;
+        display: none;
     }
 }
 
@@ -184,6 +205,7 @@ body {
             font-size: 85%;
         }
     }
+
     #content {
         background-color: #ffffff;
         border-top: 1px solid transparent;
@@ -231,6 +253,9 @@ body {
 
 @media only screen and (max-width: 1199px) {
     body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
         header {
             background-color: #eaecf0;
             border: 0;
@@ -242,7 +267,6 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                margin-bottom: .5rem;
 
                 #left-wrapper {
                     display: flex;
@@ -279,12 +303,40 @@ body {
         }
 
         main {
+            flex: 1 0 auto;
             margin: 0 1rem;
             margin-bottom: 2rem;
 
             .outer-header {
                 font-family: linux libertine, georgia, times, serif;
                 margin-bottom: .6875rem;
+            }
+
+            #content {
+                p {
+                    margin: .5rem 0 1rem;
+                }
+
+                #toc {
+                    padding: 0.2em 0.5em;
+                    margin: .5em 0;
+                    background-color: #f8f9fa;
+                    border: solid 1px #eaecf0;
+                    display: none;
+
+                    h2 {
+                        font-size: 1.125rem;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    nav {
+                        padding-left: 2.5rem;
+                    }
+                }
             }
         }
 
@@ -299,9 +351,19 @@ body {
 
                 .chevron-h2 {
                     color: #202122;
+                    padding: .5rem;
                 }
+
                 .chevron-h2::before {
                     background-image: linear-gradient(transparent, transparent), url(/images/chevron-h2.svg);
+                }
+
+                .toc-icon::before {
+                    background-image: linear-gradient(transparent, transparent), url(/images/list.svg);
+                }
+
+                .toc-icon {
+                    padding: .5rem;
                 }
             }
 
@@ -362,6 +424,12 @@ body {
             overflow: auto;
             padding-bottom: .5rem;
             background-color: #eaecf0;
+
+            flex-shrink: 0;
+
+            .last-modified:visited {
+                color: #72777d;
+            }
 
             .last-modified {
                 display: block;
@@ -429,25 +497,33 @@ body {
             margin-right: auto;
             width: 90%;
         }
+
         #home-main {
+            .panels {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .panel {
+                    width: calc(50% - 1.5rem);
+                }
+
+                .full-width {
+                    width: 100%;
+                }
+            }
+        }
+
+        main {
             #content {
-                .panels {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-
-                    .panel {
-                        width: calc(50% - 1.5rem);
-                    }
-
-                    .full-width {
-                        width: 100%;
-                    }
+                #toc {
+                    display: inline-block;
                 }
             }
         }
 
         #single-main {
+
             .mobile-single-top-bar {
                 &>ul {
                     li {
@@ -505,7 +581,7 @@ body {
                 }
             }
         }
-        
+
         main {
             #content {}
         }

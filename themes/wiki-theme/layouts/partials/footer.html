@@ -1,11 +1,17 @@
 <footer>
-    <a href="" class="last-modified">
+    {{ if not (eq .Page.Kind "section") }}
+    {{ $editlink := printf "%s/commits/main/content/%s" (.Site.Params.repo_link) (replace .Page.File.Path "\\" "/") }}
+    {{ if .IsHome }}
+    {{ $editlink = printf "%s/blob/main/themes/wiki-theme/layouts/%s" (.Site.Params.repo_link) (replace .Page.File.Path "\\" "/") }}
+    {{ end }}
+    <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
         <div class="last-mod-inner-wrapper">
             <i class="icon clock"></i>
             <span>Ver histórico desta página no Github.</span>
             <i class="icon chevron-footer"></i>
         </div>
     </a>
+    {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
         {{- with .Site.Menus.footer -}}

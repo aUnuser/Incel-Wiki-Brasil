@@ -9,6 +9,7 @@ timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_
 params:
   date_format: "15h04m UTCMST de 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
   site_subtitle: "a tradução da [Incel Wiki](https://incels.wiki/)."
+  repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io 
 
 menu:
   footer:
@@ -26,8 +27,14 @@ menu:
 taxonomies:
   category: categories
 
+
+
 markup:
   goldmark:
     renderer:
       hardWraps: true
       unsafe: true
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
