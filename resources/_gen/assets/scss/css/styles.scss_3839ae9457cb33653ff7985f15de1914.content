@@ -62,7 +62,7 @@ body {
     margin-top: 0; }
   body h1 {
     font-size: 1.7em; }
-  body .single-main h2 {
+  body #single-main h2 {
     font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
     font-weight: 500; }
   body .icon::before {
@@ -127,46 +127,48 @@ body {
     border-color: #3366cc;
     box-shadow: inset 0 0 0 1px #3366cc, inset 0 0 0 2px #ffffff;
     outline-width: 0; }
+  body .hidden {
+    display: none; }
 
-.home-main .home-top-panel {
+#home-main .home-top-panel {
   margin-bottom: .5rem;
   text-align: center;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   padding: 1rem; }
-  .home-main .home-top-panel > *:last-child, .home-main .home-top-panel > *:nth-last-child(2) {
+  #home-main .home-top-panel > *:last-child, #home-main .home-top-panel > *:nth-last-child(2) {
     margin-top: .5rem; }
-  .home-main .home-top-panel .panel-inner-wrapper {
+  #home-main .home-top-panel .panel-inner-wrapper {
     width: 100%;
     font-size: 160%;
     color: #000;
     padding: .1rem; }
-  .home-main .home-top-panel .article-count {
+  #home-main .home-top-panel .article-count {
     font-size: 85%; }
 
-.home-main #content {
+#home-main #content {
   background-color: #ffffff;
   border-top: 1px solid transparent; }
-  .home-main #content .panels {
+  #home-main #content .panels {
     margin-bottom: -.5rem; }
-    .home-main #content .panels .panel {
+    #home-main #content .panels .panel {
       padding: .5em;
       margin-bottom: .5rem; }
-      .home-main #content .panels .panel .panel-title {
+      #home-main #content .panels .panel .panel-title {
         margin-bottom: .5em;
         padding: 0.2em 0.4em;
         font-weight: bold;
         font-size: 120%; }
-      .home-main #content .panels .panel .panel-content > p:last-child {
+      #home-main #content .panels .panel .panel-content > p:last-child {
         margin-bottom: 0; }
-      .home-main #content .panels .panel .panel-content ul {
+      #home-main #content .panels .panel .panel-content ul {
         padding-left: 2rem; }
-  .home-main #content .fig-wrapper {
+  #home-main #content .fig-wrapper {
     margin: auto; }
-    .home-main #content .fig-wrapper .fig {
+    #home-main #content .fig-wrapper .fig {
       max-width: 100%;
       height: auto; }
-    .home-main #content .fig-wrapper .fig-caption {
+    #home-main #content .fig-wrapper .fig-caption {
       font-size: .8125em; }
 
 @media only screen and (max-width: 1199px) {
@@ -203,52 +205,52 @@ body {
         padding: .5rem; }
   body main {
     margin: 0 1rem;
-    margin-bottom: .5rem; }
+    margin-bottom: 2rem; }
     body main .outer-header {
       font-family: linux libertine, georgia, times, serif;
       margin-bottom: .6875rem; }
-  body .single-main h2 {
+  body #single-main h2 {
     margin-top: 0;
     border-bottom: 1px solid #eaecf0;
     margin-bottom: 0.5em;
     clear: left;
     cursor: pointer;
     padding: .5rem 0; }
-  body .single-main .mobile-single-top-bar {
+  body #single-main .mobile-single-top-bar {
     border-top: 1px solid #eaecf0;
     border-bottom: 1px solid #c8ccd1;
     margin-bottom: .5rem; }
-    body .single-main .mobile-single-top-bar > ul {
+    body #single-main .mobile-single-top-bar > ul {
       display: flex;
       height: 3rem;
       justify-content: space-between; }
-      body .single-main .mobile-single-top-bar > ul li {
+      body #single-main .mobile-single-top-bar > ul li {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         overflow: hidden; }
-        body .single-main .mobile-single-top-bar > ul li a,
-        body .single-main .mobile-single-top-bar > ul li span {
+        body #single-main .mobile-single-top-bar > ul li a,
+        body #single-main .mobile-single-top-bar > ul li span {
           display: flex;
           align-items: center;
           color: #54595d;
           padding: 0.75rem;
           cursor: pointer;
           font-size: 0; }
-          body .single-main .mobile-single-top-bar > ul li a .lang::before,
-          body .single-main .mobile-single-top-bar > ul li span .lang::before {
+          body #single-main .mobile-single-top-bar > ul li a .lang::before,
+          body #single-main .mobile-single-top-bar > ul li span .lang::before {
             background-image: linear-gradient(transparent, transparent), url("/images/language.svg"); }
-          body .single-main .mobile-single-top-bar > ul li a .download::before,
-          body .single-main .mobile-single-top-bar > ul li span .download::before {
+          body #single-main .mobile-single-top-bar > ul li a .download::before,
+          body #single-main .mobile-single-top-bar > ul li span .download::before {
             background-image: linear-gradient(transparent, transparent), url("/images/download.svg"); }
-          body .single-main .mobile-single-top-bar > ul li a .edit::before,
-          body .single-main .mobile-single-top-bar > ul li span .edit::before {
+          body #single-main .mobile-single-top-bar > ul li a .edit::before,
+          body #single-main .mobile-single-top-bar > ul li span .edit::before {
             background-image: linear-gradient(transparent, transparent), url("/images/edit.svg"); }
-      body .single-main .mobile-single-top-bar > ul > li:first-child {
+      body #single-main .mobile-single-top-bar > ul > li:first-child {
         flex-grow: 1;
         justify-content: flex-start;
         margin-left: -.5rem; }
-      body .single-main .mobile-single-top-bar > ul > li:last-child {
+      body #single-main .mobile-single-top-bar > ul > li:last-child {
         margin-right: -.5rem; }
   body footer {
     border-top: solid 1px #c8ccd1;
@@ -295,21 +297,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%; }
-  body .home-main #content .panels {
+  body #home-main #content .panels {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-    body .home-main #content .panels .panel {
+    body #home-main #content .panels .panel {
       width: calc(50% - 1.5rem); }
-    body .home-main #content .panels .full-width {
+    body #home-main #content .panels .full-width {
       width: 100%; }
-  body .single-main .mobile-single-top-bar > ul li a {
+  body #single-main .mobile-single-top-bar > ul li a {
     font-size: inherit; }
-    body .single-main .mobile-single-top-bar > ul li a .lang,
-    body .single-main .mobile-single-top-bar > ul li a .download,
-    body .single-main .mobile-single-top-bar > ul li a .edit {
+    body #single-main .mobile-single-top-bar > ul li a .lang,
+    body #single-main .mobile-single-top-bar > ul li a .download,
+    body #single-main .mobile-single-top-bar > ul li a .edit {
       margin-right: .5rem; }
-  body .single-main .mobile-single-top-bar > ul li .inactive-link {
+  body #single-main .mobile-single-top-bar > ul li .inactive-link {
     cursor: inherit;
     opacity: .25; }
   body footer .last-modified {

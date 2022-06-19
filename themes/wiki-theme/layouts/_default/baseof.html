@@ -7,7 +7,7 @@
         <h1>Este site usa Javascript.</h1>
     </noscript>
     {{- partial "header.html" . -}}
-    <main class="{{ if .IsHome }}home-main{{ else if eq .Page.Kind "section" }}section-main{{ else }}single-main{{ end }}">
+    <main id="{{ if .IsHome }}home-main{{ else if eq .Page.Kind "section" }}section-main{{ else }}single-main{{ end }}">
         {{ if .IsHome }}
         <div class="home-top-panel">
             <div class="panel-inner-wrapper">

@@ -73,7 +73,7 @@ body {
         font-size: 1.7em;
     }
 
-    .single-main h2 {
+    #single-main h2 {
         font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
         font-weight: 500;
     }
@@ -153,9 +153,13 @@ body {
         box-shadow: inset 0 0 0 1px #3366cc, inset 0 0 0 2px #ffffff;
         outline-width: 0;
     }
+
+    .hidden {
+        display:none;
+    }
 }
 
-.home-main {
+#home-main {
     .home-top-panel {
         margin-bottom: .5rem;
         text-align: center;
@@ -276,7 +280,7 @@ body {
 
         main {
             margin: 0 1rem;
-            margin-bottom: .5rem;
+            margin-bottom: 2rem;
 
             .outer-header {
                 font-family: linux libertine, georgia, times, serif;
@@ -284,7 +288,7 @@ body {
             }
         }
 
-        .single-main {
+        #single-main {
             h2 {
                 margin-top: 0;
                 border-bottom: 1px solid #eaecf0;
@@ -419,7 +423,7 @@ body {
             width: 90%;
         }
 
-        .home-main {
+        #home-main {
             #content {
                 .panels {
                     display: flex;
@@ -437,7 +441,7 @@ body {
             }
         }
 
-        .single-main {
+        #single-main {
             .mobile-single-top-bar {
                 &>ul {
                     li {

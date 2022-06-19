@@ -16,4 +16,7 @@
         </div>
         {{- end -}}
     </div>
+
+    {{ $code := resources.Get "/js/code.js" | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $code.RelPermalink }}" integrity="{{ $code.Data.Integrity }}" defer></script>
 </footer>
