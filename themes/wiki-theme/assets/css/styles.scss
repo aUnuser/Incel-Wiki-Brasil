@@ -71,6 +71,7 @@ body {
 
     h1 {
         font-size: 1.7em;
+        font-weight: normal;
     }
 
     #single-main h2 {
@@ -183,7 +184,6 @@ body {
             font-size: 85%;
         }
     }
-
     #content {
         background-color: #ffffff;
         border-top: 1px solid transparent;
@@ -296,6 +296,13 @@ body {
                 clear: left;
                 cursor: pointer;
                 padding: .5rem 0;
+
+                .chevron-h2 {
+                    color: #202122;
+                }
+                .chevron-h2::before {
+                    background-image: linear-gradient(transparent, transparent), url(/images/chevron-h2.svg);
+                }
             }
 
             .mobile-single-top-bar {
@@ -422,7 +429,6 @@ body {
             margin-right: auto;
             width: 90%;
         }
-
         #home-main {
             #content {
                 .panels {
@@ -492,6 +498,14 @@ body {
 
         header {}
 
+        #single-main {
+            h2 {
+                .chevron-h2 {
+                    display: none;
+                }
+            }
+        }
+        
         main {
             #content {}
         }

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.innerWidth < 1200) {
         for (var i = 0; i < single_content_headers.length; i++) {
             single_content_headers[i].nextElementSibling.classList.toggle("hidden");
-            addClickEvent(single_content_headers[i]);
+            single_content_headers[i].addEventListener("click", onClick);
         }
     }
 
@@ -21,20 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.matches) {
             for (var i = 0; i < single_content_headers.length; i++) {
                 single_content_headers[i].nextElementSibling.classList.toggle("hidden");
-                addClickEvent(single_content_headers[i]);
+                single_content_headers[i].addEventListener("click", onClick);
             }
         } else {
             for (var i = 0; i < single_content_headers.length; i++) {
                 single_content_headers[i].nextElementSibling.classList.toggle("hidden");
+                single_content_headers[i].removeEventListener("click", onClick);
             }
         }
     });
 
-    function addClickEvent(element) {
-        element.addEventListener("click", function () {
-            var section = this.nextElementSibling;
-            section.classList.toggle("hidden");
-        });
+    function onClick () {
+        var section = this.nextElementSibling;
+        section.classList.toggle("hidden");
     }
 
 });

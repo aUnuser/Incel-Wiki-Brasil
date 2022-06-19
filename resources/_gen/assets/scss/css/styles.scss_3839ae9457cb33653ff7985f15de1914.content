@@ -61,7 +61,8 @@ body {
   body p {
     margin-top: 0; }
   body h1 {
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    font-weight: normal; }
   body #single-main h2 {
     font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
     font-weight: 500; }
@@ -216,6 +217,10 @@ body {
     clear: left;
     cursor: pointer;
     padding: .5rem 0; }
+    body #single-main h2 .chevron-h2 {
+      color: #202122; }
+    body #single-main h2 .chevron-h2::before {
+      background-image: linear-gradient(transparent, transparent), url(/images/chevron-h2.svg); }
   body #single-main .mobile-single-top-bar {
     border-top: 1px solid #eaecf0;
     border-bottom: 1px solid #c8ccd1;
@@ -329,4 +334,6 @@ body {
 @media only screen and (min-width: 1200px) {
   body {
     background: url("/images/background.png") #f6f6f6 top left no-repeat;
-    background-size: 1400px 200px; } }
+    background-size: 1400px 200px; }
+    body #single-main h2 .chevron-h2 {
+      display: none; } }

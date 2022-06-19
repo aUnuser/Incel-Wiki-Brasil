@@ -1,0 +1,4 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+    {{ if and (eq .Page.Kind "page") (eq .Level 2) }}<i class="icon chevron-h2"></i>{{ end }}
+    {{ .Text | safeHTML }}
+</h{{ .Level }}>
