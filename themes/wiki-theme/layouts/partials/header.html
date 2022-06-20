@@ -1,9 +1,3 @@
 <header>
-    <div class="mobile-header">
-        <div id="left-wrapper">
-            <i class="icon hamb"></i>
-            <a href="/">{{ .Site.Title }}</a>
-        </div>
-        <i class="icon mag"></i>
-    </div>
+    {{- partial "mobile-nav.html" . -}}
 </header>

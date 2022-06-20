@@ -4,10 +4,9 @@
   {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
 
   <!-- range all pages sorted by their title -->
-  {{ range .Data.Pages.ByTitle }}
+  {{ range $index, $item := .Data.Pages.ByTitle }}
     <!-- get the first character of each title. Assumes that the title is never empty! -->
-    {{ $firstChar := substr .Title 0 1 | upper }}
-
+    {{ $firstChar := substr $item.Title 0 1 | upper }}
     <!-- in case $firstChar is a letter -->
     {{ if $firstChar | in $letters }}
       <!-- get the current letter -->
@@ -16,10 +15,12 @@
       {{ if ne $firstChar $curLetter }}
         <!-- update the current letter and print it -->
         {{ $.Scratch.Set "curLetter" $firstChar }}
+        {{ if ne $index 0 }}</ul>{{ end }}
         <h3>{{ $firstChar }}</h3>
+        <ul>
       {{ end }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      <li><a href="{{ $item.Permalink }}">{{ $item.Title }}</a></li>
     {{ end }}
-
   {{ end }}
+  </ul>
 {{ end }}

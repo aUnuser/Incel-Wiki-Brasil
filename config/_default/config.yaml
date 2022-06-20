@@ -1,21 +1,45 @@
 baseURL: "https://incelwikibrasil.github.io/"
-title: Incel Wiki Brasil
+title: Hugo Wiki Theme
 theme: wiki-theme
 
-languageCode: pt
-defaultContentLanguage: pt
+languageCode: en
+defaultContentLanguage: en
 timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 params:
   date_format: "15h04m UTCMST de 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
-  site_subtitle: "a tradução da [Incel Wiki](https://incels.wiki/)."
+  site_subtitle: "a theme inspired by [Wikipedia](https://www.wikipedia.org/) and [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)."
   repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io 
 
 menu:
+  mobile_main:
+    - identifier: home
+      name: Home
+      title: home
+      pre: <i class="icon home"></i>
+      url: /
+      weight: 1
+    - identifier: random
+      name: Random
+      title: random
+      pre: <i class="icon random"></i>
+      url: /
+      weight: 2
+  mobile_main_footer:
+    - identifier: about the wiki
+      name: About the wiki
+      title: about the wiki
+      url: /about/
+      weight: 1
+    - identifier: disclaimers
+      name: Disclaimers
+      title: disclaimers
+      url: /disclaimer/
+      weight: 2
   footer:
-    - identifier: sobre
-      name: Sobre
-      title: sobre
+    - identifier: about
+      name: About
+      title: about
       url: /sobre/
       weight: 1
     - identifier: disclaimer
@@ -26,6 +50,10 @@ menu:
 
 taxonomies:
   category: categories
+  series: series
+
+###############################
+enableGitInfo: true
 
 markup:
   goldmark:

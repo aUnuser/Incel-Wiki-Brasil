@@ -5,15 +5,14 @@
             <a href="{{ $.Page.Params.original }}" target="_blank" rel="noopener noreferrer">
                 <i class="icon lang">
                 </i>
-                Artigo original
+                Língua
             </a>
         </li>
         {{ else }}
-        <li><a class="inactive-link"><i class="icon lang"></i>Artigo
-                original</a></li>
+        <li><a class="inactive-link"><i class="icon lang"></i>Language</a></li>
         {{ end }}
-        <li><a href=""><i class="icon download"></i>Baixar PDF</a></li>
+        <li><a href=""><i class="icon download"></i>Download PDF</a></li>
         {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Page.File.Path "\\" "/") }}
-        <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Editar</a></li>
+        <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Edit</a></li>
     </ul>
 </nav>
