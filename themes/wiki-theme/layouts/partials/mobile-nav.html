@@ -7,7 +7,7 @@
                 {{ with .Site.Menus.mobile_main }}
                 <ul class="main-list">
                 {{ range . }}
-                    <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Pre }}{{ .Name }}</a></li>
+                    <li><a href="{{ .URL }}" title="{{ .Title }}" id="{{ .Identifier }}">{{ .Pre }}{{ .Name }}</a></li>
                 {{ end }}
                 </ul>
                 {{ end }}

@@ -28,7 +28,7 @@ panels:
     title_border_color: "#a3b0bf"
     title_background_color: "#cedff2"
     content: |
-      {{< figure src="/images/Battle_of_Saint_Charles.jpg" width="200" height="367" caption="[Henri de Toulouse-Lautrec](), um [protocel]()." title="Henri de Toulouse-Lautrec" >}}
+      {{< figure src="/images/Battle_of_Saint_Charles.jpg" width="200" height="367" caption="The *Battle at St. Charles, White River, Arkansas—Explosion of the \"Mound City\"* by Alexander Simplot" title="Henri de Toulouse-Lautrec" >}}
 
       The [Battle of St. Charles]() was fought on June 17, 1862, at St. Charles, Arkansas, during the American Civil War. Earlier in 1862, a force commanded by Samuel R. Curtis, a major general of the Union Army, became bogged down in northern Arkansas. A Union relief force was sent up the White River to resupply Curtis. The Confederates had constructed fortifications near St. Charles. ([Full article...]())
   important_articles:

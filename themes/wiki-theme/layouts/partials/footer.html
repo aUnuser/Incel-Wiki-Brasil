@@ -22,6 +22,8 @@
         {{- end -}}
     </div>
     
+    {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $random.RelPermalink }}" integrity="{{ $random.Data.Integrity }}" defer></script>
     {{ if eq .Page.Kind "page" }}
     {{ $collapse := resources.Get "/js/collapse.js" | resources.Fingerprint "sha512" }}
     <script type="text/javascript" src="{{ $collapse.RelPermalink }}" integrity="{{ $collapse.Data.Integrity }}" defer></script>
