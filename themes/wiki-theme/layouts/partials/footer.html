@@ -1,9 +1,7 @@
 <footer>
     {{ if not (eq .Page.Kind "section") }}
-    {{ $editlink := printf "%s/commits/main/content/%s" (.Site.Params.repo_link) (replace .Page.File.Path "\\" "/") }}
-    {{ if .IsHome }}
-    {{ $editlink = printf "%s/blob/main/themes/wiki-theme/layouts/%s" (.Site.Params.repo_link) (replace .Page.File.Path "\\" "/") }}
-    {{ end }}
+    {{ with .File }}
+    {{ $editlink := printf "%s/commits/main/content/%s" ($.Site.Params.repo_link) (replace .Path "\\" "/") }}
     <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
         <div class="last-mod-inner-wrapper">
             <i class="icon clock"></i>
@@ -11,6 +9,7 @@
             <i class="icon chevron-footer"></i>
         </div>
     </a>
+    {{ end }}
     {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
@@ -22,7 +21,9 @@
         </div>
         {{- end -}}
     </div>
-
-    {{ $code := resources.Get "/js/code.js" | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $code.RelPermalink }}" integrity="{{ $code.Data.Integrity }}" defer></script>
+    
+    {{ if eq .Page.Kind "page" }}
+    {{ $collapse := resources.Get "/js/collapse.js" | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $collapse.RelPermalink }}" integrity="{{ $collapse.Data.Integrity }}" defer></script>
+    {{ end }}
 </footer>

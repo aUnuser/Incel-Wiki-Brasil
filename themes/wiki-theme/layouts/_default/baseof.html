@@ -17,7 +17,7 @@
             {{ with .Site.Params.site_subtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
             {{ $artcount := len (where .Site.RegularPages "Section" "==" "w") }}
             <div class="article-count">
-                <a href="/w/">{{ $artcount }}</a>&nbsp;artigos em português
+                <a href="/w/">{{ $artcount }}</a>&nbsp;artigos em {{ upper .Site.Language.Lang }}
             </div>
         </div>
         {{ else }}

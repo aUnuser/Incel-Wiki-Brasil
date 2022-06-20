@@ -2,10 +2,9 @@
 <div class="home-content">
   {{ .Content }}
 </div>
-{{ with $.Site.Data.home_panels }}
+{{ with .Page.Params.panels }}
 <div class="panels">
-  {{ with .featured_article }}
-  {{ range sort .panels "weight" }}
+  {{ range sort . "weight" }}
   <div class="panel{{ if .isfullwidth }} full-width{{ end }}"
     style="border: 1px solid {{ .border_color }}; background: {{ .background_color }}">
     <div class="panel-title"
@@ -15,7 +14,6 @@
       {{ safeHTML ($.Page.RenderString .content) }}
     </div>
   </div>
-  {{ end }}
   {{ end }}
 </div>
 {{ end }}
