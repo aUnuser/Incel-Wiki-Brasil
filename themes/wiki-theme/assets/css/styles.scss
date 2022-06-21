@@ -78,9 +78,7 @@ body {
         height: auto;
     }
     pre {
-        overflow-x: hidden;
-        max-width: 100%;
-        height: auto;
+        overflow: auto;
     }
     .icon::before {
         content: '';
