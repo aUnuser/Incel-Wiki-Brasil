@@ -202,8 +202,10 @@ body {
             font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
             font-weight: 500;
         }
-        .external-link {
-            display: inline-block;
+        li {
+            .external-link {
+                 display: inline-block;
+            }
         }
     }
 
