@@ -533,6 +533,10 @@ body {
                                 background-image: linear-gradient(transparent, transparent), url("/images/edit.svg");
                             }
                         }
+                        .inactive-link {
+                            opacity: .25;
+                            cursor: initial;
+                        }
                     }
 
                     &>li:first-child {
@@ -692,10 +696,7 @@ body {
                                 margin-right: .5rem;
                             }
                         }
-                        .inactive-link {
-                            opacity: .25;
-                            cursor: initial;
-                        }
+                        
                     }
                 }
             }
