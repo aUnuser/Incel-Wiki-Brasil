@@ -53,6 +53,8 @@ menu:
 taxonomies:
   category: categories
   series: series
+  categoria: categorias
+        nestedcategoria: nestedcategorias
 
 ###############################
 enableGitInfo: true
