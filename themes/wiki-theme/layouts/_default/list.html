@@ -1,4 +1,10 @@
 {{ define "main" }}
+  
+  {{ $len := len .Data.Pages }}
+  <p>
+    The following {{ $len }} pages are in this category.
+  </p>
+
 
   <!-- create a list with all uppercase letters -->
   {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
