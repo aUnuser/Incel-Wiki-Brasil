@@ -8,7 +8,7 @@ timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_
 
 params:
   date_format: "15h04m UTCMST de 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
-  site_subtitle: "a theme inspired by [Wikipedia](https://www.wikipedia.org/) and [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)."
+  site_subtitle: "a theme based on [Wikipedia](https://www.wikipedia.org/) and [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)'s Vector skin."
   repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io
   remove_from_random: # Random will use all .Site.RegularPages
     url: /about/ 
