@@ -73,7 +73,10 @@ body {
         font-size: 1.7em;
         font-weight: normal;
     }
-
+    img, svg {
+        max-width: 100%;
+        height: auto;
+    }
     .icon::before {
         content: '';
         display: inline-block;
