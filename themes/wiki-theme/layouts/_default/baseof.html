@@ -22,7 +22,7 @@
         </div>
         {{ else }}
         <h1 class="outer-header">{{ .Page.Title }}</h1>
-        {{ if eq .Page.Kind "page" }}{{- partial "mobile-single-top-bar.html" . -}}{{ end }}
+        {{ if not .IsHome }}{{- partial "mobile-single-top-bar.html" . -}}{{ end }}
         {{ end }}
         <div id="content">
             {{- block "main" . }}{{- end }}
