@@ -60,6 +60,11 @@ body {
   body h1 {
     font-size: 1.7em;
     font-weight: normal; }
+  body img, body svg {
+    max-width: 100%;
+    height: auto; }
+  body pre {
+    overflow: auto; }
   body .icon::before {
     content: '';
     display: inline-block;
@@ -161,7 +166,7 @@ body {
   body #single-main h2 {
     font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
     font-weight: 500; }
-  body #single-main .external-link {
+  body #single-main li .external-link {
     display: inline-block; }
   body #home-main .home-top-panel {
     margin-bottom: .5rem;
@@ -205,22 +210,13 @@ body {
   body #content ol {
     display: block;
     list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; }
+    padding-left: 2rem; }
   body #content ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; }
+    padding-left: 2rem; }
   body #content li {
-    display: list-item;
-    text-align: -webkit-match-parent; }
+    display: list-item; }
 
 @media only screen and (max-width: 1199px) {
   body {
@@ -252,14 +248,13 @@ body {
             cursor: pointer;
             padding: .5rem; }
           body header .mobile-header #left-wrapper #nav-button-wrapper #menu-list {
-            min-width: 20rem;
             position: fixed;
             top: 0;
             left: 0;
             bottom: 0;
             opacity: 0;
             visibility: hidden;
-            max-width: 80%;
+            max-width: 70%;
             z-index: 2;
             overflow-y: auto;
             background-color: #eaecf0;
@@ -358,6 +353,41 @@ body {
       body main .outer-header {
         font-family: linux libertine, georgia, times, serif;
         margin-bottom: .6875rem; }
+      body main .mobile-single-top-bar {
+        border-top: 1px solid #eaecf0;
+        border-bottom: 1px solid #c8ccd1;
+        margin-bottom: .5rem; }
+        body main .mobile-single-top-bar > ul {
+          display: flex;
+          height: 3rem;
+          justify-content: space-between; }
+          body main .mobile-single-top-bar > ul li {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden; }
+            body main .mobile-single-top-bar > ul li a {
+              display: flex;
+              align-items: center;
+              color: #54595d;
+              padding: 0.75rem;
+              cursor: pointer;
+              font-size: 0; }
+              body main .mobile-single-top-bar > ul li a .lang::before {
+                background-image: linear-gradient(transparent, transparent), url("/images/language.svg"); }
+              body main .mobile-single-top-bar > ul li a .download::before {
+                background-image: linear-gradient(transparent, transparent), url("/images/download.svg"); }
+              body main .mobile-single-top-bar > ul li a .edit::before {
+                background-image: linear-gradient(transparent, transparent), url("/images/edit.svg"); }
+            body main .mobile-single-top-bar > ul li .inactive-link {
+              opacity: .25;
+              cursor: initial; }
+          body main .mobile-single-top-bar > ul > li:first-child {
+            flex-grow: 1;
+            justify-content: flex-start;
+            margin-left: -.5rem; }
+          body main .mobile-single-top-bar > ul > li:last-child {
+            margin-right: -.5rem; }
       body main #content p {
         margin: .5rem 0 1rem; }
       body main #content #toc {
@@ -391,42 +421,6 @@ body {
         background-image: linear-gradient(transparent, transparent), url(/images/list.svg); }
       body #single-main h2 .toc-icon {
         padding: .5rem; }
-    body #single-main .mobile-single-top-bar {
-      border-top: 1px solid #eaecf0;
-      border-bottom: 1px solid #c8ccd1;
-      margin-bottom: .5rem; }
-      body #single-main .mobile-single-top-bar > ul {
-        display: flex;
-        height: 3rem;
-        justify-content: space-between; }
-        body #single-main .mobile-single-top-bar > ul li {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          overflow: hidden; }
-          body #single-main .mobile-single-top-bar > ul li a,
-          body #single-main .mobile-single-top-bar > ul li span {
-            display: flex;
-            align-items: center;
-            color: #54595d;
-            padding: 0.75rem;
-            cursor: pointer;
-            font-size: 0; }
-            body #single-main .mobile-single-top-bar > ul li a .lang::before,
-            body #single-main .mobile-single-top-bar > ul li span .lang::before {
-              background-image: linear-gradient(transparent, transparent), url("/images/language.svg"); }
-            body #single-main .mobile-single-top-bar > ul li a .download::before,
-            body #single-main .mobile-single-top-bar > ul li span .download::before {
-              background-image: linear-gradient(transparent, transparent), url("/images/download.svg"); }
-            body #single-main .mobile-single-top-bar > ul li a .edit::before,
-            body #single-main .mobile-single-top-bar > ul li span .edit::before {
-              background-image: linear-gradient(transparent, transparent), url("/images/edit.svg"); }
-        body #single-main .mobile-single-top-bar > ul > li:first-child {
-          flex-grow: 1;
-          justify-content: flex-start;
-          margin-left: -.5rem; }
-        body #single-main .mobile-single-top-bar > ul > li:last-child {
-          margin-right: -.5rem; }
     body footer {
       border-top: solid 1px #c8ccd1;
       overflow: auto;
@@ -479,8 +473,6 @@ body {
     font-size: 100%; }
     body #single-main .mobile-single-top-bar > ul li a i {
       margin-right: .5rem; }
-  body #single-main .mobile-single-top-bar > ul li .inactive-link {
-    opacity: .25; }
   body #home-main .panels {
     display: flex;
     flex-wrap: wrap;
