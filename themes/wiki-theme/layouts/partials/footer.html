@@ -1,5 +1,4 @@
 <footer>
-    {{ if not (eq .Page.Kind "section") }}
     {{ with .File }}
     {{ $editlink := printf "%s/commits/main/content/%s" ($.Site.Params.repo_link) (replace .Path "\\" "/") }}
     <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
@@ -9,7 +8,6 @@
             <i class="icon chevron-footer"></i>
         </div>
     </a>
-    {{ end }}
     {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
