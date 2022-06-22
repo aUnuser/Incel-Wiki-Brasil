@@ -12,7 +12,9 @@
         <li><a class="inactive-link"><i class="icon lang"></i>Language</a></li>
         {{ end }}
         <li><a href=""><i class="icon download"></i>Download PDF</a></li>
-        {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Page.File.Path "\\" "/") }}
+        {{ with .File }}
+        {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
         <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Edit</a></li>
+        {{ end }}
     </ul>
 </nav>

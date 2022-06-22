@@ -5,6 +5,15 @@
     The following {{ $len }} pages are in this section.
   </p>
 
+  {{ if eq .Page.Kind "term" }}
+    {{ $thistax := index $.Page.Data "Plural"}}
+    {{ $thisterm := index $.Page.Data "Term"}}
+    {{ range $datatax, $map := .Site.Data.terms_trees }}
+        {{ if eq $datatax $thistax }}
+          {{- partial "functions/list-subterms2.html" (dict "start" $map "target" $thisterm "taxonomy" $thistax) -}}
+        {{ end }}
+      {{ end }}
+  {{ end }}
 
   <!-- create a list with all uppercase letters -->
   {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
