@@ -1,5 +1,5 @@
 {{ define "main" }}
-  
+  {{ .Page.Kind }} {{ .Page.Type }}
   {{ $len := len .Data.Pages }}
   <p>
     The following {{ $len }} pages are in this section.
