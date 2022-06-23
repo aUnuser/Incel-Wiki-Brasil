@@ -1,10 +1,5 @@
 {{ define "main" }}
-  {{ .Page.Kind }} {{ .Page.Type }}
-  {{ $len := len .Data.Pages }}
-  <p>
-    The following {{ $len }} pages are in this section.
-  </p>
-  
+
   {{ if eq .Page.Kind "term" }}
     {{ $thistax := index $.Page.Data "Plural"}}
     {{ $thisterm := index $.Page.Data "Term"}}
@@ -21,6 +16,11 @@
         {{ end }}
       {{ end }}
   {{ end }}
+
+  {{ $valueslen := len .Data.Pages }}
+  <p>
+    The following {{ $valueslen }} pages are in this section.
+  </p>
 
   <!-- create a list with all uppercase letters -->
   {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
