@@ -4,13 +4,20 @@
   <p>
     The following {{ $len }} pages are in this section.
   </p>
-
+  
   {{ if eq .Page.Kind "term" }}
     {{ $thistax := index $.Page.Data "Plural"}}
     {{ $thisterm := index $.Page.Data "Term"}}
+    {{ range $index, $item := .Site.Taxonomies }}
+      {{ if eq $index $thistax }}
+        {{ range $i, $j := $item }}
+          {{ $.Scratch.Add "existingterms" (slice $i) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
     {{ range $datatax, $map := .Site.Data.terms_trees }}
         {{ if eq $datatax $thistax }}
-          {{- partial "functions/list-subterms2.html" (dict "start" $map "target" $thisterm "taxonomy" $thistax) -}}
+          {{- partial "functions/list-subterms.html" (dict "start" $map "target" $thisterm "taxonomy" $thistax "existingterms" ($.Scratch.Get "existingterms")) -}}
         {{ end }}
       {{ end }}
   {{ end }}
