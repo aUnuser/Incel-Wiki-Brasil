@@ -17,11 +17,15 @@
     {{ range $existingterms }}
         {{ if eq (lower $key) . }}
             {{ $scratch.Add "final list" $key }}
-            <a href="/{{ $taxonomy | urlize }}/{{ $key | urlize }}">{{ $key }}</a><br>
         {{ end }}
     {{ end }}
 {{ end }}
 {{ end }}
 
 
-{{ $scratch.Get "final list" }}
+{{ with ($scratch.Get "final list") }}
+<p>The following {{ len . }} {{ $taxonomy }} are in this sub{{ $taxonomy }}</p>
+{{ range $i, $j := . }}
+<a href="/{{ $taxonomy | urlize }}/{{ $i | urlize }}">{{ $i }}</a><br>
+{{ end }}
+{{ end }}
