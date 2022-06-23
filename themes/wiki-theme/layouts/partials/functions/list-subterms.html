@@ -16,7 +16,7 @@
 {{ range $key, $item := . }}
     {{ range $existingterms }}
         {{ if eq (lower $key) . }}
-            {{ $scratch.Add "final list" $key }}
+            {{ $scratch.Add "final list" (slice $key) }}
         {{ end }}
     {{ end }}
 {{ end }}
