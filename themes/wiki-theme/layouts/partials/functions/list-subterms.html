@@ -16,8 +16,12 @@
 {{ range $key, $item := . }}
     {{ range $existingterms }}
         {{ if eq (lower $key) . }}
+            {{ $scratch.Add "final list" $key }}
             <a href="/{{ $taxonomy | urlize }}/{{ $key | urlize }}">{{ $key }}</a><br>
         {{ end }}
     {{ end }}
 {{ end }}
 {{ end }}
+
+
+{{ $scratch.Get "final list" }}
