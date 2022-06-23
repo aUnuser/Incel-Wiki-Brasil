@@ -11,10 +11,13 @@
     {{- partial "functions/list-subterms.html" (dict "start" $item "target" $target "taxonomy" $taxonomy "existingterms" $existingterms) -}}
 {{ end }}
 
-{{ range $key, $item := ($scratch.Get "targeted branch") }}
+{{ $targetedbranch := $scratch.Get "targeted branch" }}
+{{ with $targetedbranch }}
+{{ range $key, $item := . }}
     {{ range $existingterms }}
         {{ if eq (lower $key) . }}
             <a href="/{{ $taxonomy | urlize }}/{{ $key | urlize }}">{{ $key }}</a><br>
         {{ end }}
     {{ end }}
+{{ end }}
 {{ end }}
