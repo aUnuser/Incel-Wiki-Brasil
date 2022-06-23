@@ -26,6 +26,6 @@
 {{ with ($scratch.Get "final list") }}
 <p>The following {{ len . }} {{ $taxonomy }} are in this sub{{ $taxonomy }}</p>
 {{ range $i, $j := . }}
-<a href="/{{ $taxonomy | urlize }}/{{ $i | urlize }}">{{ $i }}</a><br>
+<a href="/{{ $taxonomy | urlize }}/{{ $j | urlize }}">{{ $j }}</a><br>
 {{ end }}
 {{ end }}
