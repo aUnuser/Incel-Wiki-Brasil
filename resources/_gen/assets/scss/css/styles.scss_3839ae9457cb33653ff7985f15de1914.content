@@ -60,7 +60,8 @@ body {
   body h1 {
     font-size: 1.7em;
     font-weight: normal; }
-  body img, body svg {
+  body img,
+  body svg {
     max-width: 100%;
     height: auto; }
   body pre {
@@ -228,6 +229,8 @@ body {
       border: 0;
       box-shadow: inset 0 -1px 3px #00000014;
       margin-bottom: .5rem; }
+      body header .desktop-head {
+        display: none; }
       body header .mobile-header {
         margin: 0 .5rem;
         height: 3.375em;
@@ -478,7 +481,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between; }
     body #home-main .panels .panel {
-      width: calc(50% - 1.5rem); }
+      width: calc(50% - 1.3rem); }
     body #home-main .panels .full-width {
       width: 100%; }
   body main #content #toc {
@@ -498,6 +501,112 @@ body {
 @media only screen and (min-width: 1200px) {
   body {
     background: url("/images/background.png") #f6f6f6 top left no-repeat;
-    background-size: 1400px 200px; }
+    background-size: 1400px 200px;
+    font-family: noto sans, sans-serif; }
+    body header .desktop-head {
+      display: block;
+      width: 100%;
+      height: 5em; }
+      body header .desktop-head .left-nav {
+        float: left;
+        margin-left: 11em;
+        margin-top: 2.5em;
+        margin-bottom: -2.5em; }
+      body header .desktop-head .rigth-nav {
+        float: right;
+        margin-top: 2.5em; }
+        body header .desktop-head .rigth-nav .search-container {
+          float: right;
+          height: 2.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body header .desktop-head .rigth-nav .search-container form {
+            border: none;
+            background: #fff;
+            height: 2.485rem;
+            margin-top: 0;
+            box-shadow: inset 0 -7px 7px -7px #00000026;
+            width: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            body header .desktop-head .rigth-nav .search-container form #search-button {
+              float: left;
+              font-size: 1rem;
+              border-left: none;
+              cursor: pointer; }
+            body header .desktop-head .rigth-nav .search-container form #search-button:after {
+              background: no-repeat center/1.23076923em url("/images/search.svg");
+              opacity: .67; }
+            body header .desktop-head .rigth-nav .search-container form #search-query {
+              font-family: ibm plex sans, helvetica neue, arial, sans-serif;
+              background-color: rgba(255, 255, 255, 0.5);
+              color: #000;
+              width: 100%;
+              height: 2.15384615em;
+              box-sizing: border-box;
+              border: 1px solid #a2a9b1;
+              border-radius: 2px;
+              padding: 5px 2.15384615em 5px 0.4em;
+              box-shadow: inset 0 0 0 1px transparent;
+              font-family: inherit;
+              font-size: .8125em;
+              direction: ltr;
+              transition: border-color 250ms, box-shadow 250ms; }
+      body header .desktop-head .tabs {
+        background-position: left bottom;
+        float: left;
+        height: 2.5em;
+        padding-left: 1px;
+        background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
+        background-repeat: no-repeat;
+        background-size: 1px 100%;
+        background: #f6f6f6; }
+      body header .desktop-head ul {
+        height: 100%;
+        list-style: none none;
+        margin: 0;
+        padding: 0; }
+        body header .desktop-head ul li {
+          display: block;
+          height: 100%;
+          float: left;
+          margin: 0;
+          padding: 0;
+          line-height: 1.125rem;
+          white-space: nowrap; }
+          body header .desktop-head ul li a {
+            display: block;
+            padding-top: 1rem;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: .8125rem;
+            cursor: pointer; }
+          body header .desktop-head ul li a:visited {
+            color: #202122;
+            text-decoration: none; }
+    body header .mobile-header {
+      display: none; }
     body #single-main h2 .chevron-h2 {
-      display: none; } }
+      display: none; }
+    body #home-main {
+      font-size: 0.875rem; }
+      body #home-main .panels {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        body #home-main .panels .panel {
+          width: calc(50% - 1.3rem); }
+        body #home-main .panels .full-width {
+          width: 100%; }
+    body main {
+      margin-left: 11rem;
+      background-color: #fff;
+      color: #202122;
+      direction: ltr;
+      border: 1px solid #a7d7f9;
+      border-right-width: 0;
+      padding: 1.25rem 1.5rem 1.5rem;
+      border-color: transparent;
+      box-shadow: 0 0.25rem 0.6rem -0.15rem #00000026; } }
