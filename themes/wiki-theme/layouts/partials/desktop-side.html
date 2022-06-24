@@ -1,0 +1,13 @@
+<div class="desktop-side">
+    <div class="logo-cont" role="banner">
+        <a href="/" title="home"></a>
+    </div>
+    {{ range .Site.Data.desktop_sidebar }}
+        <div class="desktop-widget">
+            <h3>{{ .title }}</h3>
+            <div>
+                {{ $.Page.RenderString .content }}
+            </div>
+        </div>
+    {{ end }}
+</div>

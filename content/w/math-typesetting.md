@@ -6,6 +6,7 @@ description: A brief guide to setup KaTeX
 categories:
     - termB2
     - termB11
+    - aeste
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
@@ -37,7 +38,7 @@ In this example we will be using [KaTeX](https://katex.org/)
 {{ end }}
 {{</ math.inline >}}
 
-### Examples
+## Examples
 
 {{< math.inline >}}
 <p>

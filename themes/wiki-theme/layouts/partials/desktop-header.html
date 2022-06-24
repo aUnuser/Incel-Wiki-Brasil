@@ -1,4 +1,4 @@
-<div class="desktop-head">
+<div class="desktop-header">
     <div class="left-nav">
         <nav class="main-page tabs">
             <ul>
@@ -23,9 +23,11 @@
             </ul>
         </nav>
         <div class="search-container">
-            <form action="" id="">
-                <input name="s" placeholder="Search Incel Wiki" id="search-query">
-                <button type="submit" id="search-button"></button>
+            <form action="" id="" autocomplete="off">
+                <div>
+                    <input type="text" name="s" placeholder="Search {{ .Site.Title }}" id="search-query" autocomplete="off">
+                    <button id="search-button"></button>
+                </div>
             </form>
         </div>
     </div>

@@ -1,48 +1,52 @@
 {{ define "main" }}
 
-  {{ if eq .Page.Kind "term" }}
-    {{ $thistax := index $.Page.Data "Plural"}}
-    {{ $thisterm := index $.Page.Data "Term"}}
-    {{ range $index, $item := .Site.Taxonomies }}
-      {{ if eq $index $thistax }}
-        {{ range $i, $j := $item }}
-          {{ $.Scratch.Add "existingterms" (slice $i) }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    {{ range $datatax, $map := .Site.Data.terms_trees }}
-        {{ if eq $datatax $thistax }}
-          {{- partial "functions/list-subterms.html" (dict "start" $map "target" $thisterm "taxonomy" $thistax "existingterms" ($.Scratch.Get "existingterms")) -}}
-        {{ end }}
-      {{ end }}
-  {{ end }}
+{{ if eq .Page.Kind "term" }}
+{{ $thistax := index $.Page.Data "Plural"}}
+{{ $thisterm := index $.Page.Data "Term"}}
+{{ range $index, $item := .Site.Taxonomies }}
+{{ if eq $index $thistax }}
+{{ range $i, $j := $item }}
+{{ $.Scratch.Add "existingterms" (slice $i) }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ range $datatax, $map := .Site.Data.terms_trees }}
+{{ if eq $datatax $thistax }}
+<h2>Sub{{ index $.Page.Data "Plural" }}</h2>
+<p>This {{ index $.Page.Data "Singular" }} has the following {{ len . }} sub{{ index $.Page.Data "Plural" }}.</p>
+{{- partial "functions/list-subterms.html" (dict "start" $map "target" $thisterm "page" $.Page "existingterms"
+($.Scratch.Get "existingterms") ) -}}
 
-  {{ $valueslen := len .Data.Pages }}
-  <p>
-    The following {{ $valueslen }} pages are in this section.
-  </p>
+<h2>Pages in {{ index $.Page.Data "Singular" }} "{{ index $.Page.Data "Term"}}"</h2>
+{{ end }}
+{{ end }}
+{{ end }}
 
-  <!-- create a list with all uppercase letters -->
-  {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+{{ $valueslen := len .Data.Pages }}
+<p>
+  The following {{ $valueslen }} pages are in this section.
+</p>
 
-  <!-- range all pages sorted by their title -->
-  {{ range $index, $item := .Data.Pages.ByTitle }}
-    <!-- get the first character of each title. Assumes that the title is never empty! -->
-    {{ $firstChar := substr $item.Title 0 1 | upper }}
-    <!-- in case $firstChar is a letter -->
-    {{ if $firstChar | in $letters }}
-      <!-- get the current letter -->
-      {{ $curLetter := $.Scratch.Get "curLetter" }}
-      <!-- if $curLetter isn't set or the letter has changed -->
-      {{ if ne $firstChar $curLetter }}
-        <!-- update the current letter and print it -->
-        {{ $.Scratch.Set "curLetter" $firstChar }}
-        {{ if ne $index 0 }}</ul>{{ end }}
-        <h3>{{ $firstChar }}</h3>
-        <ul>
-      {{ end }}
-      <li><a href="{{ $item.Permalink }}">{{ $item.Title }}</a></li>
-    {{ end }}
-  {{ end }}
-  </ul>
+<!-- create a list with all uppercase letters -->
+{{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+<!-- range all pages sorted by their title -->
+{{ range $index, $item := .Data.Pages.ByTitle }}
+<!-- get the first character of each title. Assumes that the title is never empty! -->
+{{ $firstChar := substr $item.Title 0 1 | upper }}
+<!-- in case $firstChar is a letter -->
+{{ if $firstChar | in $letters }}
+<!-- get the current letter -->
+{{ $curLetter := $.Scratch.Get "curLetter" }}
+<!-- if $curLetter isn't set or the letter has changed -->
+{{ if ne $firstChar $curLetter }}
+<!-- update the current letter and print it -->
+{{ $.Scratch.Set "curLetter" $firstChar }}
+{{ if ne $index 0 }}</div>{{ end }}
+<div class="list-group">
+<h3>{{ $firstChar }}</h3>
+{{ end }}
+<ul><li><a href="{{ $item.Permalink }}">{{ $item.Title }}</a></li></ul>
+{{ end }}
+{{ end }}
+</div>
 {{ end }}

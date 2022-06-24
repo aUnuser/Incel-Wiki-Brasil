@@ -15,7 +15,6 @@ params:
 
 menu:
   mobile_sidebar:
-
     - name: Home
       pre: <i class="icon home"></i>
       url: /
@@ -26,7 +25,7 @@ menu:
         id: random
       url: /
       weight: 2
-  mobile_main_footer:
+  mobile_sidebar_footer:
     - name: About the wiki
       url: /about/
       weight: 1
