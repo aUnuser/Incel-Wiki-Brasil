@@ -30,7 +30,7 @@ panels:
     content: |
       {{< figure src="/images/Battle_of_Saint_Charles.jpg" width="200" height="367" caption="" title="" >}}
 
-      The [Battle of St. Charles]() was fought on June 17, 1862, at St. Charles, Arkansas, during the American Civil War. Earlier in 1862, a force commanded by Samuel R. Curtis, a major general of the Union Army, became bogged down in northern Arkansas. A Union relief force was sent up the White River to resupply Curtis. The Confederates had constructed fortifications near St. Charles. ([Full article...]())
+      Incel é a contração de celibatário involuntário ou celibato involuntário, um termo sociológico para uma circunstância de vida adversa. A condição de ser um incel também é chamada de incelidade. Esta condição de ser um incel é um tipo de não-sexualidade. “Incel” é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de “ malecel”); para celibatárias involuntárias mulheres o termo femcel é usado. [Ver artigo completo...](/w/incel)
   important_articles:
     title: Teoria
     weight: 3
