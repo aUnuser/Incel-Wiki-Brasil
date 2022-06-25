@@ -19,7 +19,7 @@ Em alguns países, como na [Holanda](), houveram esforços para reconhecer o [se
 
 Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado a cometer seus crimes por comunidades onlines dedicadas à incelidade. Nem o [4chan]() e nem o [PUAhate]() são forums auto-entitulados incels, embora alguns de seus usuários possam ser incels. Altualmente os maiores forums incel da internet são: [incels.co](), [youarenotalone.co](), [love-shy.com](), [Incelswithouthate]() e [Foreveralone]().
 
-## Footnotes
+## Notas
 [^1]:
 [^2]:
 [^3]:
