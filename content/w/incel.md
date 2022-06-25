@@ -2,7 +2,7 @@
 title: Incel
 categories: [Estética, Artigos Classe-A]
 original_article:
-   title: Incel,
+   title: Incel
    link: https://incels.wiki/w/Incel
 description: null
 ---
