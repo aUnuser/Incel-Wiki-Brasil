@@ -23,7 +23,50 @@ Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado 
 
 ## Etimologia
 [Em construção]
-## Notas
+
+## Definição
+[Em construção]
+
+## Demografia dos incels
+[Em construção]
+
+## Efeitos adversos da incelidade
+[Em construção]
+
+## A vida como um incel
+[Em construção]
+
+## Não pode um incel visitar uma prostituta?
+[Em construção]
+
+## Incel vs. tímido amoroso
+[Em construção]
+
+## Incelosfera
+[Em construção]
+
+## Incelismo
+[Em construção]
+
+## Chadsplanation
+[Em construção]
+
+## Incels na história
+[Em construção]
+
+## Tipos especiais de celibato
+[Em construção]
+
+## Sinônimos de incel
+[Em construção]
+
+## Sinônimos de incelidade
+[Em construção]
+
+## Veja também
+[Em construção]
+
+## Referências
 [^1]:
 [^2]:
 [^3]:
