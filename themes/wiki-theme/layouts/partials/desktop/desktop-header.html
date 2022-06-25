@@ -20,8 +20,10 @@
             <div>
                 <ul>
                     <li>
+                        {{ with .File}}
                         {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
                         <a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer">Editar</a>
+                        {{ end }}
                     </li>
                     <li>
                         <a href="https://incels.wiki/w/Special:ActiveUsers" target="_blank" rel="noopener noreferrer">Autores Originais</a>
