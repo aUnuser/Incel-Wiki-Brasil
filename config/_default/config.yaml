@@ -20,6 +20,8 @@ taxonomies:
 frontmatter:
   date:
   - :default
+  lastmod:
+  - :fileModTime
 
 markup:
   goldmark:
