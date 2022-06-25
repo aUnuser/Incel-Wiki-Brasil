@@ -1,15 +1,15 @@
 <div class="desktop-header">
-    <div class="left-navigation{{ if .IsHome }} home{{ end }}">
+    <div class="left-navigation">
         <nav class="main-page tabs">
             <div>
                 <ul>
                     <li>
-                        <a href="/">
-                            Página Inicial
+                        <a href="{{ .Page.Permalink }}">
+                            {{ .Page.Kind | humanize }}
                         </a>
                     </li>
                     <li>
-                        <a href="/">Discussão</a>
+                        <a href="{{ .Site.Params.repo_link}}/issues" target="_blank" rel="noopener noreferrer">Discussão</a>
                     </li>
                 </ul>
             </div>
@@ -20,10 +20,11 @@
             <div>
                 <ul>
                     <li>
-                        <a href="/">Editar</a>
+                        {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
+                        <a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer">Editar</a>
                     </li>
                     <li>
-                        <a href="/">Editar Source</a>
+                        <a href="https://incels.wiki/w/Special:ActiveUsers" target="_blank" rel="noopener noreferrer">Autores Originais</a>
                     </li>
                 </ul>
             </div>

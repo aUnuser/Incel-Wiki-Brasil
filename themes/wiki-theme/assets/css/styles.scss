@@ -156,6 +156,10 @@ body {
         outline-width: 0;
     }
 
+    .rotated {
+        transform: rotate(180deg);
+    }
+
     .hidden {
         display: none;
     }
@@ -166,6 +170,21 @@ body {
 
     .external-link:before {
         background-image: linear-gradient(transparent, transparent), url("/images/external-link.svg");
+    }
+
+    .lang::before {
+        background-image: linear-gradient(transparent, transparent), url("/images/language.svg");
+    }
+
+    .download::before {
+        background-image: linear-gradient(transparent, transparent), url("/images/download.svg");
+    }
+
+    .edit::before {
+        background-image: linear-gradient(transparent, transparent), url("/images/edit.svg");
+    }
+    .incel-logo::before {
+        background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg");
     }
 
     .footnotes {
@@ -183,6 +202,10 @@ body {
         margin: 0;
     }
 
+    .empty-link {
+        color: #ba0000;
+    }
+
     #single-main {
         h2 {
             font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
@@ -196,6 +219,21 @@ body {
         }
     }
 
+    .original-wrapper {
+        text-align: center;
+        .original-article {
+            display: inline-block;
+            margin: 4px auto;
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            padding: .5rem 1rem;
+            h3 {
+                margin: 0;
+            }
+        }
+    }
+    
+    
     #home-main {
         .home-top-panel {
             margin-bottom: .5rem;
@@ -211,7 +249,7 @@ body {
             }
 
             .panel-inner-wrapper {
-                margin: 0.4em;
+                margin-top: .4rem;
                 margin-bottom: 0;
                 width: 100%;
                 font-size: 160%;
@@ -495,6 +533,7 @@ body {
                     display: flex;
                     height: 3rem;
                     justify-content: space-between;
+                    padding: 0;
 
                     li {
                         display: flex;
@@ -509,18 +548,6 @@ body {
                             padding: 0.75rem;
                             cursor: pointer;
                             font-size: 0;
-
-                            .lang::before {
-                                background-image: linear-gradient(transparent, transparent), url("/images/language.svg");
-                            }
-
-                            .download::before {
-                                background-image: linear-gradient(transparent, transparent), url("/images/download.svg");
-                            }
-
-                            .edit::before {
-                                background-image: linear-gradient(transparent, transparent), url("/images/edit.svg");
-                            }
                         }
 
                         .inactive-link {
@@ -543,7 +570,7 @@ body {
 
             #content {
                 p {
-                    margin: .5rem 0 1rem;
+                    margin: .5rem 0 .5rem;
                 }
 
                 #toc {
@@ -759,16 +786,7 @@ body {
             .desktop-header {
                 display: block;
                 width: 100%;
-                height: 5em;
-
-                .home {
-                    li:first-child {
-                        background: #ffffff;
-                        a {
-                            color: #202122;
-                        }
-                    }
-                }
+                height: 4em;
 
                 .tabs {
                     background-position: left bottom;
@@ -824,13 +842,20 @@ body {
                 .left-navigation {
                     float: left;
                     margin-left: 11em;
-                    margin-top: 2.5em;
+                    margin-top: 1.5em;
                     margin-bottom: -2.5em;
+
+                    li:first-child {
+                        background: #ffffff;
+                        a {
+                            color: #202122;
+                        }
+                    }
                 }
 
                 .rigth-navigation {
                     float: right;
-                    margin-top: 2.5em;
+                    margin-top: 1.5em;
 
                     .search-container {
                         float: right;
@@ -920,6 +945,7 @@ body {
                     height: 160px;
                     text-decoration: none;
                     background-image: url("/logo.png");
+                    background-size: 150px 150px;
                 }
             }
 

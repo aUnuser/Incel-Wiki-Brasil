@@ -2,7 +2,7 @@
     <div class="logo-cont" role="banner">
         <a href="/" title="home"></a>
     </div>
-    {{ range .Site.Data.menus.desktop_sidebar }}
+    {{ range sort .Site.Data.menus.desktop_sidebar "weight" }}
         <div class="desktop-widget">
             {{ with .title }}<h3>{{ . }}</h3>{{ end }}
             <div>

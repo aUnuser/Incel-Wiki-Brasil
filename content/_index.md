@@ -9,7 +9,7 @@ categorias:
 # Markdown, shortcodes and HTML enabled
 panels:
   oqueincel:
-    title: Lorem Ipsum
+    title: O que é incel?
     weight: 1
     isfullwidth: true
     border_color: "#cef2e0"
@@ -17,9 +17,9 @@ panels:
     title_border_color: "#a3bfb1"
     title_background_color: "#cef2e0"
     content: |
-      Mauris interdum, tellus ac iaculis dictum, arcu mi molestie urna, id finibus nibh nibh nec dui. Proin accumsan pharetra arcu, eget aliquam augue. Maecenas aliquet lacus et dapibus elementum. Vivamus vel sem metus. Phasellus eget vestibulum lorem, id eleifend libero. In eget fermentum massa. Sed vulputate justo et bibendum pulvinar. Suspendisse egestas elit nibh, in convallis quam consequat nec. Phasellus ullamcorper libero non sem scelerisque vehicula. Maecenas aliquam mi nec nunc lobortis vehicula.
+      [Incel]() é a contração de celibatário involuntário ou celibato involuntário (também chamado de incelidade), que é um termo acadêmico e sociológico para uma [circunstância de vida adversa](). Uma analogia interessante é comparar o estado permanente de incelidade com outras circunstâncias adversas, como a pobreza. A incelidade foi reconhecida na academia como um fenômeno sociológio no importante estudo de [Denise Donelly](), publicado em 2001. Desde então vários estudos peer-reviewed foram escritos, considerando a incelidade como um mal sofrido por alguém, e não como uma subcultura da internet.
 
-      Nulla vel justo ex. Nam et orci ac nibh pellentesque semper. Sed arcu orci, venenatis eu aliquet sit amet, facilisis eu diam. Praesent hendrerit venenatis felis, eget ornare est tempus quis. Nulla placerat neque id ipsum porta, sed rhoncus odio elementum. Praesent sollicitudin ante at felis finibus, placerat volutpat nibh efficitur. Quisque ultricies, metus eu accumsan mollis, justo leo suscipit magna, eget vulputate odio nisi id metus. Cras non tristique neque, ac facilisis quam.
+      Pesquisadores acadêmicos que estudaram a incelidade, embora nem todos tenham usado este termo, incluem: [Denise Donelly](), [Elizabeth Burgess](), [Laura Carpenter](), [Theodor F. Cohen]() e [Menelaos Apostolou](). Brian Gilmartin conduziu pesquisas profundas a respeito da [timidez amorosa](), um problema relacionado. O primeiro estudo a explicitamente lidar com o tópico da incelidade, o de Donelly, definiu como incels todos os adultos que passam mais de seis meses sem encontrar uma parceira sexual, embora haja o desejo por uma. Entretanto, dentre [auto-entitulados incels](), há uma discussão acalorada sobre qual é a exata definição de o que é um incel.
   featured:
     title: Artigo em Destaque
     weight: 2
@@ -39,9 +39,20 @@ panels:
     title_border_color: "#a3b0bf"
     title_background_color: "#cedff2"
     content: |
-      * [Emoji Support](/w/emoji-support)
-      * [Markdown Syntax](/w/markdown-syntax)
-      * [Math Typesetting](/w/math-typesetting)
-      * [Placeholder Text](/w/placeholder-text)
-      * [Rich Content](/w/rich-content)
+      * [Hipergamia]()
+      * [A Blackpill Científica]()
+      * [Casamento]()
+      * [Feminismo]()
+      * [Beleza]()
+      * [O Ralo Comportamental]()
+      * [Chad]()
+      * [A Tríade Negra]()
+      * [Puta]()
+      * [Atratividade física]()
+      * [Fisionimia]()
+      * [O Modelo de Seleção Sexual de Fisher]()
+      * [QI]()
+      * [Pills]()
+      * [Estética]()
+      * [Lista de Teorias]()
 ---

@@ -11,7 +11,7 @@ params:
   site_subtitle: "a tradução da [Incel Wiki](https://incels.wiki/w/Main_Page)."
   repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io
   remove_from_random: # Random will use all .Site.RegularPages
-    url: /about/ 
+    url: /sobre/
 
 taxonomies:
   categoria: categorias

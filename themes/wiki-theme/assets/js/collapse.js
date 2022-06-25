@@ -36,10 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function onClick () {
-        console.log(this.querySelector("#collapse-chevron").style.transform);
-        this.querySelector("#collapse-chevron").style.transform = "rotate(" + degrees + "deg)";
+        this.querySelector("#collapse-chevron").classList.toggle("rotated");
         degrees += 180;
-        console.log(degrees);
         var section = this.nextElementSibling;
         section.classList.toggle("hidden");
     }
