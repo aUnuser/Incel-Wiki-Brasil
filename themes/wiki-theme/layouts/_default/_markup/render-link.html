@@ -1,5 +1,5 @@
 {{ $hashttp := strings.HasPrefix .Destination "http" }}
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $hashttp }} target="_blank" rel="noopener noreferrer"{{ end }}>
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $hashttp }} target="_blank" rel="noopener noreferrer"{{ end }}{{ if eq .Text "Página Aleatória" }} class="random"{{ end }}>
     {{ .Text | safeHTML }}
     {{- if $hashttp -}}
     <i class="icon-xs external-link"></i>

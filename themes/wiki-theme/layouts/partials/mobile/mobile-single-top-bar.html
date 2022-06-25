@@ -14,7 +14,7 @@
         <li><a href=""><i class="icon download"></i>Download PDF</a></li>
         {{ with .File }}
         {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
-        <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Edit</a></li>
+        <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Editar</a></li>
         {{ end }}
     </ul>
 </nav>

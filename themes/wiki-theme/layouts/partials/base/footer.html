@@ -4,17 +4,17 @@
     <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
         <div class="last-mod-inner-wrapper">
             <i class="icon clock"></i>
-            <span>View edit history of this page.</span>
+            <span>Ver histório de edições desta página.</span>
             <i class="icon chevron-footer"></i>
         </div>
     </a>
     {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
-        {{- with .Site.Menus.footer -}}
+        {{- with .Site.Data.menus.footer -}}
         <div class="footer-menu">
             {{- range $index, $item := . -}}
-            <a href="{{ .URL }}" title="{{ .Title }}">{{- if gt $index 0 -}}{{- end -}}{{ .Name | markdownify }}</a>
+            <a href="{{ $item.URL }}" title="{{ $item.title }}">{{- if gt $index 0 -}}{{- end -}}{{ $item.name | markdownify }}</a>
             {{- end -}}
         </div>
         {{- end -}}

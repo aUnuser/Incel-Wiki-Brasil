@@ -1,5 +1,5 @@
 baseURL: "https://incelwikibrasil.github.io/"
-title: Hugo Wiki Theme
+title: Incel Wiki Brasil
 theme: wiki-theme
 
 languageCode: en
@@ -8,41 +8,13 @@ timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_
 
 params:
   date_format: "15h04m UTCMST de 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
-  site_subtitle: "a theme based on [Wikipedia](https://www.wikipedia.org/) and [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)."
+  site_subtitle: "a tradução da [Incel Wiki](https://incels.wiki/w/Main_Page)."
   repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io
   remove_from_random: # Random will use all .Site.RegularPages
     url: /about/ 
 
-menu:
-  mobile_sidebar:
-    - name: Home
-      pre: <i class="icon home"></i>
-      url: /
-      weight: 1
-    - name: Random
-      pre: <i class="icon random"></i>
-      params:
-        id: random
-      url: /
-      weight: 2
-  mobile_sidebar_footer:
-    - name: About the wiki
-      url: /about/
-      weight: 1
-    - name: Disclaimers
-      url: /disclaimer/
-      weight: 2
-  footer:
-    - name: About
-      url: /sobre/
-      weight: 1
-    - name: Disclaimer
-      url: /disclaimer/
-      weight: 2
-
 taxonomies:
-  category: categories
-  series: series
+  categoria: categorias
 
 ###############################
 enableGitInfo: true
@@ -52,6 +24,9 @@ markup:
     renderer:
       hardWraps: true
       unsafe: true
+    parser:
+      attribute:
+        link: true
   tableOfContents:
     endLevel: 3
     ordered: true

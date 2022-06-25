@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     recipe = recipe.filter(function(x) { return x !== null }); 
     var index = Math.floor(Math.random() * recipe.length);
-    var randomlink = document.getElementById("random");
-    randomlink.setAttribute("href", recipe[index]);
+    var randomlink = document.getElementsByClassName("random");
+    for(var i = 0; i < randomlink.length; i++) {
+      randomlink[i].setAttribute("href", recipe[index]);
+    }
+    
 });

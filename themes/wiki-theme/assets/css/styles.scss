@@ -202,7 +202,8 @@ body {
             text-align: center;
             background-color: #f9f9f9;
             border: 1px solid #ddd;
-            padding: 1rem;
+            padding: 0 0.5em 0.5em;
+            margin-top: 4px;
 
             &>*:last-child,
             &>*:nth-last-child(2) {
@@ -210,6 +211,8 @@ body {
             }
 
             .panel-inner-wrapper {
+                margin: 0.4em;
+                margin-bottom: 0;
                 width: 100%;
                 font-size: 160%;
                 color: #000;
@@ -336,7 +339,7 @@ body {
                             bottom: 0;
                             opacity: 0;
                             visibility: hidden;
-                            max-width: 70%;
+                            width: 250px;
                             z-index: 2;
                             overflow-y: auto;
                             background-color: #eaecf0;
@@ -344,9 +347,13 @@ body {
                             transform: translate(-100%, 0);
                             transition: opacity 150ms ease-in-out, visibility 150ms ease-in-out, transform 150ms ease-in-out;
 
-                            .main-list {
+                            ul {
+                                padding-left: 0;
                                 padding-bottom: 1.375rem;
                                 list-style: none;
+                            }
+
+                            .main-list {
 
                                 li {
                                     background-color: #fff;
@@ -392,8 +399,6 @@ body {
                             }
 
                             .menu-footer-list {
-                                padding-bottom: 1.375rem;
-                                list-style: none;
 
                                 li {
                                     background-color: transparent;
@@ -693,6 +698,7 @@ body {
         }
 
         #home-main {
+
             .panels {
                 display: flex;
                 flex-wrap: wrap;
@@ -739,27 +745,92 @@ body {
 
 @media only screen and (min-width: 1200px) {
     body {
-        background: url("/background.png") #f6f6f6 top left no-repeat;
-        background-size: 1400px 200px;
         font-family: sans-serif;
-
+        background-color: #f6f6f6;
+        overflow-y: scroll;
+        a:hover {
+            text-decoration: underline;
+        }
         header {
+            background-color: #fbfbfb;
+            background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
+            background-position: bottom left;
+
             .desktop-header {
                 display: block;
                 width: 100%;
                 height: 5em;
 
-                .left-nav {
+                .home {
+                    li:first-child {
+                        background: #ffffff;
+                        a {
+                            color: #202122;
+                        }
+                    }
+                }
+
+                .tabs {
+                    background-position: left bottom;
+                    float: left;
+                    height: 2.5em;
+                    padding-left: 1px;
+
+                    background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
+                    background-repeat: no-repeat;
+                    background-size: 1px 100%;
+
+                    ul {
+                        float: left;
+                        height: 100%;
+                        list-style: none none;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    li {
+                        background-image: linear-gradient(to top, #77c1f6 0, #e8f2f8 1px, #ffffff 100%);
+                        background-position: left bottom;
+                        background-repeat: repeat-x;
+                        float: left;
+                        display: block;
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                        line-height: 1.125em;
+                        white-space: nowrap;
+
+                        a {
+                            background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
+                            background-repeat: no-repeat;
+                            background-size: 1px 100%;
+
+                            background-position: right bottom;
+                            color: #0645ad;
+                            box-sizing: border-box;
+                            display: block;
+                            float: left;
+                            height: 3.07692308em;
+                            position: relative;
+                            padding-top: 1.25em;
+                            padding-left: 8px;
+                            padding-right: 8px;
+                            font-size: 0.8125em;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .left-navigation {
                     float: left;
                     margin-left: 11em;
                     margin-top: 2.5em;
                     margin-bottom: -2.5em;
                 }
 
-                .rigth-nav {
+                .rigth-navigation {
                     float: right;
                     margin-top: 2.5em;
-                    background: #f6f6f6;
 
                     .search-container {
                         float: right;
@@ -819,50 +890,6 @@ body {
                                     transition: border-color 250ms, box-shadow 250ms;
                                 }
                             }
-
-
-                        }
-                    }
-                }
-
-                .tabs {
-                    background-position: left bottom;
-                    float: left;
-                    height: 2.5em;
-                    padding-left: 1px;
-                    background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
-                    background-repeat: no-repeat;
-                    background-size: 1px 100%;
-                    background: #f6f6f6;
-                }
-
-                ul {
-                    height: 100%;
-                    list-style: none none;
-                    margin: 0;
-                    padding: 0;
-
-                    li {
-                        display: block;
-                        height: 100%;
-                        float: left;
-                        margin: 0;
-                        padding: 0;
-                        line-height: 1.125rem;
-                        white-space: nowrap;
-
-                        a {
-                            display: block;
-                            padding-top: 1rem;
-                            padding-left: 8px;
-                            padding-right: 8px;
-                            font-size: .8125rem;
-                            cursor: pointer;
-                        }
-
-                        a:visited {
-                            color: #202122;
-                            text-decoration: none;
                         }
                     }
                 }
@@ -874,7 +901,7 @@ body {
         }
 
         .desktop-side {
-            padding-top: 2.5rem;
+            padding-top: 1rem;
             padding-left: 0.5rem;
             position: absolute;
             top: 0;
@@ -916,10 +943,12 @@ body {
                 div {
                     margin-left: 0.8em;
                     padding-top: 0.3em;
+
                     ul {
                         list-style: none none;
                         margin: 0;
                         padding: 0;
+
                         li {
                             margin: 0;
                             padding: 0.25em 0;
@@ -964,9 +993,9 @@ body {
             border: 1px solid #a7d7f9;
             border-right-width: 0;
             padding: 1.25rem 1.5rem 1.5rem;
-            border-color: transparent;
             box-shadow: 0 0.25rem 0.6rem -0.15rem #00000026;
             font-size: 0.875rem;
+            margin-top: -1px;
 
             .mobile-single-top-bar {
                 display: none;
@@ -1009,6 +1038,9 @@ body {
             }
 
             .footer-content {
+                .footer-site-title {
+                    font-size: 0.75em;
+                }
                 .footer-menu {
                     a {
                         margin-right: 1rem;

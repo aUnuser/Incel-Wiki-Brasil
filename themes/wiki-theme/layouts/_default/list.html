@@ -13,7 +13,7 @@
 {{ range $datatax, $map := .Site.Data.terms_trees }}
 {{ if eq $datatax $thistax }}
 <h2>Sub{{ index $.Page.Data "Plural" }}</h2>
-<p>This {{ index $.Page.Data "Singular" }} has the following {{ len . }} sub{{ index $.Page.Data "Plural" }}.</p>
+<p>Esta {{ index $.Page.Data "Singular" }} tem as seguintes {{ len . }} sub{{ index $.Page.Data "Plural" }}.</p>
 {{- partial "functions/list-subterms.html" (dict "start" $map "target" $thisterm "page" $.Page "existingterms"
 ($.Scratch.Get "existingterms") ) -}}
 
@@ -24,7 +24,7 @@
 
 {{ $valueslen := len .Data.Pages }}
 <p>
-  The following {{ $valueslen }} pages are in this section.
+  {{ $valueslen }} páginas nesta seção.
 </p>
 
 <!-- create a list with all uppercase letters -->

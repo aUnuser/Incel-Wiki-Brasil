@@ -2,7 +2,7 @@
 title: "Main Page"
 date: 2022-06-16 18:10:04 -0300 -03
 description:
-categories:
+categorias:
    - termA
    - termB
 ###############################################################################
@@ -21,7 +21,7 @@ panels:
 
       Nulla vel justo ex. Nam et orci ac nibh pellentesque semper. Sed arcu orci, venenatis eu aliquet sit amet, facilisis eu diam. Praesent hendrerit venenatis felis, eget ornare est tempus quis. Nulla placerat neque id ipsum porta, sed rhoncus odio elementum. Praesent sollicitudin ante at felis finibus, placerat volutpat nibh efficitur. Quisque ultricies, metus eu accumsan mollis, justo leo suscipit magna, eget vulputate odio nisi id metus. Cras non tristique neque, ac facilisis quam.
   featured:
-    title: Featured Article
+    title: Artigo em Destaque
     weight: 2
     border_color: "#cedff2"
     background_color: "#f5faff"
@@ -32,7 +32,7 @@ panels:
 
       The [Battle of St. Charles]() was fought on June 17, 1862, at St. Charles, Arkansas, during the American Civil War. Earlier in 1862, a force commanded by Samuel R. Curtis, a major general of the Union Army, became bogged down in northern Arkansas. A Union relief force was sent up the White River to resupply Curtis. The Confederates had constructed fortifications near St. Charles. ([Full article...]())
   important_articles:
-    title: Important Articles
+    title: Teoria
     weight: 3
     border_color: "#cedff2"
     background_color: "#f5faff"

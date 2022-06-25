@@ -1,0 +1,28 @@
+<div class="mobile-header">
+    <div id="left-wrapper">
+        <div id="nav-button-wrapper">
+            <input type="checkbox" id="menu-input" role="button">
+            <label class="icon hamb" id="hamb-label" for="menu-input"></label>
+            <div id="menu-list">
+                {{ with .Site.Data.menus.mobile_sidebar }}
+                    <ul class="main-list">
+                        {{ range . }}
+                            <li><a href="{{ .URL }}" {{ with .params.class }}class="{{ . }}"{{ end }}>{{ .pre | safeHTML }}{{ .name }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+
+                {{ with .Site.Data.menus.footer }}
+                    <ul class="menu-footer-list">
+                        {{ range . }}
+                            <li><a href="{{ .URL }}">{{ .pre | safeHTML }}{{ .name }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </div>
+            <label class="menu-mask" for="menu-input"></label>
+        </div>
+        <a href="/">{{ .Site.Title }}</a>
+    </div>
+    <i class="icon mag"></i>
+</div>

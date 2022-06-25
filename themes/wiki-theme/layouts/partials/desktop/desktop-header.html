@@ -1,0 +1,41 @@
+<div class="desktop-header">
+    <div class="left-navigation{{ if .IsHome }} home{{ end }}">
+        <nav class="main-page tabs">
+            <div>
+                <ul>
+                    <li>
+                        <a href="/">
+                            Página Inicial
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">Discussão</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="rigth-navigation">
+        <nav class="edit tabs">
+            <div>
+                <ul>
+                    <li>
+                        <a href="/">Editar</a>
+                    </li>
+                    <li>
+                        <a href="/">Editar Source</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="search-container">
+            <form action="" id="" autocomplete="off">
+                <div>
+                    <input type="text" name="s" placeholder="Buscar {{ .Site.Title }}" id="search-query"
+                        autocomplete="off">
+                    <button id="search-button"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
