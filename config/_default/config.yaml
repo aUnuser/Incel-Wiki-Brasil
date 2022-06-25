@@ -17,7 +17,9 @@ taxonomies:
   categoria: categorias
 
 ###############################
-enableGitInfo: true
+frontmatter:
+  date:
+  - :default
 
 markup:
   goldmark:
