@@ -4,10 +4,12 @@
   {{ $.Scratch.Add "tmp" (slice .RelPermalink) }}
 {{- end -}}
 {{ $.Scratch.Get "tmp" | jsonify | $.Scratch.Set "tmp" }}
+
 {{- range $.Site.Params.remove_from_random -}}
   {{ $.Scratch.Add "tmp2" (slice . ) }}
 {{- end -}}
 {{ $.Scratch.Get "tmp2" | jsonify | $.Scratch.Set "tmp2" }}
+
 document.addEventListener("DOMContentLoaded", function () {
     var recipe = {{ $.Scratch.Get "tmp" | safeJS }};
     var todelete = {{ $.Scratch.Get "tmp2" | safeJS }};
