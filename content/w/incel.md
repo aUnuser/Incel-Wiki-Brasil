@@ -74,5 +74,3 @@ Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado 
 [^5]:
 [^6]:
 [^7]:
-
-## Ligações externas
