@@ -6,7 +6,7 @@
 {{ $caption := safeCSS (.Get "caption") }}
 {{ $min600 :=  safeCSS (.Get "min600")}}
 {{ $min1200 :=  safeCSS (.Get "min1200")}}
-<div class="fig-wrapper" style="width: {{ add (int $width) 2 }}px; {{ with $style }} {{ . }}{{ end }}">
+<div class="fig-wrapper" style="max-width: {{ add (int $width) 2 }}px; {{ with $style }} {{ . }}{{ end }}">
     <img src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" class="fig" decoding="async" {{ with $title }} title="{{ . }}" alt="{{ . }}"{{ end }}>
     <div class="fig-caption">
         {{ $.Page.RenderString $caption }}
