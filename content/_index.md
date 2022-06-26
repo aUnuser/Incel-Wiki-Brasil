@@ -22,7 +22,7 @@ panels:
         title_border_color: "#a3b0bf"
         title_background_color: "#cedff2"
         content: |
-            {{< figure src="/images/Einstein-Mileva.jpg" width="400" height="329" caption="A importância de uma esposa" title="importância de uma esposa" >}}
+            {{< figure src="/images/Einstein-Mileva.jpg" width="200" height="164" caption="A importância de uma esposa" title="importância de uma esposa" >}}
 
             Pouco se sabe sobre os **[efeitos adversos da incelidade](/w/efeitos-adversos-da-incelidade)** porque essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
 
