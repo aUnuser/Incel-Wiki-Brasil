@@ -28,7 +28,7 @@ panels:
     title_border_color: "#a3b0bf"
     title_background_color: "#cedff2"
     content: |
-      {{< figure src="/images/Battle_of_Saint_Charles.jpg" width="200" height="367" caption="" title="" >}}
+      {{< figure src="/images/Incel_Pride_Flag_dark.png" width="300" height="185" caption="" title="" >}}
 
       [**Incel**](/w/incel) é a contração de **celibatário involuntário** ou **celibato involuntário**, um [termo sociológico]() para uma circunstância de vida [adversa](). A condição de ser um incel também é chamada de **incelidade**. Esta condição de ser um *incel* é um tipo de [não-sexualidade](). "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "[malecel]()"); para celibatárias involuntárias mulheres o termo [femcel]() é usado. ([Artigo completo...](/w/incel))
   important_articles:
