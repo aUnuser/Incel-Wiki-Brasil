@@ -38,12 +38,12 @@ mobile_sidebar:
       weight: 2
   menu_2:
     item_1:
-      name: Incel Wiki Original
+      name: Incel Wiki original
       pre: <i class="icon incel-logo"></i>
       url: https://incels.wiki/w/Special:ActiveUsers
       weight: 1
     item_2:
-      name: Autores Originais
+      name: Autores originais
       pre: <i class="icon edit"></i>
       url: https://incels.wiki/w/Special:ActiveUsers
       weight: 2
