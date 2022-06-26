@@ -9,7 +9,7 @@
                 <ul class="main-list">
 
                     {{ range sort $item "weight"}}
-                    <li><a href="{{ .URL }}" {{ with .params.class }}class="{{ . }}" {{ end }}>{{ .pre | safeHTML }}{{
+                    <li><a href="{{ .url }}" {{ with .params.class }}class="{{ . }}" {{ end }}>{{ .pre | safeHTML }}{{
                             .name }}</a></li>
                     {{ end }}
 
@@ -20,7 +20,7 @@
                 {{ with .Site.Data.menus.footer }}
                 <ul class="menu-footer-list">
                     {{ range . }}
-                    <li><a href="{{ .URL }}">{{ .pre | safeHTML }}{{ .name }}</a></li>
+                    <li><a href="{{ .url }}">{{ .pre | safeHTML }}{{ .name }}</a></li>
                     {{ end }}
                 </ul>
                 {{ end }}
