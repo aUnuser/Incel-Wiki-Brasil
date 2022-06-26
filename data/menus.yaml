@@ -30,7 +30,7 @@ mobile_sidebar:
       url: /
       weight: 1
     item_2:
-      name: Página Aleatória
+      name: Página aleatória
       pre: <i class="icon random"></i>
       params:
         class: random
