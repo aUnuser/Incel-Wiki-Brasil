@@ -2,24 +2,24 @@ desktop_sidebar:
   menu_1:
       weight: 1
       content: |
-        * [Página Inicial](/)
+        * [Página inicial](/)
         * [Categorias](/categorias/)
-        * [Página Aleatória](/)
-        * [Incel Wiki Original](https://incels.wiki/w/Main_Page)
+        * [Página aleatória](/)
+        * [Incel Wiki original](https://incels.wiki/w/Main_Page)
         * [Sobre a wiki](/sobre)
   menu_2:
     title: História e FAQ
     weight: 2
     content: |
-      * [FAQ da Incelidade]()
-      * [Linha do Tempo da Incelosfera]()
-      * [Glossário Incel]()
-      * [Demografia da Incelidade]()
+      * [FAQ da incelidade]()
+      * [Linha do tempo da incelosfera]()
+      * [Glossário incel]()
+      * [Demografia da incelidade]()
   menu_3:
     title: Páginas Importantes
     weight: 3
     content: |
-      * [Blackpill Científica]()
+      * [Blackpill iientífica]()
       * [Blackpill]()
       * [PSL]()
 mobile_sidebar:

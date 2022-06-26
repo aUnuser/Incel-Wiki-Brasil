@@ -183,6 +183,7 @@ body {
     .edit::before {
         background-image: linear-gradient(transparent, transparent), url("/images/edit.svg");
     }
+
     .incel-logo::before {
         background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg");
     }
@@ -190,6 +191,33 @@ body {
     .footnotes {
         hr {
             display: none;
+        }
+    }
+    a[href^="#fn:"]:before {
+        content: '['
+    }
+
+    a[href^="#fn:"]:after {
+        content: ']'
+    }
+
+    table {
+        overflow-x: auto;
+        background-color: #f8f9fa;
+        color: #202122;
+        margin: 1em 0;
+        border: 1px solid #a2a9b1;
+        border-collapse: collapse;
+
+        th {
+            background-color: #eaecf0;
+            border: 1px solid #a2a9b1;
+            padding: 0.2em 0.4em;
+        }
+
+        td {
+            border: 1px solid #a2a9b1;
+            padding: 0.2em 0.4em;
         }
     }
 
@@ -221,10 +249,11 @@ body {
 
     .original-article {
         color: rgb(84, 89, 93);
-        font-size: .7rem;
+        font-size: .75rem;
+        margin-bottom: .25rem;
     }
-    
-    
+
+
     #home-main {
         .home-top-panel {
             margin-bottom: .5rem;
@@ -575,9 +604,15 @@ body {
                         font-size: 1.125rem;
                         border: none;
                         display: flex;
+                        justify-content: space-between;
                         align-items: center;
                         margin: 0;
                         padding: 0;
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                        }
                     }
 
                     nav {
@@ -735,7 +770,7 @@ body {
         main {
             #content {
                 #toc {
-                    display: inline-block;
+                    display: table;
                 }
             }
         }
@@ -766,9 +801,11 @@ body {
         font-family: sans-serif;
         background-color: #f6f6f6;
         overflow-y: scroll;
+
         a:hover {
             text-decoration: underline;
         }
+
         header {
             background-color: #fbfbfb;
             background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
@@ -838,6 +875,7 @@ body {
 
                     li:first-child {
                         background: #ffffff;
+
                         a {
                             color: #202122;
                         }
@@ -1018,7 +1056,25 @@ body {
                 display: none;
             }
 
-            #content {}
+            #content {
+                #toc {
+                    border: 1px solid #a2a9b1;
+                    background-color: #f8f9fa;
+                    padding: 7px;
+                    font-size: 95%;
+                    display: table;
+
+                    h2 {
+                        border: none;
+                        text-align: center;
+                        margin: 0;
+
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
 
         #single-main {
@@ -1058,6 +1114,7 @@ body {
                 .footer-site-title {
                     font-size: 0.75em;
                 }
+
                 .footer-menu {
                     a {
                         margin-right: 1rem;

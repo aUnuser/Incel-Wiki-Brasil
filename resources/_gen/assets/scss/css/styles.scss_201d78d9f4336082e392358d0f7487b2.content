@@ -135,6 +135,24 @@ body {
     background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg"); }
   body .footnotes hr {
     display: none; }
+  body a[href^="#fn:"]:before {
+    content: '['; }
+  body a[href^="#fn:"]:after {
+    content: ']'; }
+  body table {
+    overflow-x: auto;
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse; }
+    body table th {
+      background-color: #eaecf0;
+      border: 1px solid #a2a9b1;
+      padding: 0.2em 0.4em; }
+    body table td {
+      border: 1px solid #a2a9b1;
+      padding: 0.2em 0.4em; }
   body h3 {
     margin-bottom: 0; }
   body ul,
@@ -147,16 +165,10 @@ body {
     font-weight: 500; }
   body #single-main li .external-link {
     display: inline-block; }
-  body .original-wrapper {
-    text-align: center; }
-    body .original-wrapper .original-article {
-      display: inline-block;
-      margin: 4px auto;
-      border: 1px solid #a2a9b1;
-      background-color: #f8f9fa;
-      padding: .5rem 1rem; }
-      body .original-wrapper .original-article h3 {
-        margin: 0; }
+  body .original-article {
+    color: #54595d;
+    font-size: .75rem;
+    margin-bottom: .25rem; }
   body #home-main .home-top-panel {
     margin-bottom: .5rem;
     text-align: center;
@@ -387,9 +399,13 @@ body {
           font-size: 1.125rem;
           border: none;
           display: flex;
+          justify-content: space-between;
           align-items: center;
           margin: 0;
           padding: 0; }
+          body main #content #toc h2 span {
+            display: flex;
+            align-items: center; }
         body main #content #toc nav {
           padding-left: 2.5rem; }
     body #single-main h2 {
@@ -471,7 +487,7 @@ body {
     body #home-main .panels .full-width {
       width: 100%; }
   body main #content #toc {
-    display: inline-block; }
+    display: table; }
   body footer .last-modified {
     padding-left: 0;
     padding-right: 0; }
@@ -673,6 +689,18 @@ body {
       margin-top: -1px; }
       body main .mobile-single-top-bar {
         display: none; }
+      body main #content #toc {
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 7px;
+        font-size: 95%;
+        display: table; }
+        body main #content #toc h2 {
+          border: none;
+          text-align: center;
+          margin: 0; }
+          body main #content #toc h2 i {
+            display: none; }
     body #single-main h1 {
       overflow: visible;
       font-size: 1.8rem;
