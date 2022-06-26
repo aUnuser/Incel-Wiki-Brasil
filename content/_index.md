@@ -6,10 +6,10 @@ panels:
         title: O que é incel?
         weight: 1
         isfullwidth: true
-        border_color: #cef2e0
-        background_color: #f5fffa
-        title_border_color: #a3bfb1
-        title_background_color: #cef2e0
+        border_color: "#cef2e0"
+        background_color: "#f5fffa"
+        title_border_color: "#a3bfb1"
+        title_background_color: "#cef2e0"
         content: |
             [Incel](/w/incel) é a contração de celibatário involuntário ou celibato involuntário (também chamado de incelidade), que é um termo acadêmico e sociológico para uma circunstância de vida [adversa](). Uma analogia interessante é comparar o estado permanente de incelidade com outras circunstâncias adversas, como a de pobreza. A incelidade foi reconhecida na academia como um fenômeno sociológio no importante estudo de [Denise Donelly](), publicado em 2001. Desde então vários estudos peer-reviewed foram escritos considerando a incelidade como um mal sofrido por alguém, e não como uma subcultura da internet.
         
@@ -17,10 +17,10 @@ panels:
     featured:
         title: Artigo em Destaque
         weight: 2
-        border_color: #cedff2
-        background_color: #f5faff
-        title_border_color: #a3b0bf
-        title_background_color: #cedff2
+        border_color: "#cedff2"
+        background_color: "#f5faff"
+        title_border_color: "#a3b0bf"
+        title_background_color: "#cedff2"
         content: |
             {{< figure src="/images/Incel_Pride_Flag_dark.png" width="300" height="185" caption="A bandeira incel." title="bandeira incel" >}}
 
@@ -28,10 +28,10 @@ panels:
     important_articles:
         title: Teoria
         weight: 3
-        border_color: #cedff2
-        background_color: #f5faff
-        title_border_color: #a3b0bf
-        title_background_color: #cedff2
+        border_color: "#cedff2"
+        background_color: "#f5faff"
+        title_border_color: "#a3b0bf"
+        title_background_color: "#cedff2"
         content: |
             * [Hipergamia]() 
             * [A Blackpill Científica]()
