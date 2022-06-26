@@ -1,6 +1,7 @@
 +++
 title = "Efeitos Adversos da Incelidade"
 categories = [ "Teoria", "Ciência", "Artigos Classe-A" ]
+description = ""
 
 [original_article]
 title = "Adverse effects of inceldom"
