@@ -1,7 +1,10 @@
 ---
 title: Efeitos Adversos da Incelidade
 categories: [Teoria, Ciência, Artigos Classe-A]
-original_article: '{ title: Adverse effects of inceldom, link: https://incels.wiki/index.php?title=Adverse_effects_of_inceldom }'
+original_article: '{
+   title: Adverse effects of inceldom,
+   link: https://incels.wiki/index.php?title=Adverse_effects_of_inceldom }''
+}'
 description: null
 ---
 
