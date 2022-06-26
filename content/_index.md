@@ -24,7 +24,8 @@ panels:
         content: |
             {{< figure src="/images/Incel_Pride_Flag_dark.png" width="300" height="185" caption="A bandeira incel." title="bandeira incel" >}}
 
-            [**Incel**](/w/incel) é a contração de **celibatário involuntário** ou **celibato involuntário**, um [termo sociológico]() para uma circunstância de vida [adversa](/w/efeitos-adversos-da-incelidade). A condição de ser um incel também é chamada de **incelidade**. Esta condição de ser um *incel* é um tipo de [não-sexualidade](). "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "[malecel]()"); para celibatárias involuntárias mulheres o termo [femcel]() é usado. ([Artigo completo...](/w/incel))
+            Pouco se sabe sobre os efeitos adversos da incelidade porque essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum oitro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidad))
+
     important_articles:
         title: Teoria
         weight: 3
