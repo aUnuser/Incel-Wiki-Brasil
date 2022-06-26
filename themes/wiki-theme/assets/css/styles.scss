@@ -9,6 +9,19 @@ body {
     color: #202122;
     margin: 0;
 
+    .fig-wrapper {
+        margin: auto;
+
+        .fig {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .fig-caption {
+            font-size: .8em;
+        }
+    }
+
     noscript {
         text-align: center;
     }
@@ -309,19 +322,6 @@ body {
                             padding-left: 2rem;
                         }
                     }
-                }
-            }
-
-            .fig-wrapper {
-                margin: auto;
-
-                .fig {
-                    max-width: 100%;
-                    height: auto;
-                }
-
-                .fig-caption {
-                    font-size: .8125em;
                 }
             }
         }
@@ -801,6 +801,12 @@ body {
         font-family: sans-serif;
         background-color: #f6f6f6;
         overflow-y: scroll;
+
+        .desktop-right {
+            float: right;
+            clear: both;
+            margin-left: 1.4rem;
+        }
 
         a:hover {
             text-decoration: underline;

@@ -6,6 +6,13 @@ body {
   background-color: #ffffff;
   color: #202122;
   margin: 0; }
+  body .fig-wrapper {
+    margin: auto; }
+    body .fig-wrapper .fig {
+      max-width: 100%;
+      height: auto; }
+    body .fig-wrapper .fig-caption {
+      font-size: .8em; }
   body noscript {
     text-align: center; }
   body a {
@@ -204,13 +211,6 @@ body {
           margin-bottom: 0; }
         body #home-main #content .panels .panel .panel-content ul {
           padding-left: 2rem; }
-    body #home-main #content .fig-wrapper {
-      margin: auto; }
-      body #home-main #content .fig-wrapper .fig {
-        max-width: 100%;
-        height: auto; }
-      body #home-main #content .fig-wrapper .fig-caption {
-        font-size: .8125em; }
   body #content ol {
     display: block;
     list-style-type: decimal;
@@ -505,6 +505,10 @@ body {
     font-family: sans-serif;
     background-color: #f6f6f6;
     overflow-y: scroll; }
+    body .desktop-right {
+      float: right;
+      clear: both;
+      margin-left: 1.4rem; }
     body a:hover {
       text-decoration: underline; }
     body header {
