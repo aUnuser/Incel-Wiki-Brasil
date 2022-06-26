@@ -31,7 +31,11 @@ A criadora do primeiro [fórum incel](), uma [feminista]() conhecida apenas por 
 O termo incel foi depois usado no [estudo de Donelly]() em 2001, que foi o primeiro tratamento acadêmico do assunto. Mais tarde, em 2018, o termo foi lexicograficamente reconhecido por um dicionário online da língua holandesa.[^9]
 
 ## Definição
-[Em construção]
+O [estudo de Denise Donelly]() definiu como incels todos os adultos que falham em encontrar uma parceira sexual por seis meses ou mais apesar de procurar por uma. Devido à possíveis brechas, ainda não há consendo sobre se essa definição é apropriada. Por exemplo, [bluepillers]() costumam dizer, de má fé, que nessa definição incels homens podem simplesmente fazer sexo gay ou pagar uma prostituta e, portanto, são [volcels]() e incels não existem. Por isso, uma boa definição incluiria que incels são adultos que são repetidamente *romanticamente* rejeitados por membros *do sexo pelo qual são atraídos*.
+
+[Gatekeeping]() e brigas sobre quem conta como incel de fato são comuns em fórums incel. [Uglycels]() reclamam que [tímidos amorosos]() e [standardcels]() simplesmente não querem tentar o suficiente. Em um esforço para escluir standardcels, alguns fórums incel rejeitam incels que não tentaram sériamente e repetidamente namorar. Ao fazer isso, entretanto, eles inadvertidamente marginalizam os non-standard mentalcels. Isso é fonte de muito conflito na [incelosfera](). A solução para este longo conflito seria uma definição de incel que rejeite [standardcels]() mas inclua como incels os non-standard [mentalcels](). Isso já foi formalizado antes mas não foi adotado por nenhum grande fórum, talvez por conta do esforço necessário para forçar uma definição tão comolicada.
+
+A briga sobre incluir ou não [tímidos amorosos]() em [fórums incel]() se sustenta na definição de involuntário, e em se involuntário significa "sem escolha" ou "contra a vontade". Porém a palavra involuntário pode, em diferentes contextos, ter qualquer um dos dois significados, e os dois são diferentes. Segundo a definição do estudo de Donelly, incelidade não é o mesmo que [permavirginidade]() ou [truecelidade](), isto é, alguém que apenas está em uma seca pode se encontrar nesta situação involuntariamente e, portanto, conta como incel.
 
 ## Demografia dos incels
 [Em construção]
