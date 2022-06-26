@@ -9,7 +9,7 @@
                 <ul class="main-list">
 
                     {{ range sort $item "weight"}}
-                    {{- $hashttp := strings.HasPrefix .Destination "http" -}}
+                    {{- $hashttp := strings.HasPrefix .url "http" -}}
                     <li><a href="{{ .url }}" {{ with .params.class }}class="{{ . }}" {{ end }}{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}}>{{ .pre | safeHTML }}{{
                             .name }}</a></li>
                     {{ end }}
