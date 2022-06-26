@@ -24,7 +24,7 @@ panels:
         content: |
             {{< figure src="/images/Incel_Pride_Flag_dark.png" width="300" height="185" caption="A bandeira incel." title="bandeira incel" >}}
 
-            Pouco se sabe sobre os efeitos adversos da incelidade porque essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum oitro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
+            Pouco se sabe sobre os **[efeitos adversos da incelidade](/w/efeitos-adversos-da-incelidade)** porque essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum oitro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
 
     important_articles:
         title: Teoria
