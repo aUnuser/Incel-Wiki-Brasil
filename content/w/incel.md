@@ -4,7 +4,7 @@ categories: [Estética, Artigos Classe-A]
 original_article:
    title: Incel
    link: https://incels.wiki/w/Incel
-description: null
+description: 
 ---
 
 **Incel** é a contração de **celibatário involuntário** ou **celibato involuntário**, um [termo sociológico]() para uma circunstância de vida [adversa]().[^1][^2][^3][^4][^5] A condição de ser um incel também é chamada de **incelidade**. Esta condição de ser um *incel* é um tipo de [não-sexualidade](). "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "[malecel]()"); para celibatárias involuntárias mulheres o termo [femcel]() é usado.
