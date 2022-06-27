@@ -327,8 +327,11 @@ body {
         }
     }
 
-    #content {
+    #actual-content {
         line-height: 1.5rem;
+    }
+
+     #content {
         ol {
             display: block;
             list-style-type: decimal;
