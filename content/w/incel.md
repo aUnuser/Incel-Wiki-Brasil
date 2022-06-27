@@ -87,7 +87,16 @@ Incelismo é qualquer tipo de ativismo que procura resolver o incelismo numa esc
 * Auxílio para homens emigrarem de regiões com população de homens e mulheres desigual.
 
 ## Chadsplanation
-[Em construção]
+[Normies](), [chads](), [beckies]() e [stacies]() costumam dizer que a culpa de incels não conseguirem namorar é deles mesmos. Geralmemte ao dizer isso também dão "[conselhos]()" de auto-ajuda, como por exemplo:
+* Dizem que aparência não importa ao mesmo tempo em que olham o quão feios incels são, assumindo que não tomam banho ou não cortam o cabelo.
+* Dizem para os incels serem eles mesmos ao mesmo tempo em que dizem para ter um hobby mesmo que não goste de nada.
+* Dizem que [pick up artists]() são farsantes, mas também falam que incrls não têm habilidades sociais suficientes.
+* Dizem que intimidade sexual não é importante enquanto consomem músicas e filmes sobre o quanto a intimidade sexual é uma das coisas mais importantes do mundo, e ficam chateados quando entram em uma seca de algumas semanas.
+* Dizem para incels deixarem de ser "virjões" mas também os dizem que "não precisam de sexo."
+* Dizem aos incels que intimidade sexual não é uma commodity ou uma recompensa de um jogo, mas acham que homens virgens são "perdedores" e frequentemente falam de intimidade como algo que incels não "merecem".
+* Insistem que a liberdade sexual é um mecanismo para selecionar [homens "bons e respeitadores"](), enquanto na verdade seleciona "bad boys" como [OJ Simpson]() e [Jeremy Meeks](). Também dizem que certos incels merecem sofrer o que sofrem por conta de suas opiniões políticas.
+
+Na realidade, já que a incelidade é horrível para a maioria dos auto-descritos incels, a maior parte deles já gastou grandes quantidades de tempo, dinheiro e capital social tentando obter sucesso sexual. Simples mudanças de atitude quase nunca são o suficiente para ajudar homens feios a conseguirem parceiras sexuais. Coisas comumente tentadas incluem melhora de higiene pessoal, exercícios rigorosos, tratamentos de pele, conselhos de namoro, cortes de cabelo diferentes, estratégias agressivas e não-agressivas de paquera, ganho de status e até cirurgias. Infelizmente, como é evidenciado pelo termo "incel", essas tentativas são tão insuficientes que chegam a ser depressivamente fúteis.
 
 ## Incels na história
 [Em construção]
