@@ -298,8 +298,7 @@ body {
         #content {
             background-color: #ffffff;
             border-top: 1px solid transparent;
-            line-height: 1.65rem;
-
+            
             .panels {
                 margin-bottom: -.5rem;
 
@@ -329,6 +328,7 @@ body {
     }
 
     #content {
+        line-height: 1.65rem;
         ol {
             display: block;
             list-style-type: decimal;
