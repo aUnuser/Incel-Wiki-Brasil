@@ -108,26 +108,19 @@ Muitas figuras proeminentes ao longo da história provavelmente foram incels. Al
 [Em construção]
 
 ## Referências
-[^1]:
-[^2]:
-[^3]:
-[^4]:
-[^5]:
-[^6]:
-[^7]:
-[^8]:
-[^9]:
-[^10]:
-[^11]:
-[^12]:
-[^13]:
-[^14]:
-[^15]:
-[^16]:
-[^17]:
-[^18]:
-[^19]:
-[^20]:
-[^21]:
-[^21]:
-
+[^1]: Donnelly, Denise; Burgess, Elisabeth; Anderson, Sally; Davis, Regina; Dillard, Joy (2001). "Involuntary Celibacy: A life course analysis". The Journal of Sex Research. 38 (2): 159–169. doi:10.1080/00224490109552083
+[^2]: Shehan, Constance L., ed (February 29, 2016). "Celibacy". The Wiley Blackwell Encyclopedia of Family Studies. 1. John Wiley & Sons. p. 238. ISBN 9780470658451
+[^3]: Carpenter, Laura M. (2010). "Gendered Sexuality Over the Life Course: A Conceptual Framework". Sociological Perspectives. University of California Press. 53 (2): 155–178. doi:10.1525/sop.2010.53.2.155. JSTOR 10.1525/sop.2010.53.2.155
+[^4]: Harvey, John H.; Wenzel, Amy; Sprecher, Susan, eds. (2004). The Handbook of Sexuality in Close Relationships. Mahwah, New Jersey: Taylor & Francis. p. 900. ISBN 9781135624699. Retrieved 2015-12-30.
+[^5]: Strong, Bryan; Cohen, Theodore (2013). The Marriage and Family Experience: Intimate Relationships in a Changing Society. Belmont, California: Cengage Learning. p. 50. ISBN 1133597467. Retrieved 2015-12-30.
+[^6]: [](https://dictionary.cambridge.org/us/dictionary/english/incel)
+[^7]: [](https://web.archive.org/web/20170503151557/https://www.nytimes.com/1992/08/04/news/04iht-sex_.html)
+[^8]: [](https://www.etymonline.com/word/celibacy)
+[^9]: [](https://www.vandale.nl/wvdd-incel)
+[^10]: [](http://www.cdc.gov/nchs/data/nhsr/nhsr036.pdf)
+[^11]: [](http://www.telegraph.co.uk/news/worldnews/asia/japan/11662500/Rise-of-Japans-middle-aged-virgins-a-quarter-of-over-30s-have-never-had-sex.html)
+[^12]: [](https://www.reddit.com/r/askanincel/comments/dn62od/political_leanings/?sort=new)
+[^13]: [](http://web.archive.org/web/20170622044005/https://abcnews.go.com/Health/Sex/story?id=3932047)
+[^14]: [](https://www.vice.com/en_ca/article/78bmza/the-cost-of-losing-your-virginity-late)
+[^15]: [](https://incels.wiki/w/Scientific_Blackpill#Sex_is_the_most_pleasurable.2C_joyous.2C_and_meaningful_human_experience)
+[^16]: [](https://incels.wiki/w/Scientific_Blackpill#Women_are_more_attracted_to_men_who_are_already_in_relationships_than_single_men)
