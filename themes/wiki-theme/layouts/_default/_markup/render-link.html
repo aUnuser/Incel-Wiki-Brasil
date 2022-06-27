@@ -4,7 +4,7 @@
     {{- if not .Text -}}
     {{- .Destination | safeURL -}}
     {{- else -}}
-    {{- . | safeHTML -}}
+    {{- .Text | safeHTML -}}
     {{- end -}}
     {{- if $hashttp -}}
     <i class="icon-xs external-link"></i>
