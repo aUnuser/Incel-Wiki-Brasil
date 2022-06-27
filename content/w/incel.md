@@ -90,6 +90,7 @@ Incelismo é qualquer tipo de ativismo que procura resolver o incelismo numa esc
 [Normies](), [chads](), [beckies]() e [stacies]() costumam dizer que a culpa de incels não conseguirem namorar é deles mesmos. Geralmemte ao dizer isso também dão "[conselhos]()" de auto-ajuda, como por exemplo:
 * Dizem que aparência não importa ao mesmo tempo em que olham o quão feios incels são, assumindo que não tomam banho ou não cortam o cabelo.
 * Dizem para os incels serem eles mesmos ao mesmo tempo em que dizem para ter um hobby mesmo que não goste de nada.
+
 * Dizem que [pick up artists]() são farsantes, mas também falam que incrls não têm habilidades sociais suficientes.
 * Dizem que intimidade sexual não é importante enquanto consomem músicas e filmes sobre o quanto a intimidade sexual é uma das coisas mais importantes do mundo, e ficam chateados quando entram em uma seca de algumas semanas.
 * Dizem para incels deixarem de ser "virjões" mas também os dizem que "não precisam de sexo."
