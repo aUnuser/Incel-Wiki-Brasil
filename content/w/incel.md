@@ -66,7 +66,7 @@ A prostituição pode ajudar a mitigar os [efeitos colaterais da incelidade](/w/
 **A maioria dos incels quer apenas companhia genuína**
 
 ## Incel vs. tímido amoroso
-Ser [tímido amoroso]() significa ter medo de entrar ou de tentar entrar em [relacionamentos]() românticos ou sexuais. É possível ser [tímido amoroso]() e incel, e muitos são. Por exemplo, é comum que incels se tornem [tímidos amorosos]() após passar por um grande número de rejeições. A timidez amorosa pode às vezes persistir mesmo após um incel conseguir ficar mais sexualmente atraente. Apesar disso, a timidez amorosa por si só não é normalmente considerada razão suficiente para causar incelidade se não acompanhada por outros fatores.
+Ser [tímido amoroso]() significa ter medo de entrar ou de tentar entrar em [relacionamentos]() românticos ou sexuais. É possível ser [tímido amoroso]() e incel, e muitos são. Por exemplo, é comum que incels se tornem [tímidos amorosos]() após passarem por um grande número de rejeições. A timidez amorosa pode às vezes persistir mesmo após um incel conseguir ficar mais sexualmente atraente. Apesar disso, a timidez amorosa por si só não é normalmente considerada razão suficiente para causar incelidade se não acompanhada por outros fatores.
 
 ## Incelosfera
 [Em construção]
