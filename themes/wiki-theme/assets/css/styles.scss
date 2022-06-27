@@ -11,6 +11,7 @@ body {
 
     .fig-wrapper {
         margin: auto;
+        max-width: 90%;
 
         .fig {
             max-width: 100%;
@@ -202,6 +203,7 @@ body {
     }
 
     .footnotes {
+        max-width: 100%;
         hr {
             display: none;
         }
