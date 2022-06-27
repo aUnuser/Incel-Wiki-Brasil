@@ -59,7 +59,6 @@ A vida incel é atormentada por [tentativas intermináveis]() de [aceitar]() a f
 Quando precionados, [alguns]() membros do público geral negam aos incels que sexo é de forma alguma uma necessidade, embora a maioria do público considere o sexo a experiência de vida regular mais prazerosa, alegre e significativa que eles têm.[^15] Mulheres acham homens que não fazem sexo menos atraentes, tanto como amigos quanto como parceiros românticos.[^16] Incels são geralmente completamente cientes de que nunca possuir um par afeta muito negativamente a sua auto-estima.
 
 ## Não pode um incel visitar uma prostituta?
-
 Assim como para o público geral, incels não podem pagar por visitas frequentes à prostitutas, e ver uma prostituta acarreta em vários riscos à saúde. E mais importante, frequentar [prostitutas]() não conta como uma relação romântica e nem mesmo social, mas apenas como uma relação comercial onde não existe afeto mútuo sem dinheiro. [Escortcels]() costumam caracterizar a prostituição como uma experiência sexual incompleta, já que falta a validação sexual, um componente chave da maioria dos relacionamentos. Também falta a experiência elevadora de auto-estima de ser escolhido como um parceiro.
 
 A prostituição pode ajudar a mitigar os [efeitos colaterais da incelidade](/w/efeitos-adversos-da-incelidade) mas nunca permitirá que incels tenham a experiência romântica de relações sexuais reais.
@@ -67,7 +66,7 @@ A prostituição pode ajudar a mitigar os [efeitos colaterais da incelidade](/w/
 **A maioria dos incels quer apenas companhia genuína**
 
 ## Incel vs. tímido amoroso
-[Em construção]
+Ser [tímido amoroso]() significa ter medo de entrar ou de tentar entrar em [relacionamentos]() românticos ou sexuais. É possível ser [tímido amoroso]() e incel, e muitos são. Por exemplo, é comum que incels se tornem [tímidos amorosos]() após passar por um grande número de rejeições. A timidez amorosa pode às vezes persistir mesmo após um incel conseguir ficar mais sexualmente atraente. Apesar disso, a timidez amorosa por si só não é normalmente considerada razão suficiente para causar incelidade se não acompanhada por outros fatores.
 
 ## Incelosfera
 [Em construção]
