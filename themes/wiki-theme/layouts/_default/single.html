@@ -4,5 +4,7 @@
       Artigo original:&nbsp;<a href="{{ .link }}"  target="_blank" rel="noopener noreferrer">{{ .title }}</a>
     </div>
   {{ end }}
-  {{ .Content }}
+  <div id="actual-content">
+      {{ .Content }}
+  </div>
 {{ end }}
