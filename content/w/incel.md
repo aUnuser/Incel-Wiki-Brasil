@@ -64,7 +64,7 @@ Assim como para o público geral, incels não podem pagar por visitas frequentes
 A prostituição pode ajudar a mitigar os [efeitos colaterais da incelidade](/w/efeitos-adversos-da-incelidade) mas nunca permitirá que incels tenham a experiência romântica de relações sexuais reais.
 
 **A maioria dos incels quer apenas companhia genuína**
-{{< figure src="/images/Oneitis.gif" width="400" height="181" caption="A bandeira incel." title="a banceira incel" classes="desktop-right" >}}
+{{< figure src="/images/Oneitis.gif" width="400" height="181" caption="" title="oneitis" classes="" >}}
 ## Incel vs. tímido amoroso
 Ser [tímido amoroso]() significa ter medo de entrar ou de tentar entrar em [relacionamentos]() românticos ou sexuais. É possível ser [tímido amoroso]() e incel, e muitos são. Por exemplo, é comum que incels se tornem [tímidos amorosos]() após passarem por um grande número de rejeições. A timidez amorosa pode às vezes persistir mesmo após um incel conseguir ficar mais sexualmente atraente. Apesar disso, a timidez amorosa por si só não é normalmente considerada razão suficiente para causar incelidade se não acompanhada por outros fatores.
 
