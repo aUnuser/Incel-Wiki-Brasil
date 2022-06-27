@@ -105,7 +105,11 @@ Já que incelidade é uma circunstância de vida e não apenas uma subcultura mo
 Muitas figuras proeminentes ao longo da história provavelmente foram incels. Alguns foram: [Beethoven](), [Nietzsche](), [Van Gogh](), [Henri de Toulouse-Lautrec](), [Otto Weininger]() (suspeito), o [anão deformado]() amigo do profeta Maomé e vários outros.
 
 ## Tipos especiais de celibato
-[Em construção]
+	
+
+| Origem & [raça]() | Religião  | Doenças e mental | [Aparência]() | [Sexo]() | Trabalho | Misc. |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Arabcel]() • [Beancel]() • [Blackcel]() • [Currycel]() • [Ethnicel]() • [Francel]() • [Hapacel]() • [Italiancel]() • [Persocel]() • [Redcel]() • [Ricecel]() • [Turkcel]() • [Whitecel]() | [Christocel]() • [Muslimcel]() | [Mentalcel]() • [Autistcel]() • [Spergcel]() • [Disabledcel]() • [Emcel]() • [Manchildcel]() • [Medcel]() • [PSSDcel]() • [Stuttercel]() | [Acnecel]() • [Baldcel]() • [Chincel]() • [Cutecel]() • [Dickcel]() • [Eyecel]() • [Fatcel]() • [Framecel]() • [Haircel]() • [Heightcel]() • [Nosecel]() • [Ramuscel]() • [Thincel]() • [Uglycel]() • [Wristcel]() • [Earcel]() | [Mancel]() • [Femcel-lite]() • [Femcel]() • [Truefemcel]() • [Lesbocel]() • [Queercel]() • [Rainbowcel]() • [Transcel]() • [Intercel]() • [Kinkcel]() | [NEETcel]() • [Poorcel]() • [STEMcel]() • [Workcel]() |  |
 
 ## Sinônimos de incel
 [Em construção]
