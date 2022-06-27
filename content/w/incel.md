@@ -76,7 +76,15 @@ Frequentadores da incelosfera não representam a incelidade como um todos, já q
 [Clique para uma lista completa de fórums incel ativos]().
 
 ## Incelismo
-[Em construção]
+Incelismo é qualquer tipo de ativismo que procura resolver o incelismo numa escala societal, e um incelista é aquele que advoga pelos incels. Algumas de suas bandeiras são:
+* Maior gasto público em recursos de saúde mental, com ajuda especial para doentes mentais tentando namorar.
+* Casamentos ou namoros arranjados.
+* Conscientização a respeito do [efeito halo]() e dos privilégios de quem é sexualmente atraente.
+* Redistribuição de recursos dos bonitos para os feios ao lado da redistribuição dos ricos para os pobres.
+* Financiamento público para cirurgias plásticas, uma prática com óbvias externalidades positivas.
+* Encorajar homens para que tenham requisitos minimos mais altos para mulheres, e desencorajar promiscuidade.
+* Combate à prática da poliginia.
+* Auxílio para homens emigrarem de regiões com população de homens e mulheres desigual.
 
 ## Chadsplanation
 [Em construção]
