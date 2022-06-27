@@ -62,6 +62,8 @@ Quando precionados, [alguns]() membros do público geral negam aos incels que se
 
 Assim como para o público geral, incels não podem pagar por visitas frequentes à prostitutas, e ver uma prostituta acarreta em vários riscos à saúde. E mais importante, frequentar [prostitutas]() não conta como uma relação romântica e nem mesmo social, mas apenas como uma relação comercial onde não existe afeto mútuo sem dinheiro. [Escortcels]() costumam caracterizar a prostituição como uma experiência sexual incompleta, já que falta a validação sexual, um componente chave da maioria dos relacionamentos. Também falta a experiência elevadora de auto-estima de ser escolhido como um parceiro. A prostituição pode ajudar a mitigar os [efeitos colaterais da incelidade](/w/efeitos-adversos-da-incelidade) mas nunca permitirá que incels tenham a experiência romântica de relações sexuais reais.
 
+**A maioria dos incels quer apenas companhia genuína**
+
 ## Incel vs. tímido amoroso
 [Em construção]
 
