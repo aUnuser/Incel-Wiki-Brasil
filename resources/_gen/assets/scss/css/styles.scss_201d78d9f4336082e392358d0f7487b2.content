@@ -375,7 +375,7 @@ body {
       body main .outer-header {
         font-family: linux libertine, georgia, times, serif;
         margin-bottom: .6875rem;
-        margin-top: .6875rem; }
+        margin-top: 0; }
       body main .mobile-single-top-bar {
         border-top: 1px solid #eaecf0;
         border-bottom: 1px solid #c8ccd1;

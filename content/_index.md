@@ -5,7 +5,7 @@ panels:
     oqueincel:
         title: O que é incel?
         weight: 1
-        isfullwidth: true
+        isfullwidth: false
         border_color: "#cef2e0"
         background_color: "#f5fffa"
         title_border_color: "#a3bfb1"
@@ -25,13 +25,13 @@ panels:
             {{< figure src="/images/Einstein-Mileva.jpg" width="300" height="246" caption="A importância de uma esposa" title="importância de uma esposa" >}}
 
             Pouco se sabe sobre os **[efeitos adversos da incelidade](/w/efeitos-adversos-da-incelidade)**, já que essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
-    important_articles:
+    teoria:
         title: Teoria
         weight: 3
-        border_color: "#cedff2"
-        background_color: "#f5faff"
-        title_border_color: "#a3b0bf"
-        title_background_color: "#cedff2"
+        border_color: "#e2e2e2"
+        background_color: "#ffffff"
+        title_border_color: "#ddd"
+        title_background_color: "#eee"
         content: |
             * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
             * [Hipergamia]() 
@@ -50,5 +50,26 @@ panels:
             * [Pills]()
             * [Estética]()
             * [Lista de Teorias]()
+    midiaeliteratura:
+        title: Mídia e Literatura
+        weight: 4
+        isfullwidth: false
+        border_color: "#ddcef2"
+        background_color: "#faf5ff"
+        title_border_color: "#afa3bf"
+        title_background_color: "#ddcef2"
+        content: |
+            * [Poemas]()
+            * [Quadrinhos]()
+            * [Jogos com tema incel]()
+            * [Músicas com tema incel]()
+            * [Documentários]()
+            * [Livros]()
+            * [Filmes]()
+            * [Imprensa]()
+            * [Séries de TV]()
+            * [Academia]()
+            * [Dissertações]()
+            * [Biografias]()
 ---
 
