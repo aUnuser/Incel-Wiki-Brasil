@@ -26,25 +26,16 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./public"
+          arguments: --assume-extension
+        continue-on-error: true
+      
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GH_PAGES }}
           publish_dir: ./public
-        
-      - name: Test HTML
-        # https://github.com/wjdp/htmltest-action/
-        # Don't fail the build on broken links
-        continue-on-error: true
-        uses: wjdp/htmltest-action@master
-        with:
-          config: .htmltest.yml
-
-      - name: Archive htmltest results
-        uses: actions/upload-artifact@v2
-        # Note: Set ACTIONS_RUNTIME_TOKEN env variable to test with nektos/act
-        with:
-          name: htmltest-report
-          path: tmp/.htmltest/htmltest.log
-          retention-days: 7 # Default is 90 days
