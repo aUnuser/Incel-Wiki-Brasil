@@ -13,25 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     if (window.innerWidth < 1200) {
-        for (var i = 0; i < single_content_headers.length; i++) {
-            single_content_headers[i].nextElementSibling.classList.toggle("hidden");
-            single_content_headers[i].addEventListener("click", onClick);
-        }
+        toggleList(single_content_headers, true);
     }
 
     const mediaQuery = '(max-width: 1199px)';
     const mediaQueryList = window.matchMedia(mediaQuery);
     mediaQueryList.addEventListener("change", event => {
         if (event.matches) {
-            for (var i = 0; i < single_content_headers.length; i++) {
-                single_content_headers[i].nextElementSibling.classList.toggle("hidden");
-                single_content_headers[i].addEventListener("click", onClick);
-            }
+            toggleList(single_content_headers, true);
         } else {
-            for (var i = 0; i < single_content_headers.length; i++) {
-                single_content_headers[i].nextElementSibling.classList.toggle("hidden");
-                single_content_headers[i].removeEventListener("click", onClick);
-            }
+            toggleList(single_content_headers, false);
         }
     });
 
@@ -40,6 +31,28 @@ document.addEventListener("DOMContentLoaded", function () {
         degrees += 180;
         var section = this.nextElementSibling;
         section.classList.toggle("hidden");
+
+        if (this.id === "referências") {
+            var referencias = document.getElementsByClassName("footnote-ref");
+            for (var i = 0; i < referencias.length; i++) {
+                if(section.classList.contains("hidden")) {
+                    referencias[i].setAttribute("href", "#referencias");
+                } else {
+                    referencias[i].setAttribute("href", "#fn:" + referencias[i].innerText);
+                }
+            }
+        }
+    }
+
+    function toggleList(listofelements, isadd) {
+        for (var i = 0; i < listofelements.length; i++) {
+            listofelements[i].nextElementSibling.classList.toggle("hidden");
+            if(isadd){
+                listofelements[i].addEventListener("click", onClick);
+            } else {
+                listofelements[i].removeEventListener("click", onClick);
+            }
+        }
     }
 
 });

@@ -148,9 +148,9 @@ body {
     display: none; }
   body .footnotes p {
     margin: 0; }
-  body a[href^="#fn:"]:before {
+  body .footnote-ref:before {
     content: '['; }
-  body a[href^="#fn:"]:after {
+  body .footnote-ref:after {
     content: ']'; }
   body blockquote {
     border-left: 4px solid #eaecf0;
