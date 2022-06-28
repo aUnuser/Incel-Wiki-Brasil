@@ -7,7 +7,7 @@ desktop_sidebar:
         * [Página aleatória](/)
         * [Incel Wiki original](https://incels.wiki/w/Main_Page)
         * [Sobre a wiki](/sobre)
-        * [Disclaimer](/disclaimer)
+        * [Aviso](/aviso)
   menu_2:
     title: História e FAQ
     weight: 2
@@ -53,6 +53,6 @@ footer:
   - name: Sobre a wiki
     url: /sobre/
     weight: 1
-  - name: Disclaimer
-    url: /disclaimer/
+  - name: Aviso
+    url: /aviso/
     weight: 2
