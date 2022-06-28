@@ -30,7 +30,6 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./public"
-          arguments: --assume-extension
         continue-on-error: true
       
       - name: Deploy
