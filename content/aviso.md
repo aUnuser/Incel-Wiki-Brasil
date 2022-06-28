@@ -1,5 +1,5 @@
 ---
-title: "Incel Wiki Brasil: Disclaimer"
+title: "Incel Wiki Brasil: Aviso"
 date: 2022-06-18 15:43:28 -0300 -03
 description:
 ---
@@ -10,9 +10,7 @@ Assim, quaisquer edições feitaf são exclusivamente de responsabilidade do usu
 Nenhum anúncio ou programa de mineração de criptomoedas funciona neste site.
 
 ## Regras
-* Não adicione conteúdo que viole a lei. Não faça apologia à violência e nem a nenhuma outra atividade ilegal.
-* Não crie uma página ou escreva sobre alguém menor de 18.
-* Não crie uma página sobre você mesmo.
-* Não faça edições maliciosas contra incels.
-* A wiki é descritiva e não prescritiva.
+As mesmas regras da [Incel Wiki](https://incels.wiki/w/Main_Page) se aplicam, com as devidas adaptações para a lei brasileira.
+Adicionalmente:
 * Não crie conteúdo que já não esteja na [Incel Wiki](https://incels.wiki/w/Main_Page) original.
+* Não use apenas tradutores automáticos. Se usar algum, faça o polimento da fluência e verifique se o sentido do texto original foi mantido.
