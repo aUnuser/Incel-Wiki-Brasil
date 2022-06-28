@@ -37,5 +37,6 @@ jobs:
         with:
           directory: ./public
           enforce_https: false
+          check_favicon: false
           internal_domains: |
             incelwikibrasil.github.io
