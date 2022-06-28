@@ -7,6 +7,7 @@ desktop_sidebar:
         * [Página aleatória](/)
         * [Incel Wiki original](https://incels.wiki/w/Main_Page)
         * [Sobre a wiki](/sobre)
+        * [Disclaimer](/disclaimer)
   menu_2:
     title: História e FAQ
     weight: 2
@@ -19,9 +20,10 @@ desktop_sidebar:
     title: Páginas Importantes
     weight: 3
     content: |
-      * [Blackpill iientífica]()
+      * [Lista de Teorias]()
+      * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
       * [Blackpill]()
-      * [PSL]()
+
 mobile_sidebar:
   menu_1:
     item_1:

@@ -5,7 +5,4 @@
     
     {{ $styles := resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "style.styles.scss" . | resources.ToCSS | resources.Fingerprint "sha512" }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-    
-    {{ $customcss := resources.Get "/css/custom.scss" |  resources.ToCSS | resources.Fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $customcss.Permalink }}" integrity="{{ $customcss.Data.Integrity }}">
 </head>

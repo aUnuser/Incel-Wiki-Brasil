@@ -8,6 +8,7 @@ body {
     background-color: #ffffff;
     color: #202122;
     margin: 0;
+    word-wrap: break-word;
 
     .fig-wrapper {
         margin: auto;
@@ -19,7 +20,9 @@ body {
         }
 
         .fig-caption {
-            font-size: .8em;
+            padding: 0 3px;
+            font-size: 90%;
+            line-height: 1rem;
         }
     }
 
@@ -203,11 +206,14 @@ body {
     }
 
     .footnotes {
-        max-width: 100%;
         hr {
             display: none;
         }
+        p {
+            margin: 0;
+        }
     }
+
     a[href^="#fn:"]:before {
         content: '['
     }
@@ -216,8 +222,15 @@ body {
         content: ']'
     }
 
+    blockquote {
+        border-left: 4px solid #eaecf0;
+        padding: 8px 15px;
+        p {
+            margin: 0;
+        }
+    }
+
     table {
-        display: block;
         overflow-x: auto;
         background-color: #f8f9fa;
         color: #202122;
@@ -301,7 +314,7 @@ body {
         #content {
             background-color: #ffffff;
             border-top: 1px solid transparent;
-            
+
             .panels {
                 margin-bottom: -.5rem;
 
@@ -317,6 +330,12 @@ body {
                     }
 
                     .panel-content {
+                        .fig-wrapper {
+                            margin-top: -.25rem;
+                            margin-bottom: .25rem;
+                            background-color: transparent;
+                            border: none;
+                        }
                         &>p:last-child {
                             margin-bottom: 0;
                         }
@@ -334,7 +353,7 @@ body {
         line-height: 1.5rem;
     }
 
-     #content {
+    #content {
         ol {
             display: block;
             list-style-type: decimal;
@@ -809,6 +828,17 @@ body {
         font-family: sans-serif;
         background-color: #f6f6f6;
         overflow-y: scroll;
+
+        .fig-wrapper {
+            border: 1px solid #c8ccd1;
+            padding: 3px;
+            background-color: #f8f9fa;
+
+            .fig {
+                background-color: #fff;
+                border: 1px solid #c8ccd1;
+            }
+        }
 
         .desktop-right {
             float: right;

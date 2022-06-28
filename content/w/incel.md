@@ -1,6 +1,6 @@
 +++
 title = "Incel"
-categories = [ "Estética", "Artigos Classe-A" ]
+categorias = [ "Estética", "Artigos Classe-A" ]
 description = ""
 
 [original_article]

@@ -5,14 +5,18 @@ body {
   line-height: 1.4;
   background-color: #ffffff;
   color: #202122;
-  margin: 0; }
+  margin: 0;
+  word-wrap: break-word; }
   body .fig-wrapper {
-    margin: auto; }
+    margin: auto;
+    max-width: 90%; }
     body .fig-wrapper .fig {
       max-width: 100%;
       height: auto; }
     body .fig-wrapper .fig-caption {
-      font-size: .8em; }
+      padding: 0 3px;
+      font-size: 90%;
+      line-height: 1rem; }
   body noscript {
     text-align: center; }
   body a {
@@ -142,10 +146,17 @@ body {
     background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg"); }
   body .footnotes hr {
     display: none; }
+  body .footnotes p {
+    margin: 0; }
   body a[href^="#fn:"]:before {
     content: '['; }
   body a[href^="#fn:"]:after {
     content: ']'; }
+  body blockquote {
+    border-left: 4px solid #eaecf0;
+    padding: 8px 15px; }
+    body blockquote p {
+      margin: 0; }
   body table {
     overflow-x: auto;
     background-color: #f8f9fa;
@@ -207,10 +218,17 @@ body {
           padding: 0.2em 0.4em;
           font-weight: bold;
           font-size: 120%; }
+        body #home-main #content .panels .panel .panel-content .fig-wrapper {
+          margin-top: -.25rem;
+          margin-bottom: .25rem;
+          background-color: transparent;
+          border: none; }
         body #home-main #content .panels .panel .panel-content > p:last-child {
           margin-bottom: 0; }
         body #home-main #content .panels .panel .panel-content ul {
           padding-left: 2rem; }
+  body #actual-content {
+    line-height: 1.5rem; }
   body #content ol {
     display: block;
     list-style-type: decimal;
@@ -356,7 +374,8 @@ body {
       margin-bottom: 2rem; }
       body main .outer-header {
         font-family: linux libertine, georgia, times, serif;
-        margin-bottom: .6875rem; }
+        margin-bottom: .6875rem;
+        margin-top: .6875rem; }
       body main .mobile-single-top-bar {
         border-top: 1px solid #eaecf0;
         border-bottom: 1px solid #c8ccd1;
@@ -388,7 +407,7 @@ body {
           body main .mobile-single-top-bar > ul > li:last-child {
             margin-right: -.5rem; }
       body main #content p {
-        margin: .5rem 0 .5rem; }
+        margin: 0 0 .5rem; }
       body main #content #toc {
         padding: 0.2em 0.5em;
         margin: .5em 0;
@@ -505,6 +524,13 @@ body {
     font-family: sans-serif;
     background-color: #f6f6f6;
     overflow-y: scroll; }
+    body .fig-wrapper {
+      border: 1px solid #c8ccd1;
+      padding: 3px;
+      background-color: #f8f9fa; }
+      body .fig-wrapper .fig {
+        background-color: #fff;
+        border: 1px solid #c8ccd1; }
     body .desktop-right {
       float: right;
       clear: both;

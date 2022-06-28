@@ -14,7 +14,7 @@
         {{- with .Site.Data.menus.footer -}}
         <div class="footer-menu">
             {{- range $index, $item := . -}}
-            <a href="{{ $item.URL }}" title="{{ $item.title }}">{{- if gt $index 0 -}}{{- end -}}{{ $item.name | markdownify }}</a>
+            <a href="{{ $item.url }}">{{- if gt $index 0 -}}{{- end -}}{{ $item.name | markdownify }}</a>
             {{- end -}}
         </div>
         {{- end -}}
