@@ -39,9 +39,10 @@ Outros benefícios do sexo:
 * **Sono:** Sexo promove um sono melhor.[^31]
 
 ## Benefícios do casamento
-[Em construção]
 
-### Evidências dos lockdowns da COVID-19
+Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2,4).[^32] Participantes não cadados tiveram risco 42% maior de desenvolver demência (n = 800.000, Reino Unido).[^33] Casamento é associado com uma melhor saúde mental.[^34] Indivíduos em relacionamentos tiveram menos problemas de saúde mental e tiveram menos chance de ter obesidade e sobrepeso (n = 1.621).[^35] No Reino Unido
+
+Being married more than doubled (2.4) the odds of a speedy recovery.[32] Unmarried subjects were at a 42% higher risk of developing dementia (N = 800,000, UK).[33] Marriage is associated with enhanced mental health.[34] Individuals in committed relationships experienced fewer mental (not physical) health problems and were less likely to be overweight/obese (N = 1,621).[35] In the UK, being married was the second most important factor in British men's happiness. Single men are the least happy, less than divorcees and even widows.[36] There is a significant relationship between singlehood, somatic symptoms, anxiety and insomnia, severe depression, and romantic loneliness. Voluntary singles experience a lower level of romantic loneliness than involuntary singles.[37] Less than 5% of singles preferred singlehood over being in a relationship, suggesting singlehood is an unpleasant state and that most are involuntarily single.[38] A 2013 study out of Finland found that singles are twice as likely to die from an “acute coronary syndrome event,” such as a heart attack, and other heart-related issues.[39] One study found singles are more than twice as likely to die from heart disease.[40] This may be explained by warm partner contact decreasing cardiovascular stress,[41] and daily physical touch from a romantic partner enhances well-being, particularly for those with attachment anxiety.[42][43] Further, certainty about having a romantic partner reducing physical pain and stress.[44]### Evidências dos lockdowns da COVID-19
 [Em construção]
 
 ## Benefícios do pertencimento
