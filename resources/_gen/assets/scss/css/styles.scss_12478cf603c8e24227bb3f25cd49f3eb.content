@@ -540,6 +540,8 @@ body {
       margin-left: 1.4rem; }
     body a:hover {
       text-decoration: underline; }
+    body #actual-content {
+      line-height: 1.6; }
     body header {
       background-color: #fbfbfb;
       background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
