@@ -32,11 +32,3 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGES }}
           publish_dir: ./public
-      
-      - uses: anishathalye/proof-html@v1
-        with:
-          directory: ./public
-          enforce_https: false
-          check_favicon: false
-          internal_domains: |
-            incelwikibrasil.github.io

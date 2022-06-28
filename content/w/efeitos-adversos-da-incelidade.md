@@ -42,11 +42,15 @@ Outros benefícios do sexo:
 
 Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2,4).[^32] Participantes não casados tiveram risco 42% maior de desenvolver demência (n = 800.000, Reino Unido).[^33] Casamento é associado com uma melhor saúde mental.[^34] Indivíduos em relacionamentos tiveram menos problemas de saúde mental e tiveram menos chance de ter obesidade e sobrepeso (n = 1.621).[^35] No Reino Unido, ser casado era o segundo fator mais importante para a felicidade dos homens. Homens solteiros são os menos felizes, menos do que divorciados e menos até do que viúvas.[^36] Existe uma relação significante entre ser solteiro, sintomas somáticos, ansiedade e insônia, depressão severa e solidão. Solteiros voluntários têm um nível menor de solidão romântica do que solteiros involuntários.[^37] Menos de 5% dos solteiros preferiram continuar solteiros ao invés de estar em um relacionamento, sugerindo que estar solteiro é uma situação desagradável e que a maioria dos solteiros é solteiro involuntariamente.[^38] Um estudo de 2013 na Finlândia descobriu que solteiros têm risco duas vezes maior de morrer de "evento relacionado à síndrome coronária aguda", como infarto e outros problemas.[^39][^40] Talvez o contato caloroso de uma parceira reduza o estresse cardiovascular,[^41] e o toque de uma parceira romântica melhore o bem-estar, particularmente para os que sofrem de ansiedade de separação.[^42][^43] E mais, a certeza de estar em um relacionamento reduz a dor física e o estresse.[^44]
 
+Um estudo descobriu que ter muitos parceiros sexuais não está muito relacionado à saúde.[^45] Beleza física também não.[^46] Talvez seja uma evidência de que estes problemas são causado pela frustração sexual, e não o contrário. De várias doenças, depressão é a mais relacionada à feiura física, com 20% das pessoas feias e 11% das bonitas sofrendo depressão,[^47] provavelmente por conta da exclusão social de que sofrem.
+
+Apenas 4% da população acima de 40 é feliz não tendo filhos (15% dos que tem mais de 40 e não têm filhos).[^48] Entretanto outro estudo não encontoru relação entre falta de filhos e baixos níveis de felicidade.[^49] Veja também a página sobre [tradcon]() para mais discussões neste assunto.
+
 ### Evidências dos lockdowns da COVID-19
-[Em construção]
+Em um estudo, pontuações de ansiedade e depressão foram significativamente mais baixas em indivíduos sexualmente ativos durante os lockdowns da [COVID-19]().[^50] Outro estudo descobriu que durante a pandemia o status de relacionamento não teve muito impacto no bem-estar emocional, embora incels tenham em média se sentido pior do que indivíduos em relacionamentos.[^51] Outro também descobriu que os lockdowns não tiveram impacto particularmente negativo nos sintomas de depressão e ansiedade e em comportamentos potencialmente preocupantes.[^52] Isso sugere que as medidas de contenção não foram severas o suficiente para causar mudanças significantes no comportamento das pessoas.
 
 ## Benefícios do pertencimento
-[Em construção]
+O quanto a frustração e a exclusão sexuais causam exclusão social não é conhecido atualmente, mas algumas pesquisas sugerem que status sexual é bastante importante para os homens. Por exemplo, mulheres preferem homens que fazem sexo,[^53] e o sexo pode aumentar o *peer-status* (o quão bem se é visto pelos demais) dos homens.[^54][^55] Já sobre os efeitos adversos da exclusão social os resultados são mais claros. Um estudo de [Roy Baumeister]() concluiu que o pertencimento é uma necessidade fundamental.[^56] Baumeister constatou que a qualidade é mais importante do que a qualidade. "Ter duas ao invés de nenhuma amizade estreita pode fazer um mundo de diferença para a saúde e a felicidade de uma pessoa; ter oito ao invés de seis pode ter pouca diferença. E também, mais fr duas horas de socialização por dia parece ter retornos decrescentes.[^57] Indivíduos com disposição melancólica que tenham amigos próximos foram indistinguíveis dos grupos de controle que não tinham tal disposição,[^58] sugerindo que socializar ou o status social entre amigos protegem contra a depressão.
 
 ## Estigma social
 [Em construção]
@@ -131,3 +135,17 @@ Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2
 [^42]:
 [^43]:
 [^44]:
+[^45]:
+[^46]:
+[^47]:
+[^48]:
+[^49]:
+[^50]:
+[^51]:
+[^52]:
+[^53]:
+[^54]:
+[^55]:
+[^56]:
+[^57]:
+[^58]:
