@@ -128,3 +128,6 @@ Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2
 [^39]:
 [^40]:
 [^41]:
+[^42]:
+[^43]:
+[^44]:
