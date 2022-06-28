@@ -10,4 +10,12 @@
     <i class="icon-xs external-link"></i>
     {{- end -}}
 </a>
+
+{{- if not .Destination -}}
+{{- .Page.Scratch.Add "missing-links" (slice .Text ) -}}
+{{ if .Page.IsHome }}
+{{- .Page.Scratch.Add "missing-links" (slice "teste" ) -}}
+{{ end }}
+{{- end -}}
+
 {{- /* This comment removes trailing newlines. */ -}}
