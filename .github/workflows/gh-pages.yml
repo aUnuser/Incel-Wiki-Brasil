@@ -25,12 +25,6 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
-      - name: Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./public"
-        continue-on-error: true
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -38,3 +32,10 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGES }}
           publish_dir: ./public
+      
+      - uses: anishathalye/proof-html@v1
+        with:
+          directory: ./public
+          enforce_https: false
+          internal_domains: |
+            incelwikibrasil.github.io
