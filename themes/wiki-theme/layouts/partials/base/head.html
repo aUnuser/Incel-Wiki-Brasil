@@ -3,6 +3,6 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     
-    {{ $styles := resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "style.styles.scss" . | resources.ToCSS | resources.Fingerprint "sha512" }}
+    {{ $styles := resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS | resources.Fingerprint "sha512" }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 </head>
