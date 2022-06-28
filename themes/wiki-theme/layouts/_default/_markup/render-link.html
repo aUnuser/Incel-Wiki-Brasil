@@ -12,7 +12,7 @@
 </a>
 
 {{- if not .Destination -}}
-{{- .Page.Scratch.Add "missing-links" (slice .Text) -}}
+{{- .Page.Scratch.SetInMap "missing-links" .Page.Permalink .Text  -}}
 {{- end -}}
 
 {{- /* This comment removes trailing newlines. */ -}}

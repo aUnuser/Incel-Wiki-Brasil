@@ -1,8 +1,8 @@
-{{ $missing := slice }}
+{{ $missing := dict }}
 {{ range .Site.Pages }}
     {{ $fromscratch := .Scratch.Get "missing-links" }}
     {{ if $fromscratch }}
-    {{ $missing = union $missing $fromscratch }}
+    {{ $missing = merge $missing $fromscratch }}
     {{ end }}
 {{ end }}
-{{ uniq $missing | jsonify }}
+{{ $missing | jsonify }}
