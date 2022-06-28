@@ -2,7 +2,7 @@
 {{ range .Site.Pages }}
     {{ $fromscratch := .Scratch.Get "missing-links" }}
     {{ if $fromscratch }}
-    {{ $missing = $missing | append $fromscratch }}
+    {{ $missing = union $missing $fromscratch }}
     {{ end }}
 {{ end }}
 {{ uniq $missing | jsonify }}
