@@ -12,9 +12,9 @@
 </a>
 
 {{- if not .Destination -}}
-{{- .Page.Scratch.Add "missing-links" (slice .Text ) -}}
+{{- .Page.Scratch.Add "missing-links" .Text  -}}
 {{ if .Page.IsHome }}
-{{- .Page.Scratch.Add "missing-links" (slice "teste" ) -}}
+{{- .Page.Scratch.Add "missing-links" "teste" -}}
 {{ end }}
 {{- end -}}
 
