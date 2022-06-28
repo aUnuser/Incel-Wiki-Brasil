@@ -176,6 +176,9 @@ body {
   body ul,
   body ol {
     margin: 0; }
+    body ul p,
+    body ol p {
+      margin: 0; }
   body .empty-link {
     color: #ba0000; }
   body #single-main h2 {
