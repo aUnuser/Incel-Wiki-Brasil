@@ -10,9 +10,4 @@
     <i class="icon-xs external-link"></i>
     {{- end -}}
 </a>
-
-{{- if not .Destination -}}
-{{- .Page.Scratch.SetInMap "missing-links" .Page.Permalink .Text  -}}
-{{- end -}}
-
 {{- /* This comment removes trailing newlines. */ -}}
