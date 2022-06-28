@@ -40,9 +40,9 @@ Outros benefícios do sexo:
 
 ## Benefícios do casamento
 
-Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2,4).[^32] Participantes não cadados tiveram risco 42% maior de desenvolver demência (n = 800.000, Reino Unido).[^33] Casamento é associado com uma melhor saúde mental.[^34] Indivíduos em relacionamentos tiveram menos problemas de saúde mental e tiveram menos chance de ter obesidade e sobrepeso (n = 1.621).[^35] No Reino Unido, ser casado era o segundo fator mais importante para a felicidade dos homens. Homens solteiros são os menos felizes, menos do que divorciados e menos até do que viúvas.[^36] Existe uma relação significante entre ser solteiro, sintomas somáticos, ansiedade e insônia, depressão severa e solidão. Solteiros voluntários têm um nível menor de solidão romântica do que solteiros involuntários.[^37] Menos de 5% dos solteiros preferiram continuar solteiros ao invés de estar em um relacionamento, sugerindo que estar solteiro é uma situação desagradável e que a maioria dos solteiros é solteiro involuntariamente.[^38]
+Estar casado indicou uma recuperação da depressão mais de duas vezes maior (2,4).[^32] Participantes não cadados tiveram risco 42% maior de desenvolver demência (n = 800.000, Reino Unido).[^33] Casamento é associado com uma melhor saúde mental.[^34] Indivíduos em relacionamentos tiveram menos problemas de saúde mental e tiveram menos chance de ter obesidade e sobrepeso (n = 1.621).[^35] No Reino Unido, ser casado era o segundo fator mais importante para a felicidade dos homens. Homens solteiros são os menos felizes, menos do que divorciados e menos até do que viúvas.[^36] Existe uma relação significante entre ser solteiro, sintomas somáticos, ansiedade e insônia, depressão severa e solidão. Solteiros voluntários têm um nível menor de solidão romântica do que solteiros involuntários.[^37] Menos de 5% dos solteiros preferiram continuar solteiros ao invés de estar em um relacionamento, sugerindo que estar solteiro é uma situação desagradável e que a maioria dos solteiros é solteiro involuntariamente.[^38] Um estudo de 2013 na Finlândia descobriu que solteiros têm risco duas vezes maior de morrer de "evento relacionado à síndrome coronária aguda", como infarto e outros problemas.[^39][^40] Talvez o contato caloroso de uma parceira reduza o estresse cardiovascular,[^41] e o toque de uma parceira romântica melhore o bem-estar, particularmente para os que sofrem de separação.[^42][^43] E mais, a certeza de estar em um relacionamento reduz a dor física e o estresse.[^44]
 
-In the UK, being married was the second most important factor in British men's happiness. Single men are the least happy, less than divorcees and even widows.[36] There is a significant relationship between singlehood, somatic symptoms, anxiety and insomnia, severe depression, and romantic loneliness. Voluntary singles experience a lower level of romantic loneliness than involuntary singles.[37] Less than 5% of singles preferred singlehood over being in a relationship, suggesting singlehood is an unpleasant state and that most are involuntarily single.[38] A 2013 study out of Finland found that singles are twice as likely to die from an “acute coronary syndrome event,” such as a heart attack, and other heart-related issues.[39] One study found singles are more than twice as likely to die from heart disease.[40] This may be explained by warm partner contact decreasing cardiovascular stress,[41] and daily physical touch from a romantic partner enhances well-being, particularly for those with attachment anxiety.[42][43] Further, certainty about having a romantic partner reducing physical pain and stress.[44]### Evidências dos lockdowns da COVID-19
+### Evidências dos lockdowns da COVID-19
 [Em construção]
 
 ## Benefícios do pertencimento
@@ -118,3 +118,13 @@ In the UK, being married was the second most important factor in British men's h
 [^29]:
 [^30]:
 [^31]:
+[^32]:
+[^33]:
+[^34]:
+[^35]:
+[^36]:
+[^37]:
+[^38]:
+[^39]:
+[^40]:
+[^41]:
