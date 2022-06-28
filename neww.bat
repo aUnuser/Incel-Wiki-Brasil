@@ -1,1 +1,0 @@
-hugo new w/neww-%RANDOM%.md
