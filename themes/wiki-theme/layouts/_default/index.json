@@ -1,5 +1,8 @@
 {{ $missing := slice }}
 {{ range .Site.Pages }}
-    {{ $missing = $missing | append (.Scratch.Get "missing-links") }}
+    {{ $fromscratch := .Scratch.Get "missing-links" }}
+    {{ if $fromscratch }}
+    {{ $missing = $missing | append $fromscratch }}
+    {{ end }}
 {{ end }}
-{{ $missing | jsonify }}
+{{ uniq $missing | jsonify }}
