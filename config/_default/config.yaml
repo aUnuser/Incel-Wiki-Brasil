@@ -27,7 +27,6 @@ outputs:
   home: 
     - "HTML"
     - "RSS"
-    - "JSON"
 
 markup:
   goldmark:
