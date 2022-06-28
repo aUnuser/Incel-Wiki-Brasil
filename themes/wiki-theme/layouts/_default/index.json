@@ -2,4 +2,4 @@
 {{ range .Site.Pages }}
     {{ $missing = $missing | append (.Scratch.Get "missing-links") }}
 {{ end }}
-{[ $missing | jsonify ]}
+{{ $missing | jsonify }}
