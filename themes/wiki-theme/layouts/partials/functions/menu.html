@@ -1,4 +1,4 @@
-{{ $context := .context
+{{ $context := .context }}
 {{ $menu := index $context.Site.Data.menus .menuname }}
 {{- range sort $menu "weight" -}}
 <div class="menu-func">
