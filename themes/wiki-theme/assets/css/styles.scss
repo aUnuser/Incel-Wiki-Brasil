@@ -737,6 +737,9 @@ body {
                     font-size: 0.875em;
                     ul {
                         list-style-type: none;
+                        li {
+                            display: inline-block;
+                        }
                         li:not(:first-child):before {
                             content: " • ";
                         }
