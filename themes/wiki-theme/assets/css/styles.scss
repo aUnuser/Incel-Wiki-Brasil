@@ -735,9 +735,11 @@ body {
 
                 .menu-func {
                     font-size: 0.875em;
-
-                    li:not(:first-child):before {
-                        content: " • ";
+                    ul {
+                        list-style-type: none;
+                        li:not(:first-child):before {
+                            content: " • ";
+                        }
                     }
                 }
             }
