@@ -1,23 +1,20 @@
 desktop_sidebar:
-  menu_1:
-      weight: 1
-      content: |
-        * [Página inicial](/)
-        * [Categorias](/categorias/)
-        * [Página aleatória](/ "random")
-        * [Incel Wiki original](https://incels.wiki/w/Main_Page)
-        * [Sobre a wiki](/sobre)
-        * [Aviso](/aviso)
-  menu_2:
-    title: História e FAQ
+  - weight: 1
+    content: |
+      * [Página inicial](/)
+      * [Categorias](/categorias/)
+      * [Página aleatória](/ "random")
+      * [Incel Wiki original](https://incels.wiki/w/Main_Page)
+      * [Sobre a wiki](/sobre)
+      * [Aviso](/aviso)
+  - title: História e FAQ
     weight: 2
     content: |
       * [FAQ da incelidade]()
       * [Linha do tempo da incelosfera]()
       * [Glossário incel]()
       * [Demografia da incelidade]()
-  menu_3:
-    title: Páginas Importantes
+  - title: Páginas Importantes
     weight: 3
     content: |
       * [Lista de Teorias]()
@@ -25,31 +22,16 @@ desktop_sidebar:
       * [Incel](/w/incel)
 
 mobile_sidebar:
-  menu_1:
-    item_1:
-      name: Início
-      pre: <i class="icon home"></i>
-      url: /
-      weight: 1
-    item_2:
-      name: Página aleatória
-      pre: <i class="icon random"></i>
-      params:
-        class: random
-      url: /
-      weight: 2
-  menu_2:
-    item_1:
-      name: Incel Wiki original
-      pre: <i class="icon incel-logo"></i>
-      url: https://incels.wiki/w/Special:ActiveUsers
-      weight: 1
-    item_2:
-      name: Autores originais
-      pre: <i class="icon edit"></i>
-      url: https://incels.wiki/w/Special:ActiveUsers
-      weight: 2
+  - weight: 1
+    content: |
+      * [<i class="icon home"></i>Início](/)
+      * [<i class="icon random"></i>Página aleatória](/)
+  - weight: 2
+    content: |
+      * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
+      * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
 footer:
-  - content: |
+  - weight: 1
+    content: |
       * [Sobre a wiki](/sobre)
       * [Avisos](/avisos)
