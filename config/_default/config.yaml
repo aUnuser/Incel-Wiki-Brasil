@@ -16,7 +16,6 @@ params:
 taxonomies:
   categoria: categorias
 
-###############################
 enableGitInfo: true
 
 frontmatter:
