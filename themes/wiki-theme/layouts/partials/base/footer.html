@@ -11,11 +11,9 @@
     {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
-        {{- with .Site.Data.menus.footer -}}
+        {{- with sort .Site.Data.menus.footer "weight" -}}
         <div class="footer-menu">
-            {{- range $index, $item := . -}}
-            <a href="{{ $item.url }}">{{- if gt $index 0 -}}{{- end -}}{{ $item.name | markdownify }}</a>
-            {{- end -}}
+            {{ $.Page.RenderString .content }}
         </div>
         {{- end -}}
     </div>
