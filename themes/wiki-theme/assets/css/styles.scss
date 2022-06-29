@@ -441,8 +441,8 @@ body {
                             }
 
                             .menu-func {
-
-                                li:not(last-child) {
+                                div:not(last-child) {
+                                li {
                                     background-color: #fff;
                                     position: relative;
                                     border-top: 1px solid #eaecf0;
@@ -482,6 +482,7 @@ body {
                                         }
 
                                     }
+                                }
                                 }
                             }
 
