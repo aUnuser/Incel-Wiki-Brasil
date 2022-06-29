@@ -440,8 +440,7 @@ body {
                                 list-style: none;
                             }
 
-                            .menu-func {
-                                div:not(last-child) {
+                            .menu-func:not(last-child) {
                                 li {
                                     background-color: #fff;
                                     position: relative;
@@ -482,7 +481,6 @@ body {
                                         }
 
                                     }
-                                }
                                 }
                             }
 
