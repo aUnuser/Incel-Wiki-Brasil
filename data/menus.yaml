@@ -50,9 +50,6 @@ mobile_sidebar:
       url: https://incels.wiki/w/Special:ActiveUsers
       weight: 2
 footer:
-  - name: Sobre a wiki
-    url: /sobre/
-    weight: 1
-  - name: Aviso
-    url: /aviso/
-    weight: 2
+  - content: |
+      * [Sobre a wiki](/sobre)
+      * [Avisos](/avisos)
