@@ -205,6 +205,11 @@ body {
         background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg");
     }
 
+    .discord-logo::before {
+        background: url("/images/discord_icon.png") no-repeat;
+        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+    }
+
     .footnotes {
         hr {
             display: none;
@@ -275,10 +280,12 @@ body {
             font-weight: 500;
         }
 
-        #referencias, #ligacoes-externas {
+        #referencias,
+        #ligacoes-externas {
             .external-link {
                 display: inline-block;
             }
+
             .external-link:before {
                 content: "\00a0";
             }
@@ -1044,10 +1051,13 @@ body {
                 }
             }
 
-            .menu-func {
+            div:not(:first-child) {
                 margin: 0 0.6rem 0 0.7rem;
                 padding: 0.25rem 0;
                 font-size: .75em;
+            }
+
+            .menu-func {
 
                 h3 {
                     background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
@@ -1185,11 +1195,13 @@ body {
 
                         li {
                             display: inline-block;
+
                             a {
                                 padding: 0.5rem 0;
                                 font-size: .75rem;
                             }
                         }
+
                         li:not(:last-child) {
                             a {
                                 margin-right: 1rem;

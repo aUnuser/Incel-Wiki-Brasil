@@ -144,6 +144,9 @@ body {
     background-image: linear-gradient(transparent, transparent), url("/images/edit.svg"); }
   body .incel-logo::before {
     background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg"); }
+  body .discord-logo::before {
+    background: url("/images/discord_icon.png") no-repeat;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1)); }
   body .footnotes hr {
     display: none; }
   body .footnotes p {
@@ -184,9 +187,11 @@ body {
   body #single-main h2 {
     font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
     font-weight: 500; }
-  body #single-main #referencias .external-link, body #single-main #ligacoes-externas .external-link {
+  body #single-main #referencias .external-link,
+  body #single-main #ligacoes-externas .external-link {
     display: inline-block; }
-  body #single-main #referencias .external-link:before, body #single-main #ligacoes-externas .external-link:before {
+  body #single-main #referencias .external-link:before,
+  body #single-main #ligacoes-externas .external-link:before {
     content: "\00a0"; }
   body .original-article {
     color: #54595d;
@@ -682,30 +687,30 @@ body {
           text-decoration: none;
           background-image: url("/logo.png");
           background-size: 150px 150px; }
-      body .desktop-side .menu-func {
+      body .desktop-side div:not(:first-child) {
         margin: 0 0.6rem 0 0.7rem;
         padding: 0.25rem 0;
         font-size: .75em; }
-        body .desktop-side .menu-func h3 {
-          background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
-          background-position: center bottom;
-          background-repeat: no-repeat;
-          background-size: 100% 1px;
-          color: #54595d;
-          margin: 0.5em 0 0 0.66666667em;
-          border: 0;
+      body .desktop-side .menu-func h3 {
+        background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 1px;
+        color: #54595d;
+        margin: 0.5em 0 0 0.66666667em;
+        border: 0;
+        padding: 0.25em 0;
+        font-weight: 400; }
+      body .desktop-side .menu-func ul {
+        list-style: none none;
+        margin-left: 0.5em;
+        padding-top: 0.3em;
+        padding-left: 0; }
+        body .desktop-side .menu-func ul li {
+          margin: 0;
           padding: 0.25em 0;
-          font-weight: 400; }
-        body .desktop-side .menu-func ul {
-          list-style: none none;
-          margin-left: 0.5em;
-          padding-top: 0.3em;
-          padding-left: 0; }
-          body .desktop-side .menu-func ul li {
-            margin: 0;
-            padding: 0.25em 0;
-            line-height: 1.125em;
-            word-wrap: break-word; }
+          line-height: 1.125em;
+          word-wrap: break-word; }
     body #single-main h2 .chevron-h2 {
       display: none; }
     body #home-main .panels {

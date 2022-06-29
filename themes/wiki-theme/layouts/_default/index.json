@@ -1,6 +1,0 @@
-{{- range .Site.Pages -}}
-{{- $find := findRE `\[\w+?\]\(\/w+?\)` .RawContent -}}
-{{- if $find -}}
-{{ $find -}}*************************
-{{- end -}}
-{{- end -}}

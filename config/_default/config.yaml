@@ -12,23 +12,18 @@ params:
   repo_link: https://github.com/incelwikibrasil/incelwikibrasil.github.io
   remove_from_random: # Random will use all .Site.RegularPages
     url: 
+  discord_invite: teste
+
+enableGitInfo: true
 
 taxonomies:
   categoria: categorias
-
-enableGitInfo: true
 
 frontmatter:
   date:
   - :default
   lastmod:
   - :fileModTime
-
-outputs:
-  home: 
-  - HTML
-  - RSS
-  - JSON
 
 markup:
   goldmark:
@@ -37,8 +32,6 @@ markup:
       unsafe: true
     parser:
       autoHeadingIDType: github-ascii
-      attribute:
-        block: true
   tableOfContents:
     endLevel: 3
     ordered: true
