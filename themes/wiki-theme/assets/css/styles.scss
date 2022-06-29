@@ -742,7 +742,7 @@ body {
                             display: inline-block;
                         }
                         li:not(:first-child):before {
-                            content: "&nbsp;•&nbsp";
+                            content: " • ";
                         }
                     }
                 }
