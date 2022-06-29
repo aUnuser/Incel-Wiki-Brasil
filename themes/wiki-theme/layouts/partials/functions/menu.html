@@ -1,12 +1,9 @@
-{{ range $i, $j := .Site.Data.menus }}
-    {{ if eq $i .menuname }}
-        {{ range sort $j "weight" }}
-            <div class="menu-func">
-                {{ with $j.title }}<h3>{{ . }}</h3>{{ end }}
-                <div>
-                    {{ $.Page.RenderString $j.content }}
-                </div>
-            </div>
-        {{ end }}
-    {{ end }}
+{{ $menu := index .Site.Data.menus .menuname }}
+{{ range sort $menu "weight" }}
+<div class="menu-func">
+{{ with .title }}<h3>{{ . }}</h3>{{ end }}
+<div>
+{{ $.Page.RenderString .content }}
+</div>
+</div>
 {{ end }}
