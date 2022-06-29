@@ -3,7 +3,7 @@ desktop_sidebar:
     content: |
       * [Página inicial](/)
       * [Categorias](/categorias/)
-      * [Página aleatória](/ "random")
+      * [Página aleatória](/ "random-link")
       * [Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [Sobre a wiki](/sobre)
       * [Aviso](/aviso)
@@ -25,7 +25,7 @@ mobile_sidebar:
   - weight: 1
     content: |
       * [<i class="icon home"></i>Início](/)
-      * [<i class="icon random"></i>Página aleatória](/)
+      * [<i class="icon random"></i>Página aleatória](/ "random-link")
   - weight: 2
     content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)

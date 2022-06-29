@@ -17,6 +17,8 @@ taxonomies:
   categoria: categorias
 
 ###############################
+enableGitInfo: true
+
 frontmatter:
   date:
   - :default
@@ -25,8 +27,9 @@ frontmatter:
 
 outputs:
   home: 
-    - "HTML"
-    - "RSS"
+    - HTML
+    - RSS
+    - JSON
 
 markup:
   goldmark:

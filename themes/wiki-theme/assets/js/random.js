@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     recipe = recipe.filter(function(x) { return x !== null }); 
     var index = Math.floor(Math.random() * recipe.length);
-    var randomlink = document.getElementsByClassName("random");
+    var randomlink = document.getElementsByClassName("random-link");
     for(var i = 0; i < randomlink.length; i++) {
       randomlink[i].setAttribute("href", recipe[index]);
     }

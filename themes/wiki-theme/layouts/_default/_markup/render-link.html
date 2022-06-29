@@ -1,7 +1,7 @@
 {{- /* This comment removes trailing newlines. */ -}}
 {{- $hashttp := strings.HasPrefix .Destination "http" -}}
-{{- $id := (default .Text .Title) | plainify | anchorize -}}
-<a href="{{- .Destination | safeURL -}}" id="{{- $id -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{- if not .Destination -}}empty-link{{- end -}}">
+{{- $class := .Title | plainify | anchorize -}}
+<a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{- if not .Destination -}} empty-link{{- end -}}">
     {{- if not .Text -}}
     {{- .Destination | safeURL -}}
     {{- else -}}
@@ -11,4 +11,6 @@
     <i class="icon-xs external-link"></i>
     {{- end -}}
 </a>
+
+{{- .Page.Scratch.Set "a" (slice "content") -}}
 {{- /* This comment removes trailing newlines. */ -}}
