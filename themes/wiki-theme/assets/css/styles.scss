@@ -733,10 +733,10 @@ body {
                     font-weight: bold;
                 }
 
-                .footer-menu {
+                .menu-func {
                     font-size: 0.875em;
 
-                    a:not(:first-child):before {
+                    li:not(:first-child):before {
                         content: " • ";
                     }
                 }
