@@ -3,7 +3,6 @@
 {{- range sort $menu "weight" -}}
 <div class="menu-func">
 {{ with .title }}<h3>{{ . }}</h3>{{ end }}
-{{ .content }}
 {{ .context.Page.RenderString .content }}
 </div>
 {{- end -}}
