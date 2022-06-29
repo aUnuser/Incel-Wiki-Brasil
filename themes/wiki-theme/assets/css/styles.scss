@@ -742,7 +742,7 @@ body {
                             display: inline-block;
                         }
                         li:not(:first-child):before {
-                            content: " • ";
+                            content: "\00a0•\00a0";
                         }
                     }
                 }
