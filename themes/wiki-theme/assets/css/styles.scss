@@ -440,7 +440,7 @@ body {
                                 list-style: none;
                             }
 
-                            .menu-func:not(last-child) {
+                            .menu-func:not(:last-child) {
                                 li {
                                     background-color: #fff;
                                     position: relative;
@@ -484,7 +484,7 @@ body {
                                 }
                             }
 
-                            .menu-footer-list {
+                            .menu-func:last-child {
 
                                 li {
                                     background-color: transparent;
