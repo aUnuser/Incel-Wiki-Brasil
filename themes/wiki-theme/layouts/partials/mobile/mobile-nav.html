@@ -4,7 +4,7 @@
             <input type="checkbox" id="menu-input" role="button">
             <label class="icon hamb" id="hamb-label" for="menu-input"></label>
             <div id="menu-list">
-                {{ partial "functions/menu.html" (dict "menuname" "mobile_sidebar") }}
+                {{ partial "functions/menu.html" (dict "menuname" "mobile_sidebar" "context" .) }}
 
                 {{ partial "functions/menu.html" (dict "menuname" "footer") }}
             </div>
