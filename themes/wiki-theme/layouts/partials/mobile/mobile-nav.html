@@ -4,27 +4,9 @@
             <input type="checkbox" id="menu-input" role="button">
             <label class="icon hamb" id="hamb-label" for="menu-input"></label>
             <div id="menu-list">
-                {{ with .Site.Data.menus.mobile_sidebar }}
-                {{ range $menu, $item := . }}
-                <ul class="main-list">
+                {{ partial "functions/menu.html" (dict "menuname" "mobile_sidebar") }}
 
-                    {{ range sort $item "weight"}}
-                    {{- $hashttp := strings.HasPrefix .url "http" -}}
-                    <li><a href="{{ .url }}" {{ with .params.class }}class="{{ . }}" {{ end }}{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}}>{{ .pre | safeHTML }}{{
-                            .name }}</a></li>
-                    {{ end }}
-
-                </ul>
-                {{ end }}
-                {{ end }}
-
-                {{ with .Site.Data.menus.footer }}
-                <ul class="menu-footer-list">
-                    {{ range . }}
-                    <li><a href="{{ .url }}">{{ .pre | safeHTML }}{{ .name }}</a></li>
-                    {{ end }}
-                </ul>
-                {{ end }}
+                {{ partial "functions/menu.html" (dict "menuname" "footer") }}
             </div>
             <label class="menu-mask" for="menu-input"></label>
         </div>
