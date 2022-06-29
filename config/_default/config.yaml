@@ -34,6 +34,7 @@ markup:
       hardWraps: true
       unsafe: true
     parser:
+      autoHeadingIDType: github-ascii
       attribute:
         block: true
   tableOfContents:
