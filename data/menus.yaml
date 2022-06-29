@@ -30,6 +30,7 @@ mobile_sidebar:
     content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
+
 footer:
   - weight: 1
     content: |
