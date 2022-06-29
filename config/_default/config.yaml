@@ -27,9 +27,9 @@ frontmatter:
 
 outputs:
   home: 
-    - HTML
-    - RSS
-    - JSON
+  - HTML
+  - RSS
+  - JSON
 
 markup:
   goldmark:
