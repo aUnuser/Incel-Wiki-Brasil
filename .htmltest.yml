@@ -1,4 +1,3 @@
 DirectoryPath: public
 
 IgnoreDirectoryMissingTrailingSlash: true
-TestFilesConcurrently: true
