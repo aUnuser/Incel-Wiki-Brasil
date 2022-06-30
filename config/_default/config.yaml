@@ -77,20 +77,4 @@ markup:
     ordered: true
     startLevel: 2
 
-module:
-  imports:
-    - path: "github.com/theNewDynamic/hugo-module-tnd-seo"
-    - path: "github.com/davidsneighbour/hugo-opensearch"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
-    - path: "github.com/davidsneighbour/github.com/davidsneighbour/hugo-pwa"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
-    - path: "github.com/davidsneighbour/hugo-robots"
-    - path: "github.com/davidsneighbour/github.com/davidsneighbour/hugo-security"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
-    - path: "github.com/davidsneighbour/hugo-sitemap"
+
