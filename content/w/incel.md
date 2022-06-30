@@ -3,7 +3,9 @@ title: Incel
 categorias:
   - Estética
   - Artigos Classe-A
-description: ""
+description: "Incel é a contração de celibatário involuntário ou celibato involuntário, um termo sociológico para uma circunstância de vida adversa. A condição de ser um incel também é chamada de incelidade. Essa condição de ser um incel é um tipo de não-sexualidade. \"Incel\" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de \"malecel\"); para celibatárias involuntárias mulheres o termo femcel é usado."
+images:
+  - "/images/Incel_Pride_Flag_dark.png"
 
 original_article:
   title: Incel
@@ -120,7 +122,7 @@ Muitas figuras proeminentes ao longo da história provavelmente foram incels. Al
 [^10]: [](http://www.cdc.gov/nchs/data/nhsr/nhsr036.pdf)
 [^11]: [](http://www.telegraph.co.uk/news/worldnews/asia/japan/11662500/Rise-of-Japans-middle-aged-virgins-a-quarter-of-over-30s-have-never-had-sex.html)
 [^12]: [](https://www.reddit.com/r/askanincel/comments/dn62od/political_leanings/?sort=new)
-[^13]: [](http://web.archive.org/web/20170622044005/https://abcnews.go.com/Health/Sex/story?id=3932047)
+[^13]: [](https://archive.is/s0geY)
 [^14]: [](https://www.vice.com/en_ca/article/78bmza/the-cost-of-losing-your-virginity-late)
 [^15]: [](https://incels.wiki/w/Scientific_Blackpill#Sex_is_the_most_pleasurable.2C_joyous.2C_and_meaningful_human_experience)
 [^16]: [](https://incels.wiki/w/Scientific_Blackpill#Women_are_more_attracted_to_men_who_are_already_in_relationships_than_single_men)
