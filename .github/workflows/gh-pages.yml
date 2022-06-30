@@ -26,8 +26,7 @@ jobs:
       - name: Hugo modules
         run: hugo mod init github.com/incelwikibrasil/incelwikibrasil.github.io
 
-      - name: Build
-        run: hugo --minify
+
 
       - name: Test HTML
         # https://github.com/wjdp/htmltest-action/
