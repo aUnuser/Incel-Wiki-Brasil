@@ -56,12 +56,7 @@ frontmatter:
   lastmod:
   - :fileModTime
 
-outputs:
-  home:
-  - HTML
-  - RSS
-  - OpenSearch
-  - manifest
+
 
 enableRobotsTXT: true
 
