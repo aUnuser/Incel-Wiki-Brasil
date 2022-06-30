@@ -10,14 +10,14 @@ desktop_sidebar:
   - title: História e FAQ
     weight: 2
     content: |
-      * [FAQ da incelidade]()
-      * [Linha do tempo da incelosfera]()
-      * [Glossário incel]()
-      * [Demografia da incelidade]()
+      * [FAQ da incelidade](/w/perguntas-frequentes-incelidade)
+      * [Linha do tempo da incelosfera](/w/linha-tempo-incelosfera)
+      * [Glossário incel](/w/glossario-incel)
+      * [Demografia da incelidade](/w/demografia-incelidade)
   - title: Páginas Importantes
     weight: 3
     content: |
-      * [Lista de Teorias]()
+      * [Lista de Teorias](/categorias/teorias)
       * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
       * [Incel](/w/incel)
 
