@@ -4,10 +4,6 @@ on: [push]
 
 jobs:
   build:
-    strategy:
-      matrix:
-        version: [0.56.3, 0.57.2]
-        image: [busybox, alpine]
 
     runs-on: ubuntu-latest
 
