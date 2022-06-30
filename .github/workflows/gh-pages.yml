@@ -23,6 +23,9 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      - name: Hugo modules
+        run: hugo mod init github.com/incelwikibrasil/incelwikibrasil.github.io
+
       - name: Build
         run: hugo --minify
 
