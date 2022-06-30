@@ -34,15 +34,15 @@ params:
       hookLink: # Link to the component's README file for warnings and errors.
     security:
       txt:
-        intro = "Information related to reporting security vulnerabilities of this site."
-        contact = "" # Required
-        expires = 365
-        encryption = ""
-        acknowledgements = ""
-        languages = "en"
-        canonical = ""
-        policy = ""
-        hiring = ""
+        intro: "Information related to reporting security vulnerabilities of this site."
+        contact: "" # Required
+        expires: 365
+        encryption: ""
+        acknowledgements: ""
+        languages: "en"
+        canonical: ""
+        policy: ""
+        hiring: ""
 
 
 enableGitInfo: true
