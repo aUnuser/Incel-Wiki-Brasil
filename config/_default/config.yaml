@@ -36,3 +36,7 @@ markup:
     endLevel: 3
     ordered: true
     startLevel: 2
+
+module:
+  imports:
+    - path: github.com/theNewDynamic/hugo-module-tnd-seo
