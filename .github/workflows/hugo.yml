@@ -17,4 +17,5 @@ jobs:
       uses: klakegg/actions-hugo@1.0.0
       with:
         image: ext-ubuntu
+        target: src
         command: mod init https://github.com/incelwikibrasil/incelwikibrasil.github.io
