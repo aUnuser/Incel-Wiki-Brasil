@@ -19,9 +19,7 @@
             <div class="article-count">
                 <a href="/w/">{{ $artcount }}</a>&nbsp;artigos em português
             </div>
-            <div class="como-contribuir">
-                <a href="/como-contribuir" class="empty-link">Como contribuir</a>
-            </div>
+            {{ partial "functions/menu.html" (dict "menuname" "main_panel" "context" .) }}
         </div>
         {{ else }}
         <h1 class="outer-header">{{ .Page.Title }}</h1>
