@@ -1,8 +1,15 @@
 {{- /* This comment removes trailing newlines. */ -}}
 {{- $hashttp := strings.HasPrefix .Destination "http" -}}
 {{- $isinternal := strings.HasPrefix .Destination "/" -}}
+{{- $ispage := false -}}
+{{- if $isinternal -}}
+    {{ with .Page.GetPage .Destination }}
+    {{- $ispage = true -}}
+    {{ end }}
+{{- end -}}
+
 {{- $class := .Title | plainify | anchorize -}}
-<a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{- if $isinternal -}}{{- if not (fileExists (printf "%s.md" .Destination)) -}} empty-link{{- end -}}{{- end -}}">
+<a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{- if or (and $isinternal (not $ispage)) (not .Destination) -}} empty-link{{- end -}}">
     {{- if not .Text -}}
     {{- .Destination | safeURL -}}
     {{- else -}}
