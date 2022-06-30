@@ -38,7 +38,7 @@ panels:
             * [QI](/w/qi)
             * [Pills](/w/pills)
             * [Estética](/w/estetica)
-            * [Lista de Teorias]()
+            * [Lista de Teorias](/categorias/teorias)
     featured:
         title: Artigo em Destaque
         weight: 3
