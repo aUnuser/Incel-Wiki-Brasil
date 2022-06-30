@@ -18,4 +18,4 @@ jobs:
       with:
         image: ext-ubuntu
         target: src
-        command: mod init https://github.com/incelwikibrasil/incelwikibrasil.github.io
+        command: mod init github.com/incelwikibrasil/incelwikibrasil.github.io
