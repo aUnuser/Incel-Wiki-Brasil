@@ -49,10 +49,12 @@ jobs:
           path: tmp/.htmltest/htmltest.log
           retention-days: 7 # Default is 90 days
       
-      - uses: actions/upload-artifact@v3
+      - uses: actions/download-artifact@v3
         with:
           name: htmltest-report
-          path: public/htmltest.log
+
+      - name: Display structure of downloaded files
+        run: ls -R
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
