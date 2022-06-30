@@ -2,8 +2,8 @@ baseURL: "https://incelwikibrasil.github.io/"
 title: Incel Wiki Brasil
 theme: wiki-theme
 
-languageCode: en
-defaultContentLanguage: en
+languageCode: pt
+defaultContentLanguage: pt
 timeZone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 params:
@@ -27,22 +27,14 @@ params:
 
   dnb:
     opensearch:
-      description: # Search description, MUST be shorter than 1024 characters and MUST NOT contain markup. Default is Search on {{ site.Title }}
+      description: Busque na Incel Wiki Brasil # Search description, MUST be shorter than 1024 characters and MUST NOT contain markup. Default is Search on {{ site.Title }}
       query_url: # Url to the search result page. Replace the location of the searchterm with {searchterms}. Default is search/?q={searchTerms}. This variable will be prefixed with the baseUrl
       search_form: # Url to the search form. Default is search/. This variable will be prefixed with the baseUrl and is used by Firefox to link to the page with the search form.
-      enable_autoupdate: # Enable auto update for the search update. Default is true. At this time, addons.mozilla.org (AMO) doesn't support automatic updating of OpenSearch plugins. If you want to put your search plugin on AMO, then set this parameter to false.
-      hookLink: # Link to the component's README file for warnings and errors.
+      enable_autoupdate: false # Enable auto update for the search update. Default is true. At this time, addons.mozilla.org (AMO) doesn't support automatic updating of OpenSearch plugins. If you want to put your search plugin on AMO, then set this parameter to false.
     security:
       txt:
-        intro: "Information related to reporting security vulnerabilities of this site."
         contact: "" # Required
-        expires: 365
-        encryption: ""
-        acknowledgements: ""
-        languages: "en"
-        canonical: ""
-        policy: ""
-        hiring: ""
+        languages: "pt"
 
 outputs:
   home:
@@ -50,6 +42,29 @@ outputs:
   - RSS
   - OpenSearch
   - manifest
+
+enableGitInfo: true
+
+taxonomies:
+  categoria: categorias
+
+frontmatter:
+  date:
+  - :default
+  lastmod:
+  - :fileModTime
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
+    parser:
+      autoHeadingIDType: github-ascii
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
 
 module:
   imports:
@@ -68,32 +83,9 @@ module:
       ignoreConfig: false
       ignoreImports: false
     - path: "github.com/davidsneighbour/hugo-sitemap"
-
-enableGitInfo: true
-
-taxonomies:
-  categoria: categorias
-
-frontmatter:
-  date:
-  - :default
-  lastmod:
-  - :fileModTime
-
-
+    - path: "github.com/davidsneighbour/hugo-debug"
+      disable: false
+      ignoreConfig: false
+      ignoreImports: false
 
 enableRobotsTXT: true
-
-markup:
-  goldmark:
-    renderer:
-      hardWraps: true
-      unsafe: true
-    parser:
-      autoHeadingIDType: github-ascii
-  tableOfContents:
-    endLevel: 3
-    ordered: true
-    startLevel: 2
-
-
