@@ -20,7 +20,6 @@ desktop_sidebar:
       * [Lista de Teorias](/categorias/teorias)
       * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
       * [Incel](/w/incel)
-
 mobile_sidebar:
   - weight: 1
     content: |
@@ -30,7 +29,6 @@ mobile_sidebar:
     content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
-
 footer:
   - weight: 1
     content: |
