@@ -24,7 +24,7 @@ Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado 
 ## Etimologia
 Celibato vem do latim *caelibatus*, "não casado". A partir dos anos 1950 o significado de celibato mudou para referir a um estado de [falta de sexo](/w/estado-de-falta-de-sexo), [voluntária ou não](/w/volcel), sem referência ao [estado marital](/w/casamento).[^8] O termo celibato involuntário provavelmente foi concebido de forma independente ao longo da história por vários autores, mas a menção escrita mais antiga vem do clérigo francês [Antoine Banier](/w/antoine-bainier), que o usou em 1739 em sua coletânea de fábulas da Grécia Antiga.
 
-[Henry Flynt](/w/henry-flint) relacionou o celibato involuntário masculino com a percepção de ser um [esquisito]() no seu livro de 1975 *[Blueprint for a Higher Civilization]()*.
+[Henry Flynt](/w/henry-flint) relacionou o celibato involuntário masculino com a percepção de ser um [esquisito](/w/esquisitice) no seu livro de 1975 *[Blueprint for a Higher Civilization]()*.
 
 A criadora do primeiro [fórum incel](), uma [feminista]() conhecida apenas por [Alana](), não cunhou a forma abreviada "incel", como tem sido comumente dito na mídia. Ela apenas fez uma tentativa de introduzir a contração "invcel" em 1997. Por ser pronunciado "invacel" o termo soa como "imbecil", e por isso ela depois adotou "incel" por sugestão de alguém da sua lista de emails. Essa noga abreviação também era de mais fácil pronúncia.
 
