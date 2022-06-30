@@ -42,13 +42,17 @@ jobs:
           # For consistency, use the same config file as for local builds
           config: .htmltest.yml
       - name: Archive htmltest results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         # Note: Set ACTIONS_RUNTIME_TOKEN env variable to test with nektos/act
         with:
           name: htmltest-report
           path: tmp/.htmltest/htmltest.log
           retention-days: 7 # Default is 90 days
-
+      
+      - uses: actions/upload-artifact@v3
+        with:
+          name: htmltest-report
+          path: public/htmltest.log
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
