@@ -12,7 +12,8 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -23,7 +24,8 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - uses: actions/cache@v3
+      - name: Cache modules
+        uses: actions/cache@v3
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -41,6 +43,7 @@ jobs:
         with:
           # For consistency, use the same config file as for local builds
           config: .htmltest.yml
+      
       - name: Archive htmltest results
         uses: actions/upload-artifact@v3
         # Note: Set ACTIONS_RUNTIME_TOKEN env variable to test with nektos/act
@@ -48,13 +51,6 @@ jobs:
           name: htmltest-report
           path: tmp/.htmltest/htmltest.log
           retention-days: 7 # Default is 90 days
-      
-      - name: Download artifact
-        uses: aochmann/actions-download-artifact@1.0.0
-        with:
-          name: htmltest-report
-          latest: true
-          path: public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
