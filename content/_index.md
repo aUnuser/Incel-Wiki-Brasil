@@ -23,21 +23,21 @@ panels:
         title_background_color: "#ddcef2"
         content: |
             * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
-            * [Hipergamia]() 
-            * [A Blackpill Científica]()
-            * [Casamento]()
-            * [Feminismo]()
-            * [Beleza]()
-            * [O Ralo Comportamental]()
-            * [Chad]()
-            * [A Tríade Negra]()
-            * [Puta]()
-            * [Atratividade física]()
-            * [Fisionimia]()
-            * [O Modelo de Seleção Sexual de Fisher]()
-            * [QI]()
-            * [Pills]()
-            * [Estética]()
+            * [Hipergamia](/w/hipergamia) 
+            * [A Blackpill Científica](/w/blackpill-cientifica)
+            * [Casamento](/w/casamento)
+            * [Feminismo](/w/feminismo)
+            * [Beleza](/w/beleza)
+            * [O Ralo Comportamental](/w/ralo-comportamental)
+            * [Chad](/w/chad)
+            * [A Tríade Negra](/w/triade-negra)
+            * [Puta](/w/puta)
+            * [Atratividade física](/w/atratividade-fisica)
+            * [Fisionimia](/w/fisionomia)
+            * [O Modelo de Seleção Sexual de Fisher](/w/modelo-selecao-sexual-fisher)
+            * [QI](/w/qi)
+            * [Pills](/w/pills)
+            * [Estética](/w/estetica)
             * [Lista de Teorias]()
     featured:
         title: Artigo em Destaque
@@ -49,6 +49,6 @@ panels:
         content: |
             {{< figure src="/images/Einstein-Mileva.jpg" width="300" height="246" caption="A importância de uma esposa" title="importância de uma esposa" >}}
 
-            Pouco se sabe sobre os **[efeitos adversos da incelidade](/w/efeitos-adversos-da-incelidade)**, já que essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam]() ou [casaram](). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
+            Pouco se sabe sobre os **[efeitos adversos da incelidade](/w/efeitos-adversos-da-incelidade)**, já que essa é uma área pouco estudada. A maior parte dos resultados demonstram apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/w/incel) que [ascenderam](/w/ascencao) ou [casaram](/w/casamento). ([Artigo completo...](/w/efeitos-adversos-da-incelidade))
 ---
 
