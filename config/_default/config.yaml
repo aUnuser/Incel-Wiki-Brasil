@@ -58,12 +58,12 @@ module:
       disable: false
       ignoreConfig: false
       ignoreImports: false
-    - path: "github.com/davidsneighbour/github.com/davidsneighbour/hugo-pwa"
+    - path: "github.com/davidsneighbour/hugo-pwa"
       disable: false
       ignoreConfig: false
       ignoreImports: false
     - path: "github.com/davidsneighbour/hugo-robots"
-    - path: "github.com/davidsneighbour/github.com/davidsneighbour/hugo-security"
+    - path: "github.com/davidsneighbour/hugo-security"
       disable: false
       ignoreConfig: false
       ignoreImports: false
