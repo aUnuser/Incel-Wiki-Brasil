@@ -14,6 +14,17 @@ params:
     url: 
   discord_invite: teste
 
+  tnd_seo:
+    # overrides .Site.Title
+    site_name: Incel Wiki Brasil
+    # Used for articles without images
+    default_image: "/images/default.jpg"
+    # if true will use the SEO data object to output an json+ld script tag.
+    jsonld: true
+    disable_title_tag: false
+    # if true module will handle follow/nofollow tags for pages depending on environment and Front Matter setting.
+    enable_follow: false
+
 enableGitInfo: true
 
 taxonomies:
@@ -39,7 +50,7 @@ markup:
 
 module:
   imports:
-    - path: github.com/theNewDynamic/hugo-module-tnd-seo
+    - path: "github.com/theNewDynamic/hugo-module-tnd-seo"
     - path: "github.com/davidsneighbour/hugo-opensearch"
       disable: false
       ignoreConfig: false
