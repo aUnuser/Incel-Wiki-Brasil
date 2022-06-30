@@ -25,6 +25,11 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Run htmltest
+        uses: wjdp/htmltest-action@master
+        with:
+            config: .htmltest.yml
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
