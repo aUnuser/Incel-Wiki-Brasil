@@ -41,7 +41,6 @@ outputs:
   home:
   - HTML
   - RSS
-  - OpenSearch
   - manifest
 
 enableGitInfo: true
@@ -70,10 +69,6 @@ markup:
 module:
   imports:
     - path: "github.com/theNewDynamic/hugo-module-tnd-seo"
-    - path: "github.com/davidsneighbour/hugo-opensearch"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
     - path: "github.com/davidsneighbour/hugo-pwa"
       disable: false
       ignoreConfig: false
