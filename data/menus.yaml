@@ -6,19 +6,19 @@ main_panel:
 desktop_sidebar:
   - weight: 1
     content: |
-      * [Página inicial](/)
-      * [Categorias](/categorias/)
+      * [Página principal](/)
       * [Página aleatória](/ "random-link")
       * [Incel Wiki original](https://incels.wiki/w/Main_Page)
+      * [Categorias](/categorias/)
       * [Sobre a wiki](/sobre)
       * [Aviso](/aviso)
   - title: História e FAQ
     weight: 2
     content: |
-      * [FAQ da incelidade](/w/perguntas-frequentes-incelidade)
-      * [Linha do tempo da incelosfera](/w/linha-tempo-incelosfera)
-      * [Glossário incel](/w/glossario-incel)
-      * [Demografia da incelidade](/w/demografia-incelidade)
+      * [FAQ da Incelidade](/w/perguntas-frequentes-incelidade)
+      * [Linha do Tempo da Incelosfera](/w/linha-tempo-incelosfera)
+      * [Glossário Incel](/w/glossario-incel)
+      * [Demografia da Incelidade](/w/demografia-incelidade)
   - title: Páginas Importantes
     weight: 3
     content: |
@@ -29,7 +29,7 @@ desktop_sidebar:
 mobile_sidebar:
   - weight: 1
     content: |
-      * [<i class="icon home"></i>Início](/)
+      * [<i class="icon home"></i>Página Principal](/)
       * [<i class="icon random"></i>Página aleatória](/ "random-link")
   - weight: 2
     content: |

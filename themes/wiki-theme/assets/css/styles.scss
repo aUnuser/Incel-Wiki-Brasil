@@ -12,11 +12,10 @@ body {
 
     .fig-wrapper {
         margin: auto;
-        max-width: 90%;
+        max-width: 300px;
 
-        .fig {
-            max-width: 100%;
-            height: auto;
+        .link {
+            font-size: 0;
         }
 
         .fig-caption {

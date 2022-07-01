@@ -1,2 +1,2 @@
-hugo server --noHTTPCache --ignoreCache
+hugo server
 pause
