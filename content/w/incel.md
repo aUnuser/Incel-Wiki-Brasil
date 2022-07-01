@@ -19,7 +19,7 @@ O termo "incel" frequentemente tem diferentes significados para diferentes pesso
 
 Em alguns países, como na [Holanda](/w/modelo-holandes-combate-incelidade), houveram esforços para reconhecer o [sexo](/w/copulacao) como uma necessidade básica.[^7]
 
-Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado a cometer seus crimes por comunidades onlines dedicadas à incelidade. Nem o [4chan](/w/4chan) e nem o [PUAhate](/w/psl#Puahate.com) são forums auto-entitulados incels, embora alguns de seus usuários possam ser incels. Altualmente os maiores forums incel da internet são: [incels.co](/w/incels-ponto-is), [youarenotalone.co](/w/yourenotalone-ponto-co), [love-shy.com](/w/love-shy-ponto-com), [Incelswithouthate](/w/R/incelswithouthate) e [Foreveralone](/w/R/foreverAlone).
+Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado a cometer seus crimes por comunidades onlines dedicadas à incelidade. Nem o [4chan](/w/4chan) e nem o [PUAhate](/w/psl#Puahate.com) são forums autointitulados incels, embora alguns de seus usuários possam ser incels. Altualmente os maiores forums incel da internet são: [incels.co](/w/incels-ponto-is), [youarenotalone.co](/w/yourenotalone-ponto-co), [love-shy.com](/w/love-shy-ponto-com), [Incelswithouthate](/w/R/incelswithouthate) e [Foreveralone](/w/R/foreverAlone).
 
 {{< toc >}}
 

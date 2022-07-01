@@ -1,5 +1,5 @@
 $icon-small: 1rem;
-$icon-xs: .7rem;
+$icon-xs: .6rem;
 
 body {
     margin: 0;
@@ -182,9 +182,8 @@ body {
     }
 
     .external-link {
-        display: none;
+        margin-left: .2rem;
     }
-
     .external-link:before {
         background-image: linear-gradient(transparent, transparent), url("/images/external-link.svg");
     }
@@ -278,17 +277,6 @@ body {
         h2 {
             font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
             font-weight: 500;
-        }
-
-        #referencias,
-        #ligacoes-externas {
-            .external-link {
-                display: inline-block;
-            }
-
-            .external-link:before {
-                content: "\00a0";
-            }
         }
     }
 
@@ -919,7 +907,7 @@ body {
                         line-height: 1.125em;
                         white-space: nowrap;
 
-                        a {
+                        a,span {
                             background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
                             background-repeat: no-repeat;
                             background-size: 1px 100%;
@@ -935,7 +923,6 @@ body {
                             padding-left: 8px;
                             padding-right: 8px;
                             font-size: 0.8125em;
-                            cursor: pointer;
                         }
                     }
                 }
@@ -949,7 +936,7 @@ body {
                     li:first-child {
                         background: #ffffff;
 
-                        a {
+                        span {
                             color: #202122;
                         }
                     }

@@ -1,27 +1,27 @@
 {{- /* This comment removes trailing newlines. */ -}}
+{{- $class := .Title | plainify | anchorize -}}
 {{- $hashttp := strings.HasPrefix .Destination "http" -}}
 {{- $isinternal := strings.HasPrefix .Destination "/" -}}
 {{- $ispage := false -}}
 {{- if $isinternal -}}
-    {{ with .Page.GetPage .Destination }}
-    {{- $ispage = true -}}
+    {{ with site.GetPage .Destination }}
+        {{- $ispage = true -}}
     {{ end }}
 {{- end -}}
 
-{{- $class := .Title | plainify | anchorize -}}
 <a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{- if or (and $isinternal (not $ispage)) (not .Destination) -}} empty-link{{- end -}}">
     {{- if not .Text -}}
-    {{- .Destination | safeURL -}}
+        {{- .Destination | safeURL -}}
     {{- else -}}
-    {{- .Text | safeHTML -}}
+        {{- .Text | safeHTML -}}
     {{- end -}}
     {{- if $hashttp -}}
-    <i class="icon-xs external-link"></i>
+        <i class="icon-xs external-link"></i>
     {{- end -}}
 </a>
 
 {{- if and $isinternal (not $ispage) -}}
-
+    
 {{- end -}}
 
 {{- /* This comment removes trailing newlines. */ -}}
