@@ -34,9 +34,6 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
-      - name: Minify Action
-        uses: anthonyftwang/minify-action@v1.0.1
       
       - name: Test HTML
         # https://github.com/wjdp/htmltest-action/
@@ -54,6 +51,12 @@ jobs:
           name: htmltest-report
           path: tmp/.htmltest/htmltest.log
           retention-days: 1 # Default is 90 days
+
+      - name: Brotli compress the html, css and js files
+        id: brotli
+        uses: charlesworth/compress-action@1.0
+        with:
+          target-directory: "public"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
