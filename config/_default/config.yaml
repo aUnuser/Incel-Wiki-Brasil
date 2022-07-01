@@ -41,7 +41,6 @@ outputs:
   home:
   - HTML
   - RSS
-  - JSON
   - OpenSearch
   - manifest
 

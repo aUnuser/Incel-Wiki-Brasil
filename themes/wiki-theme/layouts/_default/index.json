@@ -1,7 +1,0 @@
-{{- $.Scratch.Set "todo" slice -}}
-
-{{- range .Site.Pages -}}
-{{ with .Scratch }}
-{{ . }}
-{{ end }}
-{{- end -}}
