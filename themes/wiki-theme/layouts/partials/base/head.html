@@ -1,6 +1,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    {{ partial "favicon.html" . }}
+
     {{ if templates.Exists "partials/tnd-seo/tags.html" }}
       {{ partial "tnd-seo/tags.html" . }}
     {{ end }}

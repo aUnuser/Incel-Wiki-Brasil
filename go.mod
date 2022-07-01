@@ -3,9 +3,6 @@ module github.com/incelwikibrasil/incelwikibrasil.github.io
 go 1.17
 
 require (
-	github.com/davidsneighbour/hugo-debug v1.5.12 // indirect
-	github.com/davidsneighbour/hugo-opensearch v1.0.2 // indirect
-	github.com/davidsneighbour/hugo-pwa v1.0.0 // indirect
 	github.com/davidsneighbour/hugo-robots v1.1.1 // indirect
 	github.com/davidsneighbour/hugo-security v1.1.2 // indirect
 	github.com/davidsneighbour/hugo-sitemap v0.1.2 // indirect

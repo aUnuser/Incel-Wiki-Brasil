@@ -1,0 +1,22 @@
+{{ if .IsHome }}
+<div class="home-top-panel">
+    <div class="panel-inner-wrapper">
+        <span class="welcome">Bem vindo à</span>
+        <a href="/" class="home-title">{{ .Site.Title }}</a>{{ with .Site.Params.site_subtitle }},{{ end }}
+    </div>
+    {{ with .Site.Params.site_subtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
+    {{ $artcount := len (where .Site.RegularPages "Section" "==" "w") }}
+    <div class="article-count">
+        <a href="/w/">{{ $artcount }}</a>&nbsp;artigos em português
+    </div>
+    {{ partial "menu.html" (dict "menuname" "main_panel" "context" .) }}
+</div>
+{{ else }}
+<h1 class="outer-header">
+    {{- if eq .Page.Kind "term" -}}
+        {{- .Data.Singular | humanize -}}:&nbsp;
+    {{- end -}}
+    {{ .Page.Title }}
+</h1>
+{{- partial "mobile/mobile-single-top-bar.html" . -}}
+{{ end }}

@@ -1,9 +1,3 @@
-github.com/davidsneighbour/hugo-debug v1.5.12 h1:3cKDAq9fB6Sc5Tr9WvxzSSD05TqEcl3Jxa6FjpG+xVo=
-github.com/davidsneighbour/hugo-debug v1.5.12/go.mod h1:CmaePQn6TcdiP269YMmB0ShEZI47ySDpeWkBV8T2qcU=
-github.com/davidsneighbour/hugo-opensearch v1.0.2 h1:EJokFUo7roHdp2uHK84vjqEMZFiX4xFvtugzEBo81bM=
-github.com/davidsneighbour/hugo-opensearch v1.0.2/go.mod h1:1nekru22wosNIGNFJTnxA6FwM9xESe4MrjXGnpqLK7I=
-github.com/davidsneighbour/hugo-pwa v1.0.0 h1:BqXXOSNcxcV3pSrDsik3TY4BcqJmHNRWdr2M2twGHkE=
-github.com/davidsneighbour/hugo-pwa v1.0.0/go.mod h1:W3O4g46pYzCMmiqGnXT/7BVNDfDQ+FXqZoMu/xzaeVQ=
 github.com/davidsneighbour/hugo-robots v1.1.1 h1:7G+AdLypvxWIrAE44sAchkPYlPdPm0soKNvmoahcWz0=
 github.com/davidsneighbour/hugo-robots v1.1.1/go.mod h1:q4YHx8ppcEtXa7bpCC0h+ml6lXCPsvemZrufl5XU+9U=
 github.com/davidsneighbour/hugo-security v1.1.2 h1:NbLsWJP7Fm+QyIgJmSdGKaRo93r04wd1eyiYjS4j4O0=

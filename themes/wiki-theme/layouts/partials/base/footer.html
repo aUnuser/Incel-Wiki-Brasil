@@ -12,7 +12,7 @@
     {{ end }}
     <div class="footer-content">
         <div class="footer-site-title">{{ .Site.Title }}</div>
-        {{ partial "functions/menu.html" (dict "menuname" "footer" "context" .) }}
+        {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
     </div>
     
     {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . | resources.Minify | resources.Fingerprint "sha512" }}

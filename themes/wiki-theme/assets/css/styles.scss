@@ -181,13 +181,6 @@ body {
         display: none;
     }
 
-    .external-link {
-        margin-left: .2rem;
-    }
-    .external-link:before {
-        background-image: linear-gradient(transparent, transparent), url("/images/external-link.svg");
-    }
-
     .lang::before {
         background-image: linear-gradient(transparent, transparent), url("/images/language.svg");
     }
@@ -351,29 +344,38 @@ body {
                     }
                 }
             }
+            ol {
+                display: block;
+                list-style-type: decimal;
+                padding-left: 2rem;
+            }
+    
+            ul {
+                display: block;
+                list-style-type: disc;
+                padding-left: 2rem;
+            }
+    
+            li {
+                display: list-item;
+            }
+        }
+    }
+
+    .letter-groups {
+        direction: ltr;
+        column-count: 3;
+        column-width: 24em;
+        .letter-group {
+            h3 {
+                margin: 0;
+            }
+            direction: ltr;
         }
     }
 
     #actual-content {
         line-height: 1.5rem;
-    }
-
-    #content {
-        ol {
-            display: block;
-            list-style-type: decimal;
-            padding-left: 2rem;
-        }
-
-        ul {
-            display: block;
-            list-style-type: disc;
-            padding-left: 2rem;
-        }
-
-        li {
-            display: list-item;
-        }
     }
 }
 

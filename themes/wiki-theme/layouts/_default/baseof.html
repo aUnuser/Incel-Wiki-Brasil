@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-{{ partialCached "head/pwa.html" . }}
 {{- partial "base/head.html" . -}}
 <body>
     <noscript>
@@ -9,29 +8,12 @@
     {{- partial "base/header.html" . -}}
     {{- partial "desktop/desktop-side.html" . -}}
     <main id="{{ if .IsHome }}home-main{{ else if eq .Page.Kind "section" }}section-main{{ else }}single-main{{ end }}">
-        {{ if .IsHome }}
-        <div class="home-top-panel">
-            <div class="panel-inner-wrapper">
-                <span class="welcome">Bem vindo à</span>
-                <a href="/" class="home-title">{{ .Site.Title }}</a>{{ with .Site.Params.site_subtitle }},{{ end }}
-            </div>
-            {{ with .Site.Params.site_subtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
-            {{ $artcount := len (where .Site.RegularPages "Section" "==" "w") }}
-            <div class="article-count">
-                <a href="/w/">{{ $artcount }}</a>&nbsp;artigos em português
-            </div>
-            {{ partial "functions/menu.html" (dict "menuname" "main_panel" "context" .) }}
-        </div>
-        {{ else }}
-        <h1 class="outer-header">{{ .Page.Title }}</h1>
-        {{ if not .IsHome }}{{- partial "mobile/mobile-single-top-bar.html" . -}}{{ end }}
-        {{ end }}
+        {{- partial "page-title.html" . -}}
         <div id="content">
             {{- block "main" . }}{{- end }}
         </div>
     </main>
     {{- partial "base/footer.html" . -}}
-    {{ partialCached "footer/service-worker.html" . }}
 </body>
 
 </html>

@@ -41,7 +41,6 @@ outputs:
   home:
   - HTML
   - RSS
-  - manifest
 
 enableGitInfo: true
 
@@ -69,10 +68,6 @@ markup:
 module:
   imports:
     - path: "github.com/theNewDynamic/hugo-module-tnd-seo"
-    - path: "github.com/davidsneighbour/hugo-pwa"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
     - path: "github.com/davidsneighbour/hugo-robots"
     - path: "github.com/davidsneighbour/hugo-security"
       disable: false
