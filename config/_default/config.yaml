@@ -79,9 +79,5 @@ module:
       ignoreConfig: false
       ignoreImports: false
     - path: "github.com/davidsneighbour/hugo-sitemap"
-    - path: "github.com/davidsneighbour/hugo-debug"
-      disable: false
-      ignoreConfig: false
-      ignoreImports: false
 
 enableRobotsTXT: true

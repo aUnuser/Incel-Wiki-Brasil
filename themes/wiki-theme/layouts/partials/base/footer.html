@@ -1,5 +1,4 @@
 <footer>
-    {{ partialCached "footer/service-worker.html" . }}
 
     {{ with .File }}
     {{ $editlink := printf "%s/commits/main/content/%s" ($.Site.Params.repo_link) (replace .Path "\\" "/") }}
