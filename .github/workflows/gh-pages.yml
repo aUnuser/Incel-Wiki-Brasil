@@ -58,3 +58,6 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGES }}
           publish_dir: ./public
+
+      - name: Minify Action
+        uses: anthonyftwang/minify-action@v1.0.1
