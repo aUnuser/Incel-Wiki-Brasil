@@ -5,7 +5,13 @@
                 <ul>
                     <li>
                         <span>
-                            {{ .Page.Kind | humanize }}
+                            {{ if eq .Page.Kind "home" }}
+                            Página Principal
+                            {{ else if eq .Page.Kind "page" }}
+                            Artigo
+                            {{ else if or (eq .Page.Kind "taxonomy") (eq .Page.Kind "term") }}
+                            {{ .Page.Data.Singular | humanize }}
+                            {{ end }}
                         </span>
                     </li>
                     <li>
