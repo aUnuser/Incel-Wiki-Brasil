@@ -35,12 +35,6 @@ jobs:
       - name: Build
         run: hugo --minify
       
-      - name: Brotli compress
-        id: brotli
-        uses: charlesworth/compress-action@1.0.0
-        with:
-          target-directory: "public"
-      
       - name: Test HTML
         continue-on-error: true
         uses: wjdp/htmltest-action@master
