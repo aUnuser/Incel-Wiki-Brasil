@@ -35,6 +35,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Minify Action
+        uses: anthonyftwang/minify-action@v1.0.1
+      
       - name: Test HTML
         # https://github.com/wjdp/htmltest-action/
         # Don't fail the build on broken links
@@ -58,6 +61,3 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGES }}
           publish_dir: ./public
-
-      - name: Minify Action
-        uses: anthonyftwang/minify-action@v1.0.1
