@@ -50,13 +50,7 @@ jobs:
         with:
           name: htmltest-report
           path: tmp/.htmltest/htmltest.log
-          retention-days: 7 # Default is 90 days
-
-      - name: Download Artifact
-        uses: actions/download-artifact@master
-        with:
-          name: htmltest-report
-          path: htmltest-report
+          retention-days: 1 # Default is 90 days
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
