@@ -11,15 +11,12 @@
 {{- $format = "gif" -}}
 {{- end -}}
 
-{{ $format }}-a
-
 {{/* So for posts that aren't setup in the page bundles, it doesn't fail  */}}
 {{- if $src -}}
-    {{- $tinyw := default "500x $format" -}}
-    {{- $smallw := default "800x $format" -}}
-    {{- $mediumw := default "1200x $format" -}}
-    {{- $largew := default "1500x $format" -}}
-
+    {{- $tinyw := default (printf "500x %s" $format) -}}
+    {{- $smallw := default (printf "800x %s" $format) -}}
+    {{- $mediumw := default (printf "1200x %s" $format) -}}
+    {{- $largew := default (printf "1500x %s" $format) -}}
     {{/* resize the src image to the given sizes */}}
     {{/* We create a a temp scratch because it's not available in this context */}}
     {{- $data := newScratch }}
@@ -34,7 +31,6 @@
     {{- $small := $data.Get "small" -}}
     {{- $medium := $data.Get "medium" -}}
     {{- $large := $data.Get "large" -}}
-
     {{/* only use images smaller than or equal to the src (original) 
     image size, as Hugo will upscale small images */}}
 
