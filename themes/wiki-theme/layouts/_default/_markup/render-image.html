@@ -48,7 +48,7 @@
                 srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
             <img 
         alt="{{ $caption }}" title="{{ $caption }}" src="{{ $src }}" 
-        height="{{ $src.Height }}" width="{{ $src.Width }}">
+        height="{{ $src.Height }}" width="{{ $src.Width }}" defer loading="lazy">
         </picture></a>
         <div class="fig-caption">
             {{- $caption -}}
