@@ -13,13 +13,19 @@ body {
     .fig-wrapper {
         margin: auto;
         max-width: 300px;
+        margin-bottom: .4rem;
 
         .link {
+            display: block;
             font-size: 0;
+            img {
+                vertical-align: bottom;
+            }
         }
 
         .fig-caption {
             padding: 0 3px;
+            padding-top: .2rem;
             font-size: 90%;
             line-height: 1rem;
         }
@@ -328,7 +334,6 @@ body {
                     .panel-content {
                         .fig-wrapper {
                             margin-top: -.25rem;
-                            margin-bottom: .25rem;
                             background-color: transparent;
                             border: none;
                         }

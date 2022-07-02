@@ -15,13 +15,15 @@ original_article:
 
 O termo "incel" frequentemente tem diferentes significados para diferentes pessoas, o que causa confusão. Dentre acadêmicos e auto-indentificados incels, a palavra se refere à condição literal de se ser celibatário contra a própria vontade. Porém, para comunidades mainstream, "incel" costuma ser usado para referir a um [misoginista](/w/misoginia) e/ou para uma pessoa incel que faz parte de uma comunidade de misóginos.[^6] Isso muitas vezes leva [normies](/w/normie) a acreditar que auto-identificados incels usam o termo como uma forma de demonstrar ódio enquanto, para auto-identificados incels, o termo na verdade é usado de forma auto-depreciativa.
 
-Em alguns países, como na [Holanda](/w/modelo-holandes-combate-incelidade), houveram esforços para reconhecer o [sexo](/w/copulacao) como uma necessidade básica.[^7]
+![Como a [Wikipedia](/w/artigo-wikipedia-incel) tenta retratar os incels vs. o que eles realmente querem.](what-incels-want.jpg "desktop-right")Em alguns países, como na [Holanda](/w/modelo-holandes-combate-incelidade), houveram esforços para reconhecer o [sexo](/w/copulacao) como uma necessidade básica.[^7]
 
 Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado a cometer seus crimes por comunidades onlines dedicadas à incelidade. Nem o [4chan](/w/4chan) e nem o [PUAhate](/w/psl#Puahate.com) são forums autointitulados incels, embora alguns de seus usuários possam ser incels. Altualmente os maiores forums incel da internet são: [incels.co](/w/incels-ponto-is), [youarenotalone.co](/w/yourenotalone-ponto-co), [love-shy.com](/w/love-shy-ponto-com), [Incelswithouthate](/w/R/incelswithouthate) e [Foreveralone](/w/R/foreverAlone).
 
 {{< toc >}}
 
 ## Etimologia
+![Incels são a vanguarda da derrubada dos papéis de gênero.](Fragilebigots2.jpg "desktop-right")
+
 Celibato vem do latim *caelibatus*, "não casado". A partir dos anos 1950 o significado de celibato mudou para referir a um estado de [falta de sexo](/w/estado-de-falta-de-sexo), [voluntária ou não](/w/volcel), sem referência ao [estado marital](/w/casamento).[^8] O termo celibato involuntário provavelmente foi concebido de forma independente ao longo da história por vários autores, mas a menção escrita mais antiga vem do clérigo francês [Antoine Banier](/w/antoine-bainier), que o usou em 1739 em sua coletânea de fábulas da Grécia Antiga.
 
 [Henry Flynt](/w/henry-flint) relacionou o celibato involuntário masculino com a percepção de ser um [esquisito](/w/esquisitice) no seu livro de 1975 *[Blueprint for a Higher Civilization](/w/creep-capitulo-livro)*.
@@ -31,6 +33,8 @@ A criadora do primeiro [fórum incel](/w/incelosfera), uma [feminista](/w/femini
 O termo incel foi depois usado no [estudo de Donelly](/w/estudo-donelly) em 2001, que foi o primeiro tratamento acadêmico do assunto. Mais tarde, em 2018, o termo foi lexicograficamente reconhecido por um dicionário online da língua holandesa.[^9]
 
 ## Definição
+![Perguntas de insegurança](300px-Securityquestions.jpg "desktop-right")
+
 O [estudo de Denise Donelly](/w/estudo-donelly) definiu como incels todos os adultos que falham em encontrar uma parceira sexual por seis meses ou mais apesar de procurar por uma. Devido à possíveis brechas, ainda não há consenso sobre se essa definição é apropriada. Por exemplo, [bluepillers](/w/bluepill) costumam dizer, de má fé, que nessa definição incels homens podem simplesmente fazer sexo gay ou pagar uma prostituta e, portanto, são [volcels](/w/volcel) e incels não existem. Por isso, uma boa definição incluiria que incels são adultos que são repetidamente *romanticamente* rejeitados por membros *do sexo pelo qual são atraídos*.
 
 [Gatekeeping](/w/gatekeeping) e brigas sobre quem conta como incel de fato são comuns em fórums incel. [Uglycels](/w/uglycel) reclamam que [tímidos amorosos](/w/timidez-amorosa) e [standardcels](/w/standardcel) simplesmente não querem tentar o suficiente. Em um esforço para escluir standardcels, alguns fórums incel rejeitam incels que não tentaram sériamente e repetidamente namorar. Ao fazer isso, entretanto, eles inadvertidamente marginalizam os non-standard mentalcels. Isso é fonte de muito conflito na [incelosfera](/w/incelosfera). A solução para esse longo conflito seria uma definição de incel que rejeite [standardcels](/w/standardcel) mas inclua como incels os non-standard [mentalcels](/w/mentalcel). Isso já foi formalizado antes mas não foi adotado por nenhum grande fórum, talvez por conta do esforço necessário para forçar uma definição tão complicada.
@@ -87,6 +91,8 @@ Incelismo é qualquer tipo de ativismo que procura resolver o incelismo numa esc
 * Auxílio para homens emigrarem de regiões com população de homens e mulheres desigual.
 
 ## Chadsplanation
+![Normies, quando não estão mentindo sobre o [celibato](/w/celibatarios) ser fácil, brincam com o [absurdo](/w/lacuna-de-empatia) de passar [40 dias sem sexo](/w/seca).](40dias40noites.jpg "desktop-right")
+
 [Normies](/w/normie), [chads](/w/chad), [beckies](/w/becky) e [stacies](/w/stacy) costumam dizer que a culpa de incels não conseguirem namorar é deles mesmos. Geralmemte ao dizer isso também dão "[conselhos](/w/banalidade)" de auto-ajuda, como por exemplo:
 * Dizem que aparência não importa ao mesmo tempo em que olham o quão feios incels são, assumindo que não tomam banho ou não cortam o cabelo.
 * Dizem para os incels serem eles mesmos ao mesmo tempo em que dizem para ter um hobby mesmo que não goste de nada.
