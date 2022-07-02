@@ -7,11 +7,11 @@
 {{- $class := .Title | safeHTML -}}
 {{- $format := "webp" -}}
 
-{{ $format }}
-
 {{- if eq (index (split .Destination ".") 1) "gif" -}}
 {{- $format = "gif" -}}
 {{- end -}}
+
+{{ $format }}
 
 {{/* So for posts that aren't setup in the page bundles, it doesn't fail  */}}
 {{- if $src -}}
