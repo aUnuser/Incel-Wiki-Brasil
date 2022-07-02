@@ -5,3 +5,9 @@ Este é um projeto autorizado pela [Incel Wiki](https://incels.wiki/w/Main_Page)
 
 ## Por que uma wiki estática?
 Sites estáticos são muito mais leves, rápidos e, principalmente, mais baratos e simples de desenvolver. Com o Github, é possível conseguir hospedagem gratúita (até certo ponto) e nele podemos alavancar o sistema de desenvolvimento comunitário do Git, acabando de vez com a necessidade de ter um servidor e database próprios e um site com server-side.
+
+## Aviso
+As mesmas regras e avisos da [Incel Wiki](https://incels.wiki/w/Main_Page) se aplicam aqui, com as devidas adaptações para a lei brasileira.
+Adicionalmente:
+* Não crie conteúdo que já não esteja na [Incel Wiki](https://incels.wiki/w/Main_Page) original.
+* Não use apenas tradutores automáticos. Se usar algum, faça o polimento da fluência e verifique se o sentido do texto original foi mantido.
