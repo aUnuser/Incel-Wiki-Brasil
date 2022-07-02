@@ -4,7 +4,7 @@
 {{/* get file that matches the filename as specified as src=""  */}}
 {{- $src := .Page.Resources.GetMatch .Destination  -}}
 {{- $caption := .Text | safeHTML -}}
-{{- $style := .Title | safeCSS -}}
+{{- $class := .Title | safeHTML -}}
 {{- $format := "webp" -}}
 
 {{- if eq (index (split .Destination ".") 1) "gif" -}}
@@ -36,7 +36,7 @@
     {{/* only use images smaller than or equal to the src (original) 
     image size, as Hugo will upscale small images */}}
 
-    <div class="fig-wrapper"{{ with $style }} style="{{ . }}"{{ end }}>
+    <div class="fig-wrapper{{ with $class }} {{ . }}{{ end }}">
         <a href="{{ $src.RelPermalink }}" class="link"><picture>
             <source media="(max-width: 376px)" 
                 srcset="{{with $tiny.RelPermalink }}{{.}}{{ end }}">
