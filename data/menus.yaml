@@ -29,7 +29,7 @@ desktop_sidebar:
 mobile_sidebar:
   - weight: 1
     content: |
-      * [<i class="icon home"></i>Página Principal](/)
+      * [<i class="icon home"></i>Página principal](/)
       * [<i class="icon random"></i>Página aleatória](/ "random-link")
   - weight: 2
     content: |
