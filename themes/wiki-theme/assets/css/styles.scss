@@ -652,6 +652,9 @@ body {
                             display: flex;
                             align-items: center;
                         }
+                        ol, ul {
+                            margin: 0;
+                        }
                     }
 
                     nav {
