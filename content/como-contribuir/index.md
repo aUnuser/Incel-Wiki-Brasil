@@ -2,23 +2,22 @@
 title: "Incel Wiki Brasil: Como Contribuir"
 description:
 ---
-1. Familiarize-se com a organização de conteúdo do framework: [Content Organization](https://gohugo.io/content-management/organization/).
-2. Vá ao [repositório do site](https://github.com/aUnuser/Incel-Wiki-Brasil)
-3. Crie uma pasta em `/content/w/` com o nome do artigo, sem acentos e com palavras separadas por hífen (ex: nome-do-artigo).
-4. Crie um arquivo chamado `index.md` dentro dela.
-5. Se for usar imagens, crie uma pasta chamada images ao lado do `index.md` e as coloque lá.
-6. Dentro do `index.md` copie e cole a chamada *frontmatter*: 
-    ```
-    +++
-    title = "Título"
-    categorias = [ "Categoria 1", "Categoria 2" ]
-    description = "Primeiro parágrafo do artigo, sem markdown."
+1. Leia a sessão "Content Management" da documentação do [Hugo](https://gohugo.io/content-management/)
+2. Familiarize-se com o Github (pode ser só pelo browser).
+3. Familiarize-se com Markdown.
+4. Vá até o [repositório do site](https://github.com/aUnuser/Incel-Wiki-Brasil).
 
-    [original_article]
-    title = "Incel"
-    link = "https://incels.wiki/w/Incel"
-    +++
-    ```
-7. Preencha a frontmatter com os dados do artigo a ser criado e do artigo a ser traduzido.
-8. Traduza o artigo abaixo da frontmatter.
-9. Se for incluir um índice, coloque "`{{</* toc */>}}`" no local onde fica o índice no artigo original.
+## Criando um novo artigo
+1. Crie uma pasta em `content\w\` nomeada com a slug da URL do novo artigo.
+2. Crie um `index.md`
+3. Copie a frontmatter de outro artigo (estão dentro de `content\w\`) e cole no `index.md`.
+4. Preencha com os dados do novo artigo.
+5. Traduza e faça a pull request.
+6. Para criar o índice do artigo, digite "`{{</* toc */>}}`" no local adequado.
+   
+## Editando um artigo
+1. Vá até o artigo que está em `content\w\` e edite seu `index.md`.
+2. Faça a pull request.
+
+## Faça uma pergunta
+1. Abra um [issue no repositório](https://github.com/aUnuser/Incel-Wiki-Brasil/issues).
