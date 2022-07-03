@@ -235,6 +235,11 @@ body {
         }
     }
 
+    pre {
+        border-left: 4px solid #eaecf0;
+        padding: 8px 15px;
+    }
+
     table {
         overflow-x: auto;
         background-color: #f8f9fa;
