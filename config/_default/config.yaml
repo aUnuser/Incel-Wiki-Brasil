@@ -13,7 +13,7 @@ params:
   repo_link: https://github.com/aUnuser/Incel-Wiki-Brasil
   remove_from_random: # Random will use all .Site.RegularPages
     url: 
-  discord_invite: teste
+  discord_invite: https://discord.gg/KfvZsvV3qg
 
   tnd_seo:
     # overrides .Site.Title
