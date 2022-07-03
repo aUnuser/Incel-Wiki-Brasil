@@ -1076,6 +1076,7 @@ body {
 
             .discord-container {
                 a {
+                    text-align: center;
                     color: #fff;
                     font-size: 12px;
                     font-weight: 700;
@@ -1089,9 +1090,17 @@ body {
                 }
 
                 a::before {
+                    background: url("discord_icon.png") no-repeat;
+                    background-size: 17px 13px;
+                    background-position: left;
                     content: "Entre\00a0no\00a0";
                     font-weight: 400;
                     opacity: .85;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                    background-color: #6177c5;
                 }
             }
 
