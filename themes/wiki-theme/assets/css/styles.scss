@@ -1089,13 +1089,19 @@ body {
                     transition: .2s ease;
                 }
 
-                a::before {
-                    background: url("discord_icon.png") no-repeat;
-                    background-size: 17px 13px;
-                    background-position: left;
+                span:before {
                     content: "Entre\00a0no\00a0";
                     font-weight: 400;
                     opacity: .85;
+                }
+
+                a:before {
+                    content: "";
+                    background: url("discord_icon.png") no-repeat;
+                    background-size: 17px 13px;
+                    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+                    width: 17px;
+                    height: 13px;
                 }
 
                 a:hover {
