@@ -1090,7 +1090,7 @@ body {
                 }
 
                 span:before {
-                    content: "Entre\00a0no\00a0";
+                    content: "\00a0 Entre\00a0no\00a0";
                     font-weight: 400;
                     opacity: .85;
                 }
@@ -1102,6 +1102,8 @@ body {
                     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
                     width: 17px;
                     height: 13px;
+                    display: inline-block;
+                    vertical-align: -10%;
                 }
 
                 a:hover {
