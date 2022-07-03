@@ -2,8 +2,8 @@
 title: "Incel Wiki Brasil: Como Contribuir"
 description:
 ---
-1. Familiarize-se com o Github (pode ser usado totalmente no browser).
-2. Familiarize-se com a organização de conteúdo do framework: [Content Organization](https://gohugo.io/content-management/organization/).
+1. Familiarize-se com a organização de conteúdo do framework: [Content Organization](https://gohugo.io/content-management/organization/).
+2. Vá ao [repositório do site](https://github.com/aUnuser/Incel-Wiki-Brasil)
 3. Crie uma pasta em `/content/w/` com o nome do artigo, sem acentos e com palavras separadas por hífen (ex: nome-do-artigo).
 4. Crie um arquivo chamado `index.md` dentro dela.
 5. Se for usar imagens, crie uma pasta chamada images ao lado do `index.md` e as coloque lá.
