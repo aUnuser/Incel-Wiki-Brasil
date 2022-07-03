@@ -9,9 +9,9 @@
             </a>
         </li>
         {{ else }}
-        <li><a class="inactive-link"><i class="icon lang"></i>Language</a></li>
+        <li><span class="inactive-link"><i class="icon lang"></i>Language</span></li>
         {{ end }}
-        <li><a href=""><i class="icon download"></i>Download PDF</a></li>
+        <li><a onClick="window.print()"><i class="icon download"></i>Download PDF</a></li>
         {{ with .File }}
         {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
         <li><a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer"><i class="icon edit"></i>Editar</a></li>

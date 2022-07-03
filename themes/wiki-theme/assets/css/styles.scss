@@ -596,6 +596,7 @@ body {
                     height: 3rem;
                     justify-content: space-between;
                     padding: 0;
+                    margin: 0;
 
                     li {
                         display: flex;
@@ -603,7 +604,7 @@ body {
                         align-items: center;
                         overflow: hidden;
 
-                        a {
+                        a, span {
                             display: flex;
                             align-items: center;
                             color: #54595d;
@@ -788,7 +789,7 @@ body {
             .mobile-single-top-bar {
                 &>ul {
                     li {
-                        a {
+                        a, span {
                             font-size: 100%;
 
                             i {
