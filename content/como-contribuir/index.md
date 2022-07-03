@@ -7,6 +7,8 @@ description:
 3. Familiarize-se com Markdown.
 4. Vá até o [repositório do site](https://github.com/aUnuser/Incel-Wiki-Brasil).
 
+Obs: em toda pull request o bot da Netlify vai acusar erros. Não ligue.
+
 ## Criando um novo artigo
 1. Crie uma pasta em `content\w\` nomeada com a slug da URL do novo artigo.
 2. Crie um `index.md`
