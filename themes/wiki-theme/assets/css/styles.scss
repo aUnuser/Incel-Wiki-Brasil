@@ -134,6 +134,21 @@ body {
     .mag::before {
         background-image: linear-gradient(transparent, transparent), url("/images/search.svg");
     }
+    .home:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/home.svg");
+    }
+
+    .random:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/die.svg");
+    }
+
+    .github:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/github.svg");
+    }
+
+    .discord:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/discord.svg");
+    }
 
     .button {
         background-color: #f8f9fa;
@@ -487,16 +502,9 @@ body {
                                             margin-right: .5rem;
                                         }
 
-                                        .home:before {
-                                            background-image: linear-gradient(transparent, transparent), url("/images/home.svg");
-                                        }
-
-                                        .random:before {
-                                            background-image: linear-gradient(transparent, transparent), url("/images/die.svg");
-                                        }
 
                                         .random:before,
-                                        .home:before {
+                                        .home:before, .github:before {
                                             display: inline-block;
                                             font-size: initial;
                                             width: auto;
