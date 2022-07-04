@@ -3,7 +3,7 @@ A Incel Wiki Brasil é uma iniciativa de contribuir para a incelosfera brasileir
 
 Este é um projeto autorizado pela [Incel Wiki](https://incels.wiki/w/Main_Page) original desde que fossem citados os autores originais e os artigos originais, o que pode ser encontrado em todas as páginas, nas barras laterais e no canto superior direito do modo desktop do site, ao lado da barra de busca.
 
-## Por que uma wiki estática?
+### Por que uma wiki estática?
 Sites estáticos são muito mais leves, rápidos e, principalmente, mais baratos e simples de desenvolver. Com o Github, é possível conseguir hospedagem gratúita (até certo ponto) e nele podemos alavancar o sistema de desenvolvimento comunitário do Git, acabando de vez com a necessidade de ter um servidor e database próprios e um site com server-side.
 
 # Aviso
@@ -20,7 +20,7 @@ Adicionalmente:
 
 Obs: em toda pull request o bot da Netlify vai acusar erros. Não ligue.
 
-## Criando um novo artigo
+### Criando um novo artigo
 1. Crie uma pasta em `content\w\` nomeada com a slug da URL do novo artigo.
 2. Crie um `index.md` dentro dela.
 3. Copie a frontmatter de outro artigo (estão dentro de `content\w\`) e cole no `index.md`.
