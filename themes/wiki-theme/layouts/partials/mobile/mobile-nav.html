@@ -1,4 +1,5 @@
 <div class="mobile-header">
+    <input type="checkbox" id="search-toggle" role="button">
     <div id="left-wrapper">
         <div id="nav-button-wrapper">
             <input type="checkbox" id="menu-input" role="button">
@@ -12,5 +13,9 @@
         </div>
         <a href="/">{{ .Site.Title }}</a>
     </div>
-    <i class="icon mag"></i>
+    <form action="" id="query-label" autocomplete="off">
+        <input type="text" name="s" placeholder="Buscar na {{ .Site.Title }}" id="search-query-mobile"
+            autocomplete="off">
+    </form>
+    <label class="icon mag" id="search-label" for="search-toggle"></label>
 </div>

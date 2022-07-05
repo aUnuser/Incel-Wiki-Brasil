@@ -134,7 +134,7 @@ body {
     .mag::before {
         background-image: linear-gradient(transparent, transparent), url("/images/search.svg");
     }
-    
+
     .home:before {
         background-image: linear-gradient(transparent, transparent), url("/images/home.svg");
     }
@@ -496,7 +496,8 @@ body {
 
 
                                         .random:before,
-                                        .home:before, .github:before {
+                                        .home:before,
+                                        .github:before {
                                             display: inline-block;
                                             font-size: initial;
                                             width: auto;
@@ -579,6 +580,38 @@ body {
                 .mag {
                     cursor: pointer;
                     padding: .5rem;
+                }
+
+                #search-toggle {
+                    position: absolute;
+                    z-index: -1;
+                    opacity: 0;
+                }
+
+                #search-query-mobile {
+                    border: 1px solid #fff;
+                    border-radius: 0;
+                    padding: 7px .5rem;
+                    box-shadow: 0 1px 1px #0000000d;
+                    width: 100%;
+                }
+
+                #query-label {
+                    display: none;
+                    margin-left: .5rem;
+                    width: 100%;
+                    padding: 1px;
+                }
+
+                #search-toggle:checked~#query-label {
+                    display: block;
+                }
+
+                #search-toggle:checked~#left-wrapper {
+                    display: none;
+                }
+                #search-toggle:checked~.mag:before {
+                    background-image: linear-gradient(transparent, transparent), url("/images/x.svg");
                 }
             }
         }
@@ -791,6 +824,23 @@ body {
                 margin-left: auto;
                 margin-right: auto;
                 width: calc(95% + 1rem);
+
+                #query-label {
+                    display: block;
+                    width: 50%;
+                }
+                #search-label {
+                    display: none;
+                }
+                #search-toggle:checked~#query-label {
+                    display: block;
+                }
+                #search-toggle:checked~#left-wrapper {
+                    display: flex;
+                }
+                #search-toggle:checked~.mag {
+                    display: none;
+                }
             }
         }
 
