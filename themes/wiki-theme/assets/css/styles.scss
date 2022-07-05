@@ -147,10 +147,6 @@ body {
         background-image: linear-gradient(transparent, transparent), url("/images/github.svg");
     }
 
-    .discord:before {
-        background-image: linear-gradient(transparent, transparent), url("/images/discord.svg");
-    }
-
     .button {
         background-color: #f8f9fa;
         color: #202122;
@@ -218,11 +214,6 @@ body {
 
     .incel-logo::before {
         background-image: linear-gradient(transparent, transparent), url("/images/incelwiki-logo.svg");
-    }
-
-    .discord-logo::before {
-        background: url("/images/discord_icon.png") no-repeat;
-        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
     }
 
     .footnotes {
@@ -1081,44 +1072,6 @@ body {
                 margin: 0 0.6rem 0 0.7rem;
                 padding: 0.25rem 0;
                 font-size: .75em;
-            }
-
-            .discord-container {
-                a {
-                    text-align: center;
-                    color: #fff;
-                    font-size: 12px;
-                    font-weight: 700;
-                    border-radius: 5px;
-                    border: 1px solid #5e76c6;
-                    background-color: #7289da;
-                    display: block;
-                    padding: 4px 0;
-                    box-shadow: 0 2px 3px #0000001a;
-                    transition: .2s ease;
-                }
-
-                span:before {
-                    content: "\00a0 Entre\00a0no\00a0";
-                    font-weight: 400;
-                    opacity: .85;
-                }
-
-                a:before {
-                    content: "";
-                    background: url("discord_icon.png") no-repeat;
-                    background-size: 17px 13px;
-                    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
-                    width: 17px;
-                    height: 13px;
-                    display: inline-block;
-                    vertical-align: -10%;
-                }
-
-                a:hover {
-                    text-decoration: none;
-                    background-color: #6177c5;
-                }
             }
 
             .menu-func {

@@ -32,9 +32,10 @@ mobile_sidebar:
     Content: |
       * [<i class="icon home"></i>Página principal](/)
       * [<i class="icon random"></i>Página aleatória](/ "random-link")
-      * [<i class="icon github"></i>Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
-      * [<i class="icon discord"></i>Entre no Discord](https://discord.gg/KfvZsvV3qg)
   - weight: 2
+    Content: |
+      * [<i class="icon github"></i>Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
+  - weight: 3
     Content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
