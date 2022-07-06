@@ -14,11 +14,7 @@ params:
   remove_from_random: # Random will use all .Site.RegularPages
     url: 
   discordInvite: https://discord.gg/KfvZsvV3qg
-  missingPage: |
-    Esta página não existe.
-    
-    Você pode [criá-la](https://github.com/aUnuser/Incel-Wiki-Brasil) ou procurar em outros artigos através da barra de busca.
-
+  
   tnd_seo:
     # overrides .Site.Title
     site_name: Incel Wiki Brasil
