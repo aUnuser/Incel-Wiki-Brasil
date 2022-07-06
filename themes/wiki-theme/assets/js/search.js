@@ -1,4 +1,6 @@
-
+document.getElementById("searchInput").onkeyup = function(e) { 
+  executeSearch(this.value);
+}
 
 function fetchJSONFile(path, callback) {
   var httpRequest = new XMLHttpRequest();
@@ -32,4 +34,25 @@ function loadSearch() {
     };
     fuse = new Fuse(data, options); // build the index from the json file
   });
+}
+
+function executeSearch(term) {
+  let results = fuse.search(term); // the actual query being run using fuse.js
+  let searchitems = ''; // our results bucket
+
+  if (results.length === 0) { // no results based on what was typed into the input box
+    resultsAvailable = false;
+    searchitems = '';
+  } else { // build our html 
+    for (let item in results.slice(0,5)) { // only show first 5 results
+      searchitems = searchitems + '<li><a href="' + results[item].permalink + '" tabindex="0">' + '<span class="title">' + results[item].title + '</span><br /> <span class="sc">'+ results[item].section +'</span> — ' + results[item].date + ' — <em>' + results[item].desc + '</em></a></li>';
+    }
+    resultsAvailable = true;
+  }
+
+  document.getElementById("searchResults").innerHTML = searchitems;
+  if (results.length > 0) {
+    first = list.firstChild.firstElementChild; // first result container — used for checking against keyboard up/down location
+    last = list.lastChild.firstElementChild; // last result container — used for checking against keyboard up/down location
+  }
 }
