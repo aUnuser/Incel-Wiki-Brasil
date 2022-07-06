@@ -1,6 +1,10 @@
 $icon-small: 1rem;
 $icon-xs: .6rem;
 
+.noScroll {
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, blinkmacsystemfont, segoe ui, roboto, lato, helvetica, arial, sans-serif;
@@ -9,10 +13,6 @@ body {
     color: #202122;
     margin: 0;
     word-wrap: break-word;
-
-    .noScroll {
-        overflow: hidden;
-    }
     
     .fig-wrapper {
         margin: auto;
