@@ -594,6 +594,7 @@ body {
                     padding: 7px .5rem;
                     box-shadow: 0 1px 1px #0000000d;
                     width: 100%;
+                    box-sizing: border-box;
                 }
 
                 #query-label {
@@ -827,7 +828,9 @@ body {
 
                 #query-label {
                     display: block;
-                    width: 50%;
+                    width: 40%;
+                    margin-left: 0;
+                    margin-right: calc(50% - 20%);
                 }
                 #search-label {
                     display: none;
