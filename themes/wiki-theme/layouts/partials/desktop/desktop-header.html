@@ -15,7 +15,8 @@
                         </span>
                     </li>
                     <li>
-                        <a href="{{ .Site.Params.repo_link}}/issues" target="_blank" rel="noopener noreferrer">Discussão</a>
+                        <a href="{{ .Site.Params.repo_link}}/issues" target="_blank"
+                            rel="noopener noreferrer">Discussão</a>
                     </li>
                 </ul>
             </div>
@@ -27,24 +28,21 @@
                 <ul>
                     <li>
                         {{ with .File}}
-                        {{ $editlink := printf "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace .Path "\\" "/") }}
+                        {{ $editlink := printf
+                        "https://github.com/incelwikibrasil/incelwikibrasil.github.io/tree/main/content/%s" (replace
+                        .Path "\\" "/") }}
                         <a href="{{ $editlink }}" target="_blank" rel="noopener noreferrer">Editar</a>
                         {{ end }}
                     </li>
                     <li>
-                        <a href="https://incels.wiki/w/Special:ActiveUsers" target="_blank" rel="noopener noreferrer">Autores Originais</a>
+                        <a href="https://incels.wiki/w/Special:ActiveUsers" target="_blank"
+                            rel="noopener noreferrer">Autores Originais</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="search-container">
-            <form action="" id="" autocomplete="off">
-                <div>
-                    <input type="text" name="s" placeholder="Buscar na {{ .Site.Title }}" id="search-query"
-                        autocomplete="off">
-                    <button id="search-button"></button>
-                </div>
-            </form>
+        <div class="searchContainer">
+            <input type="text" name="s" placeholder="Buscar na {{ .Site.Title }}" id="searchInputDesktop" autocomplete="off">
             <ul class="searchResults">
             </ul>
         </div>

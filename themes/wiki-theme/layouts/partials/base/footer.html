@@ -15,6 +15,9 @@
         {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
     </div>
     
+    
+    {{ $search := resources.Get "/js/search.js" | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" type="module" defer></script>
     {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . | resources.Minify | resources.Fingerprint "sha512" }}
     <script type="text/javascript" src="{{ $random.RelPermalink }}" integrity="{{ $random.Data.Integrity }}" type="module" defer></script>
     {{ if eq .Page.Kind "page" }}

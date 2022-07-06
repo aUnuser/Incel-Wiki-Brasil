@@ -1,5 +1,5 @@
 <div class="mobile-header">
-    <input type="checkbox" id="search-toggle" role="button">
+    <input type="checkbox" id="searchToggle" role="button">
     <div id="left-wrapper">
         <div id="nav-button-wrapper">
             <input type="checkbox" id="menu-input" role="button">
@@ -9,15 +9,65 @@
 
                 {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
             </div>
-            <label class="menu-mask" for="menu-input"></label>
+            <label class="menuMask" for="menu-input"></label>
         </div>
         <a href="/">{{ .Site.Title }}</a>
     </div>
-    <form action="" id="query-label" autocomplete="off">
-        <input type="text" name="s" placeholder="Buscar na {{ .Site.Title }}" id="search-query-mobile"
-            autocomplete="off">
-    </form>
-   <ul class="searchResults">
-   </ul>
-    <label class="icon mag" id="search-label" for="search-toggle"></label>
+    <div class="searchWrapper">
+        <input type="text" name="s" placeholder="Buscar na {{ .Site.Title }}" id="searchInputMobile" autocomplete="off">
+
+    </div>
+    <label class="overlay">
+        <ul class="searchResults">
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+            <li><a href="">
+                    <div class="thumb"></div>
+                    <div class="meta">
+                        <h3>Título</h3>
+                        Internal organ in the male reproductive system
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </label>
+    <label class="icon mag" id="searchLabel" for="searchToggle"></label>
 </div>
