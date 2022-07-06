@@ -12,7 +12,7 @@ desktop_sidebar:
       * [Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [Categorias](/categorias/)
       * [Sobre a wiki](/sobre)
-      * [Aviso](/aviso)
+      * [Aviso legal](/aviso-legal)
   - title: História e FAQ
     weight: 2
     Content: |
@@ -44,4 +44,4 @@ footer:
   - weight: 1
     Content: |
       * [Sobre a wiki](/sobre)
-      * [Aviso](/aviso)
+      * [Aviso legal](/aviso-legal)
