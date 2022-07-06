@@ -48,10 +48,9 @@ taxonomies:
   categoria: categorias
 
 frontmatter:
-  date:
-  - :default
-  lastmod:
-  - :fileModTime
+  lastmod: 
+    - lastmod
+    - :fileModTime
 
 markup:
   goldmark:
