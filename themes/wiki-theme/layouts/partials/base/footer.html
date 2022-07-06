@@ -15,13 +15,14 @@
         {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-    {{ $search := resources.Get "/js/search.js" | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" type="module" defer></script>
-    {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $random.RelPermalink }}" integrity="{{ $random.Data.Integrity }}" type="module" defer></script>
+    {{ $fuse := resources.Get "js/fuse.js" }}
+    {{ $search := resources.Get "/js/search.js" }}
+    {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . }}
+    {{ $bundle := slice $fuse $search $random | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" defer async></script>
+
     {{ if eq .Page.Kind "page" }}
     {{ $collapse := resources.Get "/js/collapse.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $collapse.RelPermalink }}" integrity="{{ $collapse.Data.Integrity }}" type="module" defer></script>
+    <script type="text/javascript" src="{{ $collapse.RelPermalink }}" integrity="{{ $collapse.Data.Integrity }}" defer async></script>
     {{ end }}
 </footer>
