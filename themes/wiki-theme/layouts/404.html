@@ -1,4 +1,4 @@
 {{ define "main" }}
-a
-{{ .RenderString .Site.Params.missingPage }}
+{{ site.Params.missingPage }}
+{{ .RenderString site.Params.missingPage }}
 {{ end }}
