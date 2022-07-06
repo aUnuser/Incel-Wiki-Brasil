@@ -2,7 +2,7 @@
 title: "Como contribuir"
 description:
 ---
-1. Leia a sessão "Content Management" da documentação do [Hugo](https://gohugo.io/content-management/)
+1. Familiarize-se com os [Hugo bundles](https://www.ii.com/hugo-bundles/)
 2. Familiarize-se com o Github (pode ser só pelo browser).
 3. Familiarize-se com Markdown.
 4. Vá até o [repositório do site](https://github.com/aUnuser/Incel-Wiki-Brasil).
