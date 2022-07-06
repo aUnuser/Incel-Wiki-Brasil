@@ -1,6 +1,5 @@
 +++
 title = "Sobre"
-date = "2022-06-18 15:43:28 -0300 -03"
 description = ""
 +++
 A Incel Wiki Brasil é uma iniciativa de contribuir para a incelosfera brasileira trazendo para a nossa língua o maior acervo de conhecimento incel existente na internet.
