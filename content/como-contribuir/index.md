@@ -1,5 +1,5 @@
 ---
-title: "Incel Wiki Brasil: Como Contribuir"
+title: "Como contribuir"
 description:
 ---
 1. Leia a sessão "Content Management" da documentação do [Hugo](https://gohugo.io/content-management/)
