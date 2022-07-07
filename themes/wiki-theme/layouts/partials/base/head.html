@@ -6,12 +6,14 @@
     {{ if templates.Exists "partials/tnd-seo/tags.html" }}
       {{ partial "tnd-seo/tags.html" . }}
     {{ end }}
-    
-    {{ with resources.GetRemote "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" }}  
-    <style>{{ .Content | safeCSS }}</style>
-    {{ end }}
 
-    {{ with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS | resources.Minify }}
-    <style>{{ .Content | safeCSS }}</style>
-    {{ end }}
+    <style>
+      {{ with resources.Get "/css/normalize.min.css" }}  
+      {{ .Content | safeCSS }}
+      {{ end }}
+
+      {{ with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS | resources.Minify }}
+      {{ .Content | safeCSS }}
+      {{ end }}
+    </style>
 </head>

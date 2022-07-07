@@ -15,11 +15,11 @@
         {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
     </div>
     
-    {{ $fuse := resources.Get "js/fuse.js" }}
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     {{ $search := resources.Get "/js/search.js" }}
     {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . }}
-    {{ $bundle := slice $fuse $search $random | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" defer async></script>
+    {{ $bundle := slice $search $random | resources.Concat "js/bundle.js" | js.Build (dict "minify" hugo.IsProduction) | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" defer async></script>
 
     {{ if eq .Page.Kind "page" }}
     {{ $collapse := resources.Get "/js/collapse.js" | resources.Minify | resources.Fingerprint "sha512" }}

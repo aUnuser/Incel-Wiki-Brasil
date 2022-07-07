@@ -54,24 +54,82 @@ function resetBodyScroll() {
     }
 }
 
-/// Search proper
-// https://gist.github.com/cmod/5410eae147e4318164258742dd053993 - modded
-var fuse; // holds our search engine
-var firstRun = true; // allow us to delay loading json data unless search activated
+/// https://gist.github.com/cmod/5410eae147e4318164258742dd053993 - modded
+var fuse;
+var firstRun = true;
 
-var resultsMobile = document.getElementById("searchResultsMobile"); // targets the <ul>
-var resultsDesktop = document.getElementById("searchResults"); // targets the <ul>
+var resultsMobile = document.getElementById("searchResultsMobile");
+var resultsDesktop = document.getElementById("searchResultsDesktop");
 
-var inputMobile = document.getElementById("searchInputMobile"); // input box for search
+var inputMobile = document.getElementById("searchInputMobile");
 var inputDesktop = document.getElementById("searchInputDesktop");
 
-var resultsAvailable = false; // Did we get any search results?
+var resultsAvailable = false;
+
+var desktopSearchFocused = false;
+var mobileSearchFocused = false;
+
+document.addEventListener("focus", function(e){
+    if(e.path[0].tagName === "INPUT") {
+        if (firstRun) {
+            loadSearch();
+            firstRun = false;
+        }
+        if (e.path[0].id === "searchInputMobile") {
+
+        } else if (e.path[0].id === "searchInputDesktop") {
+            
+        }
+    } else if (e.path[0].tagName === "LI") {
+
+    } else {
+        resultsDesktop.style.display = "none";
+        desktopSearchFocused = false;
+    }
+}, true);
+document.addEventListener("focusout", function(e) {
+    console.log(e.path[0]);
+});
+
+document.addEventListener('keydown', function (event) {
+    var desktopFirst = resultsDesktop.firstChild;
+    var desktopLast = resultsDesktop.lastChild;
+    if (event.key === "ArrowUp" && desktopSearchFocused) {
+        event.preventDefault();
+        if (document.activeElement == inputDesktop) {
+            inputDesktop.focus();
+        }
+        else if (document.activeElement == desktopFirst) {
+            inputDesktop.focus();
+        }
+        else {
+            document.activeElement.previousSibling.focus();
+        }
+    }
+    if (event.key === "ArrowDown" && desktopSearchFocused) {
+        event.preventDefault();
+        if (document.activeElement == inputDesktop) {
+            desktopFirst.focus();
+        }
+        else if (document.activeElement == desktopLast) {
+            desktopLast.focus();
+        }
+        else {
+            document.activeElement.nextSibling.focus();
+        }
+    }
+});
 
 inputMobile.onkeyup = function (e) {
     executeSearch(this.value, resultsMobile);
+    
 }
 inputDesktop.onkeyup = function (e) {
     executeSearch(this.value, resultsDesktop);
+    if (!desktopSearchFocused) {
+        resultsDesktop.style.display = "block";
+        desktopSearchFocused = true;
+    }
 }
 
 function fetchJSONFile(path, callback) {
@@ -90,7 +148,7 @@ function fetchJSONFile(path, callback) {
 
 function loadSearch() {
     fetchJSONFile('/index.json', function (data) {
-        var options = { // fuse.js options; check fuse.js website for details
+        var options = {
             shouldSort: true,
             location: 0,
             distance: 100,
@@ -99,31 +157,30 @@ function loadSearch() {
             keys: [
                 "title",
                 "permalink",
-                "content"
+                "content",
+                "categorias"
             ]
         };
-        fuse = new Fuse(data, options); // build the index from the json file
+        fuse = new Fuse(data, options);
     });
 }
 
 function executeSearch(term, destination) {
-    let results = fuse.search(term); // the actual query being run using fuse.js
-    let searchitems = ""; // our results bucket
+    let results = fuse.search(term);
+    let searchitems = "";
 
-    console.log(window.innerWidth)
-    if (results.length === 0) { // no results based on what was typed into the input box
+    if (results.length === 0) {
         resultsAvailable = false;
         searchitems = "";
-    } else { // build our html 
-        for (let item in results.slice(0, 15)) { // only show first 15 results
-            searchitems = searchitems + '<li><a href="' + results[item].permalink + '" tabindex="0">' + '<span class="title">' + results[item].title + '</span><br /> <span class="sc">' + results[item].section + '</span> — ' + results[item].date + ' — <em>' + results[item].desc + '</em></a></li>';
+    } else {
+        for (let i in results.slice(0, 15)) { // only show first 15 results
+            if (window.innerWidth < 1200) {
+                searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><div class=\"thumb\"></div><div class=\"meta\"><h3>" + results[i].item.title + "</h3></div></a></li>";
+            } else {
+                searchitems = searchitems + "<li tabindex=\"0\"><a href=\"" + results[i].item.permalink + "\">" + results[i].item.title + "</a></li>";
+            }
         }
         resultsAvailable = true;
     }
-
-    document.getElementById("searchResults").innerHTML = searchitems;
-    if (results.length > 0) {
-        first = destination.firstChild.firstElementChild; // first result container — used for checking against keyboard up/down location
-        last = destination.lastChild.firstElementChild; // last result container — used for checking against keyboard up/down location
-    }
+    destination.innerHTML = searchitems;
 }
