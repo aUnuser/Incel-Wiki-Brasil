@@ -1192,13 +1192,17 @@ body {
                                 padding-left: .3rem;
                                 a {
                                     color: #000000;
+                                    display: block;
                                 }
                             }
 
-                            li:hover {
+                            li:focus {
+                                outline: 0;
                                 background-color: #3366cc;
-                                color: #fff;
                                 padding-left: .3rem;
+                                a {
+                                    color: #fff;
+                                }
                             }
                         }
                     }
