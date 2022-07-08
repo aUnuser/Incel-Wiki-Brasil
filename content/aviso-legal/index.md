@@ -1,7 +1,7 @@
----
-title: "Aviso legal"
-description:
----
++++
+title = "Aviso legal"
+description = ""
++++
 As mesmas regras e avisos da [Incel Wiki](https://incels.wiki/w/Main_Page) se aplicam aqui, com as devidas adaptações para a lei brasileira.
 Adicionalmente:
 * Não crie conteúdo que já não esteja na [Incel Wiki](https://incels.wiki/w/Main_Page) original.
