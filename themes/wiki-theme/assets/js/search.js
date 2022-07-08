@@ -43,7 +43,6 @@ function tabletOverlayFunc(event) {
 function upDownArrows(event) {
     var desktopFirst = resultsDesktop.firstChild;
     var desktopLast = resultsDesktop.lastChild;
-
     if (event.key === "ArrowUp" && desktopSearchFocused) {
         event.preventDefault();
         if (document.activeElement == inputDesktop) {
