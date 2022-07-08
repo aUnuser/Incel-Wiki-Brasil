@@ -1,6 +1,50 @@
+var fuse;
+var firstRun = true;
+
+var resultsMobile = document.getElementById("searchResultsMobile");
+var resultsDesktop = document.getElementById("searchResultsDesktop");
+
+var inputMobile = document.getElementById("searchInputMobile");
+var inputDesktop = document.getElementById("searchInputDesktop");
+
+var resultsAvailable = false;
+
+var desktopSearchFocused = false;
+var mobileSearchFocused = false;
+var isTabletOverlayOn = false;
+var tabletOverlayElement = document.getElementsByClassName("overlay")[0];
+
 var magButton = document.getElementById("searchLabel");
 var searchInputMobile = document.getElementById("searchInputMobile");
 var body = document.getElementsByTagName("body")[0];
+
+function overlayToggle() {
+    if(!isTabletOverlayOn) {
+        tabletOverlayElement.style.cssText = `
+            visibility: visible;
+            opacity: 1;
+            display: block;`;
+    } else {
+        tabletOverlayElement.style.cssText = `
+            visibility: hidden;
+            opacity: 0;
+            display: none;`;
+    }
+}
+
+function tabletOverlayFunc(event) {
+    if(event.target === inputMobile && !isTabletOverlayOn) {
+        overlayToggle();
+        isTabletOverlayOn = true;
+    }
+    if(isTabletOverlayOn) {
+        if(event.target != inputMobile && !resultsMobile.contains(event.target)) {
+            overlayToggle();
+            resetBodyNoScroll();
+            isTabletOverlayOn = false;
+        }
+    }
+}
 
 function upDownArrows(event) {
     var desktopFirst = resultsDesktop.firstChild;
@@ -47,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (window.innerWidth >= 600 && window.innerWidth < 1200) {
         // Tablet
         searchInputMobile.addEventListener("focus", toggleBodyScroll);
+        document.addEventListener("click", tabletOverlayFunc);
     } else {
         // Desktop
         document.addEventListener("keydown", upDownArrows);
@@ -61,10 +106,12 @@ mobileDesktop.addEventListener("change", event => {
     if (event.matches) {
         // Tablet
         searchInputMobile.addEventListener("focus", toggleBodyScroll);
+        document.addEventListener("click", tabletOverlayFunc);
         document.removeEventListener("keydown", upDownArrows);
         document.removeEventListener("click", clickOutside);
     } else {
         // Desktop
+        document.removeEventListener("click", tabletOverlayFunc);
         searchInputMobile.removeEventListener("focus", toggleBodyScroll);
         resetBodyNoScroll();
         document.addEventListener("keydown", upDownArrows);
@@ -75,10 +122,13 @@ bigSmallMobile.addEventListener("change", event => {
     if (event.matches) {
         // Tablet
         searchInputMobile.addEventListener("focus", toggleBodyScroll);
+        document.addEventListener("click", tabletOverlayFunc);
         magButton.removeEventListener("click", toggleBodyScroll);
         resetBodyNoScroll();
     } else {
         // Mobile
+        tabletOverlayElement.style.cssText = "";
+        document.removeEventListener("click", tabletOverlayFunc);
         searchInputMobile.removeEventListener("focus", toggleBodyScroll);
         magButton.addEventListener("click", toggleBodyScroll);
         resetBodyNoScroll();
@@ -99,20 +149,6 @@ function resetBodyNoScroll() {
 }
 
 /// https://gist.github.com/cmod/5410eae147e4318164258742dd053993 - modded
-var fuse;
-var firstRun = true;
-
-var resultsMobile = document.getElementById("searchResultsMobile");
-var resultsDesktop = document.getElementById("searchResultsDesktop");
-
-var inputMobile = document.getElementById("searchInputMobile");
-var inputDesktop = document.getElementById("searchInputDesktop");
-
-var resultsAvailable = false;
-
-var desktopSearchFocused = false;
-var mobileSearchFocused = false;
-
 document.addEventListener("focus", function (e) {
     if (e.path[0].tagName === "INPUT") {
         if (firstRun) {

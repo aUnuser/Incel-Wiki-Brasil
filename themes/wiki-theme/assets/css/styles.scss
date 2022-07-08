@@ -945,21 +945,11 @@ body {
                 #searchToggle:checked~.overlay {
                     visibility: hidden;
                     opacity: 0;
-                    transition: opacity 100ms ease-in-out;
                     display: none;
                 }
-
-                #searchInputMobile:focus~.overlay {
-                    visibility: visible;
-                    opacity: 1;
-                    transition: opacity 100ms ease-in-out;
-                    display: block;
-                }
                 #searchResultsMobile {
-                    li {
-                        width: 50%;
-                        margin: auto;
-                    }
+                    width: 50%;
+                    margin: auto !important;
                 }
             }
         }
