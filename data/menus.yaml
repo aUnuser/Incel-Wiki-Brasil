@@ -13,6 +13,7 @@ desktop_sidebar:
       * [Categorias](/categorias/)
       * [Sobre a wiki](/sobre)
       * [Aviso legal](/aviso-legal)
+      * [Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
   - title: História e FAQ
     weight: 2
     Content: |
@@ -39,6 +40,10 @@ mobile_sidebar:
     Content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
       * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
+  - weight: 4
+    Content: |
+      * [<i class="icon"></i>Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
+
 
 footer:
   - weight: 1
