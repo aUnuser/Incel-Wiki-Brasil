@@ -20,15 +20,9 @@ var body = document.getElementsByTagName("body")[0];
 
 function overlayToggle() {
     if(!isTabletOverlayOn) {
-        tabletOverlayElement.style.cssText = `
-            visibility: visible;
-            opacity: 1;
-            display: block;`;
+        tabletOverlayElement.style.cssText = "visibility:visible;opacity:1;display:block;";
     } else {
-        tabletOverlayElement.style.cssText = `
-            visibility: hidden;
-            opacity: 0;
-            display: none;`;
+        tabletOverlayElement.style.cssText = "visibility:hidden;opacity:0;display:none;";
     }
 }
 
