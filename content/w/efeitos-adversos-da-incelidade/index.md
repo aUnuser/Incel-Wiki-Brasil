@@ -69,7 +69,7 @@ Controlando por vários fatores demográficos, as chances de morrer no próximo 
 
 Incels costumam sentir solidão, o que pode acontecer em parte por conta do constrangimento causado pela falta de sucesso sexual. Muitos incels são deprimidos, e, por exemplo, em uma pesquisa informal, 49,3% dos incels disseram não ter nenhum amigo.[^72] Não está claro se é a incelidade que causa solidão ou vice-versa, mas ambos são plausíveis.
 
-A solidão é associada à uma grande quantidade de doenças, e tem um efeito negativo na saúde comparável ao tabagismo compulsivo e à obesidade.[^73] A expectativa de solidão também reduz a inteligência,[^74] e a exclusão social também reduz comportamento prosocial.[^75] O contato caloroso de uma parceira reduz o estresse circulatório e cardíacos, o que pode explicar a ocorrência precoce de falha cardio-vascular em pessoas solitárias.
+A solidão é associada à uma grande quantidade de doenças, e tem um efeito negativo na saúde comparável ao tabagismo compulsivo e à obesidade.[^73] A expectativa de solidão também reduz a inteligência,[^74] e a exclusão social também reduz comportamento prosocial.[^75] O contato caloroso de uma parceira reduz o estresse circulatório e cardíaco, o que pode explicar a ocorrência precoce de falha cardio-vascular em pessoas solitárias.
 
 ## Depressão
 [Em construção]
