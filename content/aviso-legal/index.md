@@ -13,8 +13,8 @@ A Incel Wiki Brasil é um projeto independente e não é ligada à Wikipedia, ne
 ## Regras
 * Não adicione conteúdo que viole a lei brasileira.
 * Não faça apologia à violência e nem à nenhuma outra atividade ilegal.
-* Não crie uma página a respeito de uma pessoa menor de 18 anos
-* Não crie uma página sobre você mesmo
+* Não crie páginas a respeito de pessoas menores de 18 anos.
+* Não crie uma página sobre você mesmo.
 * Não faça edições maliciosas contra incels
 * Não crie páginas que já não estejam na [Incel Wiki](https://incels.wiki).
 * Não use apenas tradutores automáticos. Se usar algum, faça o polimento da fluência e verifique se o sentido do texto original foi mantido.
