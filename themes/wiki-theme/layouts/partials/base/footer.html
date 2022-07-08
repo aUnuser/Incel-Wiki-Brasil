@@ -23,6 +23,6 @@
 
     {{ if eq .Page.Kind "page" }}
     {{ $collapse := resources.Get "/js/collapse.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $collapse.RelPermalink }}" integrity="{{ $collapse.Data.Integrity }}" defer async></script>
+    <script type="text/javascript" src="{{ $collapse.Permalink }}" integrity="{{ $collapse.Data.Integrity }}" defer async></script>
     {{ end }}
 </footer>
