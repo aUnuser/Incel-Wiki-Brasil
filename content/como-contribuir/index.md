@@ -47,13 +47,13 @@ Para facilitar o entendimento, organizei a explicação em pontos:
 7. As pastas 1, 2 e 3 possuem dentro de si um `index.md`, sem o underline "_". Ou seja, estas pastas são páginas simples.
 8. A pasta `artigos` possui dentro de si outras páginas e um arquivo `_index.md`, o que significa que ela também é uma seção. Nesse caso, ela é a sessão que abriga os artigos da wiki.
 9. Dentro da pasta `artigos` existem várias pastas, cada uma contendo um `index.md`. Ou seja, os artigos da wiki são páginas simples.
-10. Dentro da pasta de cada artigo existe uma pasta `imagens`, onde vivem as imagens usadas no artigos. Para referenciá-las no conteúdo do artigo, aponte para o caminho "`imagens/nome-da-imagem.jpg`". São aceitos apenas os formatos jpg, jpeg, png e webm.
+10. Dentro da pasta de cada artigo existe uma pasta `imagens`, onde vivem as imagens usadas no artigos.
 11. Usando a terminologia oficial do Hugo, cada pasta que possui um `_index.md` é um "galho" (branch), e cada uma que possui um `index.md` sem underline "_" é uma "folha" (leaf).
 12. Para editar o conteúdo de uma página, edite o seu `index`.
 13. Para criar uma página, crie no lugar apropriado de `content` uma pasta nomeada com o nome da página sem acentos, com hífens no lugar de espaços e sem letras maiúsculas, e então crie um arquivo `index` dentro dela.
 14. Os arquivos `index` possuem a extensão `.md`, o que significa que são arquivos markdown.
 
-## Frontmatter
+## Trabalhando com arquivos Markdown
 [Em construção]
 
 ## Editando pelo Github no navegador
