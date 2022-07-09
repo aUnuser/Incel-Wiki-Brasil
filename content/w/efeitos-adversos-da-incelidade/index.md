@@ -80,25 +80,10 @@ Além da exclusão social, uma causa da depressão pode ser o mal estar por não
 
 Uma simples explicação darwiniana pode ser dada a respeito do mal estar de não ter acesso à oportunidades reprodutivas. De uma perspectiva darwiniana esse é o pior lugar para se estar, já que não se pode propagar os genes. Por essa razão, poderíamos esperar que emoções negativas como depressão tenham evoluído para entre outras coisas, desincentivar homens a aceitar a incelidade. A explicação é simples: indivíduos com uma mutação que os faz aceitar a incelidade reproduziram menos dos que não a tinham. Na verdade nem sequer se reproduziram. E isso não significa que o humor de alguém é necessariamente proporcional ao seu sucesso reprodutivo (não é),[^81] mas é proporcional a outras condições heurísticas que evoluíram para incentivar a reprodução (status, orgasmos, contato corporal, socialização etc.).
 
-## Não cooperação
-[Em construção]
-
 ## Disfunção Erétil
 [Em construção]
 
-## Tendencia à DSTs
-[Em construção]
-
 ## Síndrome Death Grip
-[Em construção]
-
-## Priapismo
-[Em construção]
-
-## Implicações societais
-[Em construção]
-
-## Benefícios do celibato
 [Em construção]
 
 ## Veja também
