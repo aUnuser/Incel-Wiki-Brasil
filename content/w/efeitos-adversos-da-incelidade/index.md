@@ -67,12 +67,18 @@ Controlando por vários fatores demográficos, as chances de morrer no próximo 
 ## Solidão
 !["Qual o sentido de ter isso tudo quando se é sozinho?"](imagens/Does_it_mean_anything.jpeg "desktop-right")
 
-Incels costumam sentir solidão, o que pode acontecer em parte por conta do constrangimento causado pela falta de sucesso sexual. Muitos incels são deprimidos, e, por exemplo, em uma pesquisa informal, 49,3% dos incels disseram não ter nenhum amigo.[^72] Não está claro se é a incelidade que causa solidão ou vice-versa, mas ambos são plausíveis.
+Incels costumam sentir solidão, o que pode acontecer em parte por conta do constrangimento causado pela falta de sucesso sexual. Muitos incels são deprimidos, e, por exemplo, em uma pesquisa informal do [incels.co](/w/incels-ponto-is), 49,3% dos incels disseram não ter nenhum amigo.[^72] Não está claro se é a incelidade que causa solidão ou vice-versa, mas ambos são plausíveis.
 
-A solidão é associada à uma grande quantidade de doenças, e tem um efeito negativo na saúde comparável ao tabagismo compulsivo e à obesidade.[^73] A expectativa de solidão também reduz a inteligência,[^74] e a exclusão social também reduz comportamento prosocial.[^75] O contato caloroso de uma parceira reduz o estresse circulatório e cardíaco, o que pode explicar a ocorrência precoce de falha cardiovascular em pessoas solitárias.
+A solidão é associada à uma grande quantidade de doenças, e tem um efeito negativo na saúde comparável ao tabagismo compulsivo e à obesidade.[^73] A expectativa de solidão também reduz a inteligência,[^74] e a exclusão social também reduz comportamento prosocial.[^75] O contato caloroso de uma parceira reduz o estresse circulatório e cardíaco, o que pode explicar a ocorrência precoce de falha cardiovascular em pessoas solitárias.[^76]
 
 ## Depressão
-[Em construção]
+A depressão é comum em incels, e em outra pesquisa informal 59,4% dos usuários do [incels.co](/w/incels-ponto-is) disseram ter depressão.[^77] De novo, não se sabe se é a incelidade que causa depressão ou vice-versa, mas ambos são plausíveis.
+
+Existem evidências de que a depressão danifica permanentemente funções cerebrais e diminui o QI. Recuperação da depressão restaura grande parte da performance cognitiva, mas alguns déficits permanecem, especialmente na performance verbal.[^78][^79] Parte disso pode ser causada por um encolhimento permanente do hipocampo, possibvelmente causado por morte celular devido ao estresse.[^80]
+
+Além da exclusão social, uma causa da depressão pode ser o mal estar por não ter cumprido o objetivo que todos os nossos ancestrais cumpriram, i.e. reproduzir. Assim nos tornamos um [fim da linha genético](/w/fim-linha-genetico)(FLG). Embora algumas pessoas gostem da ideia de não ter filhos, dizendo que isso os dá liberdade e os permite focar em suas carreiras etc., também existem desvantagens em não reproduzir. Ter filhos pode dar significado à bida de alguém, pode ser recompensador criar uma vida humana, e crianças costumam trazer alegria. O que piora o FLG resultante da incelidade é que, diferente do FLG voluntário, pessoas do espectro incel são impedidas de ter filhos. Ser um incel é, em geral, causa de vergonha.
+
+Uma simples explicação darwiniana pode ser dada a respeito do mal estar de não ter acesso à oportunidades reprodutivas. De uma perspectiva darwiniana esse é o pior lugar para se estar, já que não se pode propagar os genes. Por essa razão, poderíamos esperar que emoções negativas como depressão tenham evoluído para desincentivar homens a aceitar a incelidade. A explicação é simples: indivíduos com uma mutação que os faz aceitar a incelidade reproduziram menos dos que não a tinham. Na verdade nem sequer se reproduziram. E isso não significa que o humor de alguém é necessariamente proporcional ao seu sucesso reprodutivo (não é),[^81] mas é proporcional a outras condições heurísticas que evoluíram para incentivar a reprodução (status, orgasmos, contato corporal, socialização etc.). Logo provavelmente o FLG é meio que um meme 
 
 ## Não cooperação
 [Em construção]
