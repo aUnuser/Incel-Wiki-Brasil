@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleList(single_content_headers, true);
     }
 
-    const mediaQuery = '(max-width: 1199px)';
+    const mediaQuery = "(max-width: 1199px)";
     const mediaQueryList = window.matchMedia(mediaQuery);
     mediaQueryList.addEventListener("change", event => {
         if (event.matches) {

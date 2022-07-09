@@ -65,7 +65,7 @@ Segundo um grande estudo sobre a depressão conduzido em 23 países, estar solte
 Controlando por vários fatores demográficos, as chances de morrer no próximo ano são 1,33 maiores para um homem não casado do que para um homem casado, mas apenas 1,14 vezes maior para mulheres não casadas. O casamento é importante para a sobrevivência para ambos homens e mulheres, mas mais para o homem.[^71]
 
 ## Solidão
-![](imagens/Does_it_mean_anything.jpg "desktop-right")
+!["Qual o sentido de ter isso tudo quando se é sozinho?"](imagens/Does_it_mean_anything.jpeg "desktop-right")
 
 Incels costumam sentir solidão, o que pode acontecer em parte por conta do constrangimento causado pela falta de sucesso sexual. Muitos incels são deprimidos, e, por exemplo, em uma pesquisa informal, 49,3% dos incels disseram não ter nenhum amigo.[^72] Não está claro se é a incelidade que causa solidão ou vice-versa, mas ambos são plausíveis.
 

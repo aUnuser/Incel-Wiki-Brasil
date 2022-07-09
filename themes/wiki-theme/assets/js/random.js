@@ -1,26 +1,35 @@
 // From https://github.com/jgreely/hugo-theme-recipe/blob/master/layouts/redirect/baseof.html
 // Modded
+{{ $scratch := newScratch }}
 {{- range $.Site.RegularPages -}}
-  {{ $.Scratch.Add "tmp" (slice .RelPermalink) }}
+  {{ $scratch.Add "tmp" (slice .RelPermalink) }}
 {{- end -}}
-{{ $.Scratch.Get "tmp" | jsonify | $.Scratch.Set "tmp" }}
+{{ $scratch.Get "tmp" | jsonify | $scratch.Set "tmp" }}
 
 {{- range $.Site.Params.remove_from_random -}}
-  {{ $.Scratch.Add "tmp2" (slice . ) }}
+  {{ with . }}
+    {{ $scratch.Add "tmp2" (slice . ) }}
+  {{ end }}
 {{- end -}}
-{{ $.Scratch.Get "tmp2" | jsonify | $.Scratch.Set "tmp2" }}
+{{ $scratch.Get "tmp2" | jsonify | $scratch.Set "tmp2" }}
 
 document.addEventListener("DOMContentLoaded", function () {
-  var recipe = {{ $.Scratch.Get "tmp" | safeJS }};
-  var todelete = {{ $.Scratch.Get "tmp2" | safeJS }};
-  for(var i = 0; i < todelete.length; i++){
-    for(var j = 0; j < recipe.length; j++) {
-      if(todelete[i] === recipe[j]){
-        delete recipe[j];
+  var recipe = {{ $scratch.Get "tmp" | safeJS }};
+  var todelete = {{ $scratch.Get "tmp2" | safeJS }};
+  var currentPage = window.location.href.replace("{{ .Site.BaseURL }}", "/");
+  for(var i = 0; i < recipe.length; i++){
+    if(currentPage === recipe[i]){
+      delete recipe[i];
+    }
+    if(todelete) {
+      for(var j = 0; j < todelete.length; j++) {
+        if(todelete[j] === recipe[i]){
+          delete recipe[i];
+        }
       }
     }
   }
-  recipe = recipe.filter(function(x) { return x !== null }); 
+  recipe = recipe.filter(function(x) { return x !== null });
   var index = Math.floor(Math.random() * recipe.length);
   var randomlink = document.getElementsByClassName("random-link");
   for(var i = 0; i < randomlink.length; i++) {

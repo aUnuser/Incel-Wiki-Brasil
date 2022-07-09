@@ -1,5 +1,4 @@
 <footer>
-
     {{ with .File }}
     {{ $editlink := printf "%s/commits/main/content/%s" ($.Site.Params.repo_link) (replace .Path "\\" "/") }}
     <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
@@ -15,14 +14,18 @@
         {{ partial "menu.html" (dict "menuname" "footer" "context" .) }}
     </div>
     
-    {{ $fuse := resources.Get "/js/fuse.js" }}
-    {{ $search := resources.Get "/js/search.js" }}
-    {{ $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . }}
-    {{ $bundle := slice $fuse $search $random | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" defer async></script>
+    {{- $fuse := resources.Get "/js/fuse.js" -}}
+    {{- $search := resources.Get "/js/search.js" -}}
+    {{- $bundle := slice $fuse $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" -}}
+    <script type="text/javascript" src="{{- $bundle.Permalink -}}" integrity="{{- $bundle.Data.Integrity -}}" defer></script>
 
-    {{ if eq .Page.Kind "page" }}
-    {{ $collapse := resources.Get "/js/collapse.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $collapse.Permalink }}" integrity="{{ $collapse.Data.Integrity }}" defer async></script>
-    {{ end }}
+    {{- if eq .Page.Kind "page" -}}
+    {{- $collapse := resources.Get "/js/collapse.js" | resources.Minify | resources.Fingerprint "sha512" -}}
+    <script type="text/javascript" src="{{ $collapse.Permalink }}" integrity="{{ $collapse.Data.Integrity }}" defer></script>
+    {{- end -}}
+
+    {{- $random := resources.Get "/js/random.js" | resources.ExecuteAsTemplate "/js/random.js" . | resources.Minify -}}
+    {{- with $random -}}
+    <script>{{- .Content | safeJS -}}</script>
+    {{- end -}}
 </footer>
