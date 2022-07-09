@@ -39,7 +39,7 @@ https://github.com/aUnuser/Incel-Wiki-Brasil
 ```
 Para facilitar o entendimento, organizei a explicação em pontos:
 1. No diagrama acima está a estrutura de pastas que guarda todos os arquivos do site. O que importa para nós agora é a pasta `content`.
-2. Dentro da pasta `content` vive um arquivo chamado `_index.md` e algumas pastas, e dentro de cada pasta existem outros arquivos, chamados `index.md`(sem o underline "_").
+2. Dentro da pasta `content` vivem um arquivo chamado `_index.md` e algumas pastas, e dentro de cada pasta existem outros arquivos, chamados `index.md`(sem o underline "_").
 3. Toda pasta que possui um arquivo `index` é uma página no site, onde seu conteúdo está escrito no arquivo `index`. Podemos pensar no `index` como se fosse a "cabeça" da página.
 4. Se o `index` de página X é precedido por um underline "_", significa que existem outras páginas debaixo dessa página X na hierarquia. Ou seja, significa que essa página X é uma *seção*.
 5. A pasta `content` então é uma página que abriga todas as outras páginas do site, ou uma seção. O seu `_index.md` possui o conteúdo da [página inicial do site](/).
