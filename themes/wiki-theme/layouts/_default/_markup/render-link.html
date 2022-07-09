@@ -2,23 +2,19 @@
 {{- $class := .Title | plainify | anchorize -}}
 {{- $hashttp := strings.HasPrefix .Destination "http" -}}
 {{- $isinternal := strings.HasPrefix .Destination "/" -}}
-{{- $ispage := false -}}
+{{ $exists := false }}
 {{- if $isinternal -}}
-    {{ with site.GetPage .Destination }}
-        {{- $ispage = true -}}
-    {{ end }}
+    {{- with site.GetPage .Destination -}}
+    {{- $exists = true -}}
+    {{- end -}}
 {{- end -}}
 
-<a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{- if or (and $isinternal (not $ispage)) (not .Destination) -}} empty-link{{- end -}}">
+<a href="{{- .Destination | safeURL -}}"{{- if $hashttp -}} target="_blank" rel="noopener noreferrer"{{- end -}} class="{{ $class }}{{ if and $isinternal (not $exists) }} empty-link{{ end }}">
     {{- if not .Text -}}
         {{- .Destination | safeURL -}}
     {{- else -}}
         {{- .Text | safeHTML -}}
     {{- end -}}
 </a>
-
-{{- if and $isinternal (not $ispage) -}}
-    
-{{- end -}}
 
 {{- /* This comment removes trailing newlines. */ -}}

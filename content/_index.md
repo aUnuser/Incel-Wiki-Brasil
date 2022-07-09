@@ -1,5 +1,5 @@
 +++
-title = "Main Page"
+title = "Página Principal"
 
 [panels.oqueincel]
 title = "O que é incel?"
@@ -10,7 +10,6 @@ background_color = "#f5fffa"
 title_border_color = "#a3bfb1"
 title_background_color = "#cef2e0"
 content = """
-
 [Incel](/artigos/incel) é a contração de celibatário involuntário ou celibato involuntário (também chamado de incelidade), que é um termo para a circunstância de vida [adversa](/artigos/efeitos-adversos-da-incelidade) de completa ausência de relacionamentos amorosos/afetivos apesar da vontade de tê-los. Uma analogia interessante é comparar o estado permanente de incelidade com outros problemas sociais, como a [pobreza](/artigos/pauper).
 
 
@@ -26,7 +25,6 @@ background_color = "#faf5ff"
 title_border_color = "#afa3bf"
 title_background_color = "#ddcef2"
 content = """
-
 * [Efeitos Adversos da Incelidade](/artigos/efeitos-adversos-da-incelidade)
 
 * [Hipergamia](/artigos/hipergamia) 
@@ -70,8 +68,7 @@ background_color = "#f5faff"
 title_border_color = "#a3b0bf"
 title_background_color = "#cedff2"
 content = """
-
-![A importância de uma esposa.](einstein-mileva.jpg "")
+![A importância de uma esposa.](/imagens/einstein-mileva.jpg "")
 
 
 

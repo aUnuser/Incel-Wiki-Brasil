@@ -37,9 +37,6 @@ params:
         contact: "" # Required
         languages: "pt"
 
-permalinks:
-  /: /:section/:title/
-
 outputs:
   home:
   - HTML

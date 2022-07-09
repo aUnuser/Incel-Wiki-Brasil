@@ -2,7 +2,7 @@
 {{/* Original code from: https://laurakalbag.com/processing-responsive-images-with-hugo/   */}}
 {{/* Just modified a bit to work with render_image hook and output webp images   */}}
 {{/* get file that matches the filename as specified as src=""  */}}
-{{- $src := .Page.Resources.GetMatch .Destination  -}}
+{{- $src := resources.Get .Destination  -}}
 {{- $caption := .Text | safeHTML -}}
 {{- $class := .Title | safeHTML -}}
 {{- $format := "webp" -}}
