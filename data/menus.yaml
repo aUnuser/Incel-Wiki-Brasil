@@ -25,8 +25,6 @@ desktop_sidebar:
     weight: 3
     Content: |
       * [Lista de Teorias](/categorias/teorias)
-      * [Efeitos Adversos da Incelidade](/artigos/efeitos-adversos-da-incelidade)
-      * [Incel](/artigos/incel)
 
 mobile_sidebar:
   - weight: 1
