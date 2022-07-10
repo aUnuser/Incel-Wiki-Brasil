@@ -5,7 +5,7 @@ description = "Pouco se sabe sobre os efeitos adversos da incelidade, já que es
 images = [ "/images/Einstein-Mileva.jpg" ]
 
 [original_article]
-title = "Adverse effects of inceldom"
+title = "Adverse Effects of Inceldom"
 link = "https://incels.wiki/index.php?title=Adverse_effects_of_inceldom"
 +++
 
