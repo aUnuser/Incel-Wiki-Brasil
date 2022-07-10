@@ -9,24 +9,25 @@ desktop_sidebar:
       * [Página principal](/)
       * [Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
       * [Página aleatória](/ "random-link")
-      * [Incel Wiki original](https://incels.wiki/w/Main_Page)
+      * [Incel Wiki original](https://incels.wiki/artigos/Main_Page)
       * [Categorias](/categorias/)
+      * [A Fazer](/a-fazer)
       * [Sobre a wiki](/sobre)
       * [Aviso legal](/aviso-legal)
       * [Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
   - title: História e FAQ
     weight: 2
     Content: |
-      * [FAQ da Incelidade](/w/perguntas-frequentes-incelidade)
-      * [Linha do Tempo da Incelosfera](/w/linha-tempo-incelosfera)
-      * [Glossário Incel](/w/glossario-incel)
-      * [Demografia da Incelidade](/w/demografia-incelidade)
+      * [FAQ da Incelidade](/artigos/perguntas-frequentes-incelidade)
+      * [Linha do Tempo da Incelosfera](/artigos/linha-tempo-incelosfera)
+      * [Glossário Incel](/artigos/glossario-incel)
+      * [Demografia da Incelidade](/artigos/demografia-incelidade)
   - title: Páginas Importantes
     weight: 3
     Content: |
       * [Lista de Teorias](/categorias/teorias)
-      * [Efeitos Adversos da Incelidade](/w/efeitos-adversos-da-incelidade)
-      * [Incel](/w/incel)
+      * [Efeitos Adversos da Incelidade](/artigos/efeitos-adversos-da-incelidade)
+      * [Incel](/artigos/incel)
 
 mobile_sidebar:
   - weight: 1
@@ -38,8 +39,8 @@ mobile_sidebar:
       * [<i class="icon github"></i>Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
   - weight: 3
     Content: |
-      * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/w/Main_Page)
-      * [<i class="icon edit"></i>Autores originais](https://incels.wiki/w/Special:ActiveUsers)
+      * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/artigos/Main_Page)
+      * [<i class="icon edit"></i>Autores originais](https://incels.wiki/artigos/Special:ActiveUsers)
   - weight: 4
     Content: |
       * [<i class="icon"></i>Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
