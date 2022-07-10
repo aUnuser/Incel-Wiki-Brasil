@@ -81,93 +81,104 @@ Além da exclusão social, uma causa da depressão pode ser o mal estar por não
 Uma simples explicação darwiniana pode ser dada a respeito do mal estar de não ter acesso à oportunidades reprodutivas. De uma perspectiva darwiniana esse é o pior lugar para se estar, já que não se pode propagar os genes. Por essa razão, poderíamos esperar que emoções negativas como depressão tenham evoluído para entre outras coisas, desincentivar homens a aceitar a incelidade. A explicação é simples: indivíduos com uma mutação que os faz aceitar a incelidade reproduziram menos dos que não a tinham. Na verdade nem sequer se reproduziram. E isso não significa que o humor de alguém é necessariamente proporcional ao seu sucesso reprodutivo (não é),[^81] mas é proporcional a outras condições heurísticas que evoluíram para incentivar a reprodução (status, orgasmos, contato corporal, socialização etc.).
 
 ## Disfunção Erétil
-[Em construção]
+Depressão e estresse podem resultar em impotência e [ejaculação retardada](/artigos/impotencia-causada-pela-incelidade), que é a dificuldade ou inabilidade do homem alcançar o orgasmo e ejacular.[^92] Pior ainda são as dificuldades eréteis e orgásmicas causadas por medicações; os SSRIs comumente prescrevidos para depressão são notórios por causar esses efeitos colaterais. É estimado que de 35% a 50% dos usuários de SSRIs sofrem alguma forma de disfunção sexual.[^93][^94] Dada a alta prevalência de depressão entre incels, isso é de interesse particular para esse grupo.
+
+Homens que perdem a virgindade depois dos 20 têm mais risco de ter problemas sexuais que incluem [baixa libido](/artigos/disfuncao-eretil) e [dificuldades de alcançar o orgamo](/artigos/impotencia-causada-pela-incelidade), concluiram os pesquisadores da *Columbia University* e da *New York State Psychiatric Institute's HIV Center for Clinical and Behavioral Studies* em um estudo publicado na edição de janeiro de 2008 do *American Journal of Public Health*.[^95]
+
+Outro problema sério relacionado à impotência que é particularmente perigoso para os incels é a dessensibilização. Devido ao uso excessivo da masturbação como mecanismo de [aceitação](/artigos/cope), muitos incels sofrem com a [Síndrome Death Grip](/artigos/sindrome-death-grip) e com uma forte dessensibilização ao prazer sexual e à estímulos sexuais.
 
 ## Síndrome Death Grip
-[Em construção]
+A [Síndrome Death Grip](/artigos/sindrome-death-grip) (SDG) é uma perda de sensibilidade no pênis causada por masturbação excessiva. De acordo com o *sexpert* Dan Savage, a fricção resultante de certas formas de masturbação resultam em uma inabilidade de alcançar o orgasmo.[^96] Homens com SDG correm mais risco de terminar seus relacionamentos devido à problemas de auto-estima de suas parceiras, já que elas não conseguem fazê-lo chegar ao orgasmo.
+
+A perda de sensação peniana da SDG é similar àquela causada pela circuncisão. Veja também a [blackpill da circuncisão](/artigos/blackpill-da-circuncisão).
 
 ## Veja também
 [Em construção]
 
 ## Referências
-[^1]:
-[^2]:
-[^3]:
-[^4]:
-[^5]:
-[^6]:
-[^7]:
-[^8]:
-[^9]:
-[^10]:
-[^11]:
-[^12]:
-[^13]:
-[^14]:
-[^15]:
-[^16]:
-[^17]:
-[^18]:
-[^19]:
-[^20]:
-[^21]:
-[^22]:
-[^23]:
-[^24]:
-[^25]:
-[^26]:
-[^27]:
-[^28]:
-[^29]:
-[^30]:
-[^31]:
-[^32]:
-[^33]:
-[^34]:
-[^35]:
-[^36]:
-[^37]:
-[^38]:
-[^39]:
-[^40]:
-[^41]:
-[^42]:
-[^43]:
-[^44]:
-[^45]:
-[^46]:
-[^47]:
-[^48]:
-[^49]:
-[^50]:
-[^51]:
-[^52]:
-[^53]:
-[^54]:
-[^55]:
-[^56]:
-[^57]:
-[^58]:
-[^59]:
-[^60]:
-[^61]:
-[^62]:
-[^63]:
-[^64]:
-[^65]:
-[^66]:
-[^67]:
-[^68]:
-[^69]:
-[^70]:
-[^71]:
-[^72]:
-[^73]:
-[^74]:
-[^75]:
-[^76]:
-[^77]:
-[^78]:
-[^79]:
-[^80]:
-[^81]:
+[^1]: [](https://www.vice.com/en_us/article/78bmza/the-cost-of-losing-your-virginity-late)
+[^2]: [](https://link.springer.com/article/10.1007/s00103-012-1607-z)
+[^3]: [](https://www.ncbi.nlm.nih.gov/pubmed/26178206)
+[^4]: [](https://osf.io/preprints/socarxiv/8374m)
+[^5]: [](https://link.springer.com/article/10.1007/s13524-011-0032-5)
+[^6]: [](https://www.telegraph.co.uk/news/health/news/9796903/Stay-single-die-younger-say-scientists.html)
+[^7]: [](http://news.bbc.co.uk/2/hi/health/1506209.stm)
+[^8]: [](https://www.psypost.org/2020/01/new-psychology-study-indicates-pursuing-evolutionary-relevant-goals-provides-purpose-in-life-55163)
+[^9]: [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5889124/)
+[^10]: [](https://incels.wiki/w/Scientific_Blackpill#Males_gained_peer_status_through_having_had_sex_and_females_lost_peer_status)
+[^11]: [](https://incels.wiki/w/Scientific_Blackpill#Mating_performance_is_significantly_related_to_happiness_and_life_satisfaction)
+[^12]: [](http://doi.org/10.1007/s10902-019-00074-1)
+[^13]: [](https://www.ncbi.nlm.nih.gov/pubmed/11967432)
+[^14]: [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4059345/)
+[^15]: [](https://incels.wiki/w/Scientific_Blackpill#Sex_is_the_most_pleasurable.2C_joyous.2C_and_meaningful_human_experience)
+[^16]: [](https://doi.org/10.1037/emo0000324)
+[^17]: [](https://doi.org/10.1177/0956797617691361)
+[^18]: [](https://scholar.google.com/scholar?cluster=362815643831287301)
+[^19]: [](https://link.springer.com/article/10.1007/s10508-016-0843-y)
+[^20]: [](https://incels.wiki/w/Scientific_Blackpill#Penile.E2.80.93vaginal_intercourse_is_associated_with_health.2C_but_masturbation_is_not)
+[^21]: [](https://greatist.com/health/health-benefits-of-sex)
+[^22]: Kepler SB, et al. 2019. Frequency of sexual activity and long-term survival after acute myocardial infarction. DOI https://doi.org/10.1016/j.amjmed.2019.06.019
+[^23]: Leavitt K, et al. (2017). From the bedroom to the office: Workplace spillover effects of sexual activity at home. DOI: https://doi.org/10.1177%2F0149206317698022
+[^24]: Charnetski CJ, et al. (2004). Sexual frequency and salivary immunoglobulin A (IgA). DOI https://doi.org/10.2466/pr0.94.3.839-844
+[^25]: Vragalova Z, et al. (2014). Who benefits from casual sex? The moderating role of sociosexuality. DOI https://doi.org/10.1177%2F1948550614537308
+[^26]: Brody S. (2006). Blood pressure reactivity to stress is better for people who recently had penile-vaginal intercourse than for people who had other or no sexual activity. DOI https://doi.org/10.1016/j.biopsycho.2005.03.005
+[^27]: Liu H, et al. (2016). Is sex good for your health? A national study on partnered sexuality and cardiovascular risk among older men and women. DOI: https://dx.doi.org/10.1177%2F0022146516661597
+[^28]: Ebrahim S, et al. (2002). Sexual intercourse and risk of ischaemic stroke and coronary heart disease: the Caerphilly study. DOI: https://doi.org/10.1136/jech.56.2.99
+[^29]: Frappier J, et al. (2013). Energy expenditure during sexual activity in young healthy couples. DOI https://doi.org/10.1371/journal.pone.0079342
+[^30]: Hambach A, et al. (2013). The impact of sexual activity on idiopathic headaches: an observational study. DOI: https://doi.org/10.1177/0333102413476374
+[^31]: Lastella M, et al. (2019). Sex and sleep: Perceptions of sex as a sleep promoting behavior in the general adult population. DOI https://dx.doi.org/10.3389%2Ffpubh.2019.00033
+[^32]: [](http://doi.org/10.1001/archpsyc.59.8.729)
+[^33]: [](http://doi.org/10.1177/1757913915623219)
+[^34]: [](https://doi.org/10.1086/339225)
+[^35]: [](https://www.researchgate.net/publication/227718658)
+[^36]: [](https://workplaceinsight.net/wp-content/uploads/2018/11/HarrysMasculinityReport2018.pdf)
+[^37]: [](https://doi.org/10.1007/s12144-016-9478-3.pdf)
+[^38]: [](https://doi.org/10.1016/j.ssresearch.2010.03.012)
+[^39]: [](http://doi.org/10.1177/2047487313475893)
+[^40]: [](http://doi.org/10.1177/2047487313475893)
+[^41]: [](http://doi.org/10.1080/08964280309596065)
+[^42]: [](https://journals.sagepub.com/doi/10.1177/1948550620929164)
+[^43]: [](https://www.psypost.org/2020/11/daily-physical-touch-from-a-romantic-partner-enhances-well-being-particularly-among-those-with-attachment-anxiety-58592)
+[^44]: [](https://doi.org/10.1371/journal.pone.0013309)
+[^45]: [](https://royalsocietypublishing.org/doi/full/10.1098/rsos.160603)
+[^46]: [](https://incels.wiki/w/Scientific_Blackpill#Attractive_people_are_perceived_much_more_positively_than_they_really_are)
+[^47]: [](https://doi.org/10.1016/j.evolhumbehav.2014.06.004)
+[^48]: [](https://news.gallup.com/poll/9091/Desire-Children-Alive-Well-America.aspx)
+[^49]: [](https://sciencenorway.no/ageing-childlessness-children/older-people-just-as-happy-without-children/1379299)
+[^50]: [](https://www.sciencedirect.com/science/article/abs/pii/S1743609520309814)
+[^51]: [](https://www.mankindquarterly.org/archive/issue/61-1/2)
+[^52]: [](https://link.springer.com/article/10.1007/s10508-021-02077-7)
+[^53]: [](https://incels.wiki/w/Scientific_Blackpill#Women_are_more_attracted_to_men_who_are_already_in_relationships_than_single_men)
+[^54]: [](https://incels.wiki/w/Scientific_Blackpill#Males_gained_peer_status_through_having_had_sex_and_females_lost_peer_status)
+[^55]: [](https://digitalcommons.humboldt.edu/cgi/viewcontent.cgi?article=1008&context=senior_comm)
+[^56]: [](https://doi.org/10.1037/0033-2909.117.3.497)
+[^57]: [](https://www.sciencedirect.com/science/article/pii/S0092656618300369)
+[^58]: [](https://europepmc.org/articles/PMC5726948/figure/F3/)
+[^59]: [](https://www.researchgate.net/publication/298726101_Has_Virginity_Lost_Its_Virtue_Relationship_Stigma_Associated_With_Being_a_Sexually_Inexperienced_Adult)
+[^60]: [](https://incels.wiki/w/Scientific_Blackpill#Males_gained_peer_status_through_having_had_sex_and_females_lost_peer_status)
+[^61]: [](https://digitalcommons.humboldt.edu/cgi/viewcontent.cgi?article=1008&context=senior_comm)
+[^62]: [](http://www.femininebeauty.info/suppression.pdf)
+[^63]: [](https://www.sciencedirect.com/science/article/pii/S0022103117304195)
+[^64]: [](https://incels.wiki/w/Scientific_Blackpill#Women_are_more_attracted_to_men_who_are_already_in_relationships_than_single_men)
+[^65]: [](http://match.mediaroom.com/2013-02-05-Singles-in-America-Match-com-Releases-Third-Annual-Comprehensive-Study-on-the-Single-Population)
+[^66]: [](https://www.tandfonline.com/doi/full/10.1080/00224499.2016.1144042)
+[^67]: [](http://doi.org/10.1016/j.socscimed.2010.03.035)
+[^68]: [](https://incels.wiki/w/Scientific_Blackpill#Being_widowed_in_one.27s_20s_increases_suicide_risk_by_.7E17x_for_men.2C_but_only_.7E4x_for_women)
+[^69]: [](https://incels.wiki/w/Scientific_Blackpill#Men_are_unhappier_being_single_than_women)
+[^70]: []( https://incels.wiki/w/Scientific_Blackpill#Being_single_is_a_greater_risk_factor_for_developing_depression_in_men_than_in_women)
+[^71]: [](https://doi.org/10.1007/s13524-011-0032-5)
+[^72]: [](https://incels.is/threads/survey-results-for-october-2019.147774/)
+[^73]: [](https://incels.wiki/w/Scientific_Blackpill#Loneliness_increases_premature_death_rates_by_26.25_and_is_as_deadly_as_obesity)
+[^74]: [](https://doi.org/10.1037//0022-3514.83.4.817)
+[^75]: [](https://doi.org/10.1037/0022-3514.92.1.56)
+[^76]: [](https://incels.wiki/w/Scientific_Blackpill#Warm_partner_contact_lowers_stress_levels)
+[^77]: [](https://incels.is/threads/survey-results-for-october-2019.147774/)
+[^78]: [](https://www.ncbi.nlm.nih.gov/pubmed/1572949)
+[^79]: [](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1440-1819.2006.01564.x)
+[^80]: [](https://www.theguardian.com/society/2015/jun/30/chronic-depression-shrinks-brains-memories-and-emotions)
+[^81]: [](https://www.jstor.org/stable/pdf/351391.pdf)
+[^92]: [](https://www.webmd.com/erectile-dysfunction/guide/ed-psychological-causes)
+[^93]: [](https://health.usnews.com/health-care/patient-advice/articles/2018-03-20/how-to-deal-with-sexual-side-effects-from-antidepressants)
+[^94]: [](https://www.health.harvard.edu/womens-health/when-an-ssri-medication-impacts-your-sex-life)
+[^95]: [](https://abcnews.go.com/Health/Sex/story?id=3932047&page=1)
+[^96]: [](https://www.salon.com/2015/11/22/men_theres_an_obvious_easy_way_to_avoid_losing_penis_sensitivity_partner/)

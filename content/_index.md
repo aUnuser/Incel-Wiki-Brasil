@@ -26,37 +26,21 @@ title_border_color = "#afa3bf"
 title_background_color = "#ddcef2"
 content = """
 * [Efeitos Adversos da Incelidade](/artigos/efeitos-adversos-da-incelidade)
-
 * [Hipergamia](/artigos/hipergamia) 
-
 * [A Blackpill Científica](/artigos/blackpill-cientifica)
-
 * [Casamento](/artigos/casamento)
-
 * [Feminismo](/artigos/feminismo)
-
 * [Beleza](/artigos/beleza)
-
 * [O Ralo Comportamental](/artigos/ralo-comportamental)
-
 * [Chad](/artigos/chad)
-
 * [A Tríade Negra](/artigos/triade-negra)
-
 * [Puta](/artigos/puta)
-
 * [Atratividade física](/artigos/atratividade-fisica)
-
 * [Fisionimia](/artigos/fisionomia)
-
 * [O Modelo de Seleção Sexual de Fisher](/artigos/modelo-selecao-sexual-fisher)
-
 * [QI](/artigos/qi)
-
 * [Pills](/artigos/pills)
-
 * [Estética](/artigos/estetica)
-
 * [Lista de Teorias](/categorias/teorias)
 """
 
