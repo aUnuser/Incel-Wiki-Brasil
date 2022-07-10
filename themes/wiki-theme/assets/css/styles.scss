@@ -37,6 +37,10 @@ body {
         }
     }
 
+    .footnotes {
+        column-width: 25em;
+    }
+
     noscript {
         text-align: center;
     }
@@ -1326,9 +1330,10 @@ body {
                     }
                     ol {
                         margin: 0;
-                        padding-left: 1rem;
+                        padding-left: 1.5rem;
                     }
                 }
+
             }
         }
 

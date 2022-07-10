@@ -41,7 +41,7 @@
             <source media="(min-width: 1600px)" 
                 srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
             <img 
-        alt="{{ $caption }}" title="{{ $caption }}" src="{{ $src }}" 
+        alt="{{ $caption }}" title="{{ $caption }}" src="{{ $src.RelPermalink }}" 
         height="{{ $src.Height }}" width="{{ $src.Width }}" loading="lazy">
         </picture></a>
         <div class="fig-caption">
@@ -51,19 +51,18 @@
     {{/* Since I do image-response class, the only thing that really 
     matters is the height and width matches the image aspect ratio */}}
 {{- else if and $src (eq (index (split .Destination ".") 1) "webm") -}}
+    {{ $noformat := replace $src ".webm" "" }}
+    {{ $dimensions := split (index (split $noformat "-") 1) "x" }}
+    {{ $width := index $dimensions 0 }}
+    {{ $height := index $dimensions 1 }}
 
-{{ $noformat := replace $src ".webm" "" }}
-{{ $dimensions := split (index (split $noformat "-") 1) "x" }}
-{{ $width := index $dimensions 0 }}
-{{ $height := index $dimensions 1 }}
-
-<div class="fig-wrapper{{ with $class }} {{ . }}{{ end }}">
-    <video class="link" width="{{ $width }}" height="{{ $height }}" autoplay muted loop>
-        <source src="{{ $src }}" type="video/webm">
-    </video>
-    <div class="fig-caption">
-        {{- $caption -}}
+    <div class="fig-wrapper{{ with $class }} {{ . }}{{ end }}">
+        <video class="link" width="{{ $width }}" height="{{ $height }}" autoplay muted loop>
+            <source src="{{ $src.RelPermalink }}" type="video/webm">
+        </video>
+        <div class="fig-caption">
+            {{- $caption -}}
+        </div>
     </div>
-</div>
 
 {{ end }}

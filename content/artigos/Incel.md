@@ -5,7 +5,7 @@ description = 'Incel é a contração de celibatário involuntário ou celibato 
 
 [original_article]
 title = "Incel"
-link = "https://incels.wiki/artigos/Incel"
+link = "https://incels.wiki/w/Incel"
 +++
 
 **Incel** é a contração de **celibatário involuntário** ou **celibato involuntário**, um [termo sociológico](/artigos/estudo-donelly) para uma circunstância de vida [adversa](/artigos/efeitos-adversos-da-incelidade).[^1][^2][^3][^4][^5] A condição de ser um incel também é chamada de **incelidade**. Essa condição de ser um *incel* é um tipo de [não-sexualidade](/artigos/nao-sexualidade). "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "[malecel](/artigos/malecel)"); para celibatárias involuntárias mulheres o termo [femcel](/artigos/femcel) é usado.
@@ -111,7 +111,14 @@ Já que incelidade é uma circunstância de vida e não apenas uma subcultura mo
 Muitas figuras proeminentes ao longo da história provavelmente foram incels. Alguns foram: [Beethoven](/artigos/ludwig-van-beethoven), [Nietzsche](/artigos/friedrich-nietzsche), [Van Gogh](/artigos/vincent-van-gogh), [Henri de Toulouse-Lautrec](/artigos/henri-de-toulouse-lautrec), [Otto Weininger](/artigos/otto-weininger) (provável), o [anão](/artigos/manlet) [deformado](/artigos/truecel) amigo do profeta Maomé e vários outros.
 
 ## Veja também
-[Em construção]
+* [Wagecuck](/artigos/wagecuck)
+* [Femcel](/artigos/femcel)
+* [Artigo da Wikipedia sobre os incels](/artigos/artigo-da-wikipedia-sobre-os-incels)
+* [Sow Believers - 母豬教](/artigos/sow-believers)
+* [Músicas com tema incel](/artigos/musicas-com-tema-incel)
+* [Jogos com tema incel](/artigos/jogos-com-tema-incel)
+* [Poemas com tema incel](/categorias/poemas)
+* [Ensaios sobre a incelidade](/categorias/ensaios)
 
 ## Referências
 [^1]: Donnelly, Denise; Burgess, Elisabeth; Anderson, Sally; Davis, Regina; Dillard, Joy (2001). "Involuntary Celibacy: A life course analysis". The Journal of Sex Research. 38 (2): 159–169. doi:10.1080/00224490109552083

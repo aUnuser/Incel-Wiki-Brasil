@@ -6,7 +6,7 @@ images = [ "/images/Einstein-Mileva.jpg" ]
 
 [original_article]
 title = "Adverse Effects of Inceldom"
-link = "https://incels.wiki/index.php?title=Adverse_effects_of_inceldom"
+link = "https://incels.wiki/w/Adverse_effects_of_inceldom"
 +++
 
 Pouco se sabe sobre os efeitos adversos da incelidade, já que essa é uma área pouco estudada. A maior parte dos resultados demonstra apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/artigos/incel) que [ascenderam](/artigos/deincelizacao) ou [casaram](/artigos/casamento). ![A importância de uma esposa.](imagens/einstein-mileva.jpg "desktop-right")
@@ -93,7 +93,15 @@ A [Síndrome Death Grip](/artigos/sindrome-death-grip) (SDG) é uma perda de sen
 A perda de sensação peniana da SDG é similar àquela causada pela circuncisão. Veja também a [blackpill da circuncisão](/artigos/blackpill-da-circuncisão).
 
 ## Veja também
-[Em construção]
+* [Blackpill Científica § Saúde](/artigos/blackpill-cientifica#Saúde)
+* [Brain rot](/artigos/brain-rot)
+* [Demografia](/artigos/demografia-da-incelidade)
+* [Causas da incelidade](/artigos/causas-do-celibato)
+* [LDAR](/artigos/ldar)
+* [Dreefilia](/artigos/dreefilia)
+* [Descartabilidade masculina](/artigos/descartabilidade-masculina)
+* [Sofrendo em silêncio](/artigos/sofrendo-em-silencio)
+* [Singlismo](/artigos/singlismo)
 
 ## Referências
 [^1]: [](https://www.vice.com/en_us/article/78bmza/the-cost-of-losing-your-virginity-late)
