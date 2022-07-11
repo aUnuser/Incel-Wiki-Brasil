@@ -120,6 +120,9 @@ Muitas figuras proeminentes ao longo da história provavelmente foram incels. Al
 * [Poemas com tema incel](/categorias/poemas)
 * [Ensaios sobre a incelidade](/categorias/ensaios)
 
+## Ligações Externas
+* [Artigo do WebMD sobre o celibato involuntário](https://www.webmd.com/men/features/sexless-in-the-city#1)([versão arquivada](https://web.archive.org/web/20190330190511/https://www.webmd.com/men/features/sexless-in-the-city))
+
 ## Referências
 [^1]: Donnelly, Denise; Burgess, Elisabeth; Anderson, Sally; Davis, Regina; Dillard, Joy (2001). "Involuntary Celibacy: A life course analysis". The Journal of Sex Research. 38 (2): 159–169. doi:10.1080/00224490109552083
 [^2]: Shehan, Constance L., ed (February 29, 2016). "Celibacy". The Wiley Blackwell Encyclopedia of Family Studies. 1. John Wiley & Sons. p. 238. ISBN 9780470658451
