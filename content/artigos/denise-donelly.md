@@ -26,7 +26,7 @@ Denise A. Donelly foi professora associada na Georgia State University e docente
 
 Donelly recebeu seu Ph.D em sociologia pela University of Florida em 1990. Ela recebeu uma bolsa de pós-doutorado do Instituto Nacional de Saúde Mental dos EUA (NIMH) para pesquisar treinamento de violência familiar no Laboratório de Pesquisa Familiar da University of New Hampshire em 1993. Suas pesquisas incluem violência interpessoal, programas culturalmente competentes de prevenção da [violência](/artigos/violencia), celibato involuntário e direitos civis da Irlanda do Norte.
 
-Donelly é uma ex-professora visitante na Queen's Univesity Belfast. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros, e dá aulas na graduação e pós-graduação. Ela deu aulas sobre violência íntima e sexual, gênero e diversidade familiar e é envolvida no conselho da universidade. Ela também trabalha com grupos que lidam com a violência contra mulheres.
+Donelly é uma ex-professora visitante na Queen's Univesity Belfast. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros e dá aulas na graduação e pós-graduação. Ela lecionou sobre violência íntima e sexual, gênero e diversidade familiar e é envolvida no conselho da universidade. Ela também trabalha com grupos que lidam com a violência contra mulheres.
 
 {{< toc >}}
 
