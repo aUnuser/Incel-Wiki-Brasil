@@ -31,7 +31,7 @@ Donelly recebeu seu Ph.D em sociologia pela University of Florida em 1990 e teve
 {{< toc >}}
 
 ## Celibato involuntário
-Donelly e seus colegas concluíram que o celibato involuntário é uma ausência crônica total ou quase total de atividade sexual por razões involuntárias. Ela descobriu que a maioria dos indivíduos que se identificam como incel exibem os mesmos comportamentos sociais do que indivíduos que têm vida sexual.[^8] Alguns dos celibatários involuntários pode ter disordens de personalidade que impedem oportunidades sexuais, mas a pequena quantidade de pesquisa feita a respeito desse assunto indica que a população incel é no geral socialmente normal, comporsta de indivíduos saudáveis cuja frustração é meramente um produto da sua falta de sexo, e não o contrário.[^7]
+Donelly e seus colegas concluíram que o celibato involuntário é uma ausência crônica total ou quase total de atividade sexual por razões involuntárias. Ela descobriu que a maioria dos indivíduos que se identificam como incel exibem os mesmos comportamentos sociais do que indivíduos que têm vida sexual. Alguns dos celibatários involuntários podem ter disordens de personalidade que impedem oportunidades sexuais, mas a pequena quantidade de pesquisa feita a respeito desse assunto indica que a população incel é no geral socialmente normal, composta de indivíduos saudáveis cujos problemas são meramente um produto da sua falta de sexo, e não o contrário.[^7]
 
 [Em construção]
 
@@ -51,3 +51,4 @@ Donelly e seus colegas concluíram que o celibato involuntário é uma ausência
 [^4]:
 [^5]:
 [^6]:
+[^8]:
