@@ -25,6 +25,7 @@ desktop_sidebar:
     weight: 3
     Content: |
       * [Lista de Teorias](/categorias/teorias)
+      * [Denise Donelly](/artigos/denise-donelly)
 
 mobile_sidebar:
   - weight: 1
