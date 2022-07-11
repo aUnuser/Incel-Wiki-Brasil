@@ -120,7 +120,7 @@ Muitas figuras proeminentes ao longo da história provavelmente foram incels. Al
 * [Poemas com tema incel](/categorias/poemas)
 * [Ensaios sobre a incelidade](/categorias/ensaios)
 
-## Ligações Externas
+## Ligações externas
 * [Artigo do WebMD sobre o celibato involuntário](https://www.webmd.com/men/features/sexless-in-the-city#1)([versão arquivada](https://web.archive.org/web/20190330190511/https://www.webmd.com/men/features/sexless-in-the-city))
 
 ## Referências
