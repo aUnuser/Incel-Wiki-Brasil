@@ -19,7 +19,7 @@ params:
     # overrides .Site.Title
     site_name: Incel Wiki Brasil
     # Used for articles without images
-    default_image: "/main_thumb.png"
+    default_image: "/main_thumb.jpg"
     # if true will use the SEO data object to output an json+ld script tag.
     jsonld: true
     disable_title_tag: false
