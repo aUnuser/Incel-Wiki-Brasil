@@ -14,15 +14,38 @@ foto_desc = ""
 [[personalidade.meta]]
 nascimento = "?"
 morte = ""
-ocupacao = "Acadêmica, falecida"
+ocupacao = "Acadêmica"
 alma_mater = """
 * Florida University
 * University of New Hampshire
 """
 campo = "Sociologia"
 +++
-Denise A. Donnelly was an associate professor of sociology at Georgia State University and the school's Senior Faculty Associate for the Advancement of Women. Her work includes the study of what she describes as involuntary celibacy.[1][2][3][4][5][6] Donnelly led an annual abroad program to Northern Ireland.
 
-Donnelly received her Ph.D. in Sociology from the University of Florida in 1990. She did an NIMH post-doctoral fellowship in Family Violence Training at the Family Research Laboratory at the University of New Hampshire in 1993. She joined the GSU faculty in 1993. Her research includes interpersonal violence, culturally competent violence prevention programming, involuntary celibacy, and civil rights in Northern Ireland.
+Denise A. Donelly foi professora associada na Georgia State University e docente sênior do programa Advancement for Women da mesma universidade. Seu trabalho inclui o estudo do que ela descreve como [celibato involuntário](/artigos/incel).[^1][^2][^3][^4][^5][^6] Donelly organizava um programa de intercâmbio anual para a Irlanda do Norte.
 
-Donnelly is a former visiting faculty member at Queen's University Belfast. She offers a yearly freshman "learning community" on Race, Religion, and Conflict, and teaches both undergraduate and graduate classes. She has taught Sexual and Intimate Violence, Gender, and Family Diversity and is involved in the university's senate. She also works with groups addressing violence against women.
+Donelly recebeu seu Ph.D em sociologia pela University of Florida em 1990. Ela recebeu uma bolsa de pós-doutorado do Instituto Nacional de Saúde Mental dos EUA (NIMH) para pesquisar treinamento de violência familiar no Laboratório de Pesquisa Familiar da University of New Hampshire em 1993. Suas pesquisas incluem violência interpessoal, programas culturalmente competentes de prevenção da [violência](/artigos/violencia), celibato involuntário e direitos civis da Irlanda do Norte.
+
+Donelly é uma ex-professora visitante na Queen's Univesity Belfast. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros, e dá aulas na graduação e pós-graduação. Ela deu aulas sobre violência íntima e sexual, gênero e diversidade familiar e é envolvida no conselho da universidade. Ela também trabalha com grupos que lidam com a violência contra mulheres.
+
+{{< toc >}}
+
+## Celibato involuntário
+[Em construção]
+
+## Outras pesquisas
+[Em construção]
+
+## Publicações selecionadas
+[Em construção]
+
+## Ligações Externas
+[Em construção]
+
+## Referências
+[^1]:
+[^2]:
+[^3]:
+[^4]:
+[^5]:
+[^6]:
