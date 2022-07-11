@@ -22,11 +22,11 @@ alma_mater = """
 campo = "Sociologia"
 +++
 
-Denise A. Donelly foi professora associada na Georgia State University e docente sênior do programa Advancement for Women da mesma universidade. Seu trabalho inclui o estudo do que ela descreve como [celibato involuntário](/artigos/incel).[^1][^2][^3][^4][^5][^6] Donelly organizava um programa de intercâmbio anual para a Irlanda do Norte.
+Denise A. Donelly é professora associada na Georgia State University e docente sênior do programa Advancement for Women da mesma universidade. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros e dá aulas na graduação e pós-graduação. Ela leciona sobre violência íntima e sexual, gênero e diversidade familiar e é envolvida no conselho da universidade. Ela também trabalha com grupos que lidam com a violência contra mulheres.
+
+Seu trabalho inclui o estudo do que ela descreve como [celibato involuntário](/artigos/incel).[^1][^2][^3][^4][^5][^6] Donelly organizava um programa de intercâmbio anual para a Irlanda do Norte, onde é ex-professora visitante da Queen's Univesity Belfast.
 
 Donelly recebeu seu Ph.D em sociologia pela University of Florida em 1990. Ela recebeu uma bolsa de pós-doutorado do Instituto Nacional de Saúde Mental dos EUA (NIMH) para pesquisar treinamento de violência familiar no Laboratório de Pesquisa Familiar da University of New Hampshire em 1993. Suas pesquisas incluem violência interpessoal, programas culturalmente competentes de prevenção da [violência](/artigos/violencia), celibato involuntário e direitos civis da Irlanda do Norte.
-
-Donelly é uma ex-professora visitante na Queen's Univesity Belfast. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros e dá aulas na graduação e pós-graduação. Ela lecionou sobre violência íntima e sexual, gênero e diversidade familiar e é envolvida no conselho da universidade. Ela também trabalha com grupos que lidam com a violência contra mulheres.
 
 {{< toc >}}
 
