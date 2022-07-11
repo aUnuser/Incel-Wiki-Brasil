@@ -48,11 +48,11 @@ function upDownArrows(event) {
         event.preventDefault();
         if (document.activeElement == inputDesktop) {
             inputDesktop.focus();
-            resultsFocused = false;
+            resultsFocused = true;
         }
         else if (document.activeElement == desktopFirst) {
             inputDesktop.focus();
-            resultsFocused = true;
+            resultsFocused = false;
         }
         else {
             document.activeElement.previousSibling.focus();
@@ -62,11 +62,11 @@ function upDownArrows(event) {
         event.preventDefault();
         if (document.activeElement == inputDesktop) {
             desktopFirst.focus();
-            resultsFocused = false;
+            resultsFocused = true;
         }
         else if (document.activeElement == desktopLast) {
             desktopLast.focus();
-            resultsFocused = true;
+            resultsFocused = false;
         }
         else {
             document.activeElement.nextSibling.focus();
@@ -194,13 +194,13 @@ function loadSearch() {
             shouldSort: true,
             location: 0,
             distance: 100,
-            threshold: 0.4,
+            threshold: 0.2,
             minMatchCharLength: 2,
             keys: [
-                "title",
-                "permalink",
-                "content",
-                "categorias"
+                {name: "title", weight: 1},
+                {name: "permalink", weight: 1},
+                {name: "content", weight: 0.3},
+                {name: "categorias", weight: 0.4}
             ]
         };
         fuse = new Fuse(data, options);
