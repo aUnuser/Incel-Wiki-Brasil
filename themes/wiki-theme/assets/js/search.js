@@ -10,6 +10,7 @@ var inputDesktop = document.getElementById("searchInputDesktop");
 var resultsAvailable = false;
 
 var desktopSearchFocused = false;
+var resultsFocused = false;
 var mobileSearchFocused = false;
 var isTabletOverlayOn = false;
 var tabletOverlayElement = document.getElementsByClassName("overlay")[0];
@@ -43,29 +44,35 @@ function tabletOverlayFunc(event) {
 function upDownArrows(event) {
     var desktopFirst = resultsDesktop.firstChild;
     var desktopLast = resultsDesktop.lastChild;
-    if (event.key === "ArrowUp" && desktopSearchFocused) {
+    if (event.key === "ArrowUp" && desktopSearchFocused && resultsDesktop.hasChildNodes()) {
         event.preventDefault();
         if (document.activeElement == inputDesktop) {
             inputDesktop.focus();
+            resultsFocused = false;
         }
         else if (document.activeElement == desktopFirst) {
             inputDesktop.focus();
+            resultsFocused = true;
         }
         else {
             document.activeElement.previousSibling.focus();
+            resultsFocused = true;
         }
-    } else if (event.key === "ArrowDown" && desktopSearchFocused) {
+    } else if (event.key === "ArrowDown" && desktopSearchFocused && resultsDesktop.hasChildNodes()) {
         event.preventDefault();
         if (document.activeElement == inputDesktop) {
             desktopFirst.focus();
+            resultsFocused = false;
         }
         else if (document.activeElement == desktopLast) {
             desktopLast.focus();
+            resultsFocused = true;
         }
         else {
             document.activeElement.nextSibling.focus();
+            resultsFocused = true;
         }
-    } else if (event.key === "Enter" && desktopSearchFocused) {
+    } else if (event.key === "Enter" && resultsFocused) {
         window.location.assign(event.target.children[0].href);
     }
 }
