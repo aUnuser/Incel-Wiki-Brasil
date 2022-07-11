@@ -1,10 +1,58 @@
 {{ define "main" }}
-  {{ with .Page.Params.original_article }}
+  {{ with .Page.Params.artigo_original }}
     <div class="original-article">
       Esta página é baseada no artigo <a href="{{ .link }}"  target="_blank" rel="noopener noreferrer">{{ .title }}</a> da <a href="https://incels.wiki/"  target="_blank" rel="noopener noreferrer">Incel Wiki</a>.
     </div>
   {{ end }}
   <div id="actual-content">
+      {{ with .Page.Params.personalidade }}
+      <table cellpadding="3" class="personalityBox">
+        <tbody>
+          <tr class="nome">
+            <th colspan="2">
+              {{ .nome }}
+            </th>
+          </tr>
+
+          <tr class="imagem">
+            <td colspan="2">
+              {{ $ctx := . }}
+              {{ with .foto }}
+              {{ partial "figure.html" (dict "Destination" .) }}
+              {{ with $ctx.foto_desc }} {{ . }} {{ end }}
+              {{ else }}
+                {{ partial "figure.html" (dict "Destination" "images/noimage.png") }}
+              {{ end }}
+            </td>
+          </tr>
+          
+          {{ range $meta := .meta }}
+            {{ range slice "nascimento" "morte" "ocupacao" "alma_mater" "campo" }}
+              {{ $key := . }}
+              {{ with (index $meta .) }}
+                <tr class="meta">
+                  <td scope="row">
+                    {{ if eq $key "ocupacao" }}
+                    Ocupação
+                    {{ else if eq $key "alma_mater" }}
+                    Alma Mater
+                    {{ else if eq $key "campo" }}
+                    Campo(s)
+                    {{ else }}
+                    {{ $key | humanize }}
+                    {{ end }}
+                  </td>
+                  <td class="right">
+                    {{ $.Page.RenderString . }}
+                  </td>
+                </tr>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+        </tbody>
+      </table>
+      {{ end }}
       {{ .Content }}
   </div>
 {{ end }}
