@@ -11,6 +11,8 @@
                             Artigo
                             {{ else if or (eq .Page.Kind "taxonomy") (eq .Page.Kind "term") }}
                             {{ .Page.Data.Singular | humanize }}
+                            {{ else if eq .Page.Kind "section" }}
+                            {{ .Page.Type | humanize }}
                             {{ end }}
                         </span>
                     </li>

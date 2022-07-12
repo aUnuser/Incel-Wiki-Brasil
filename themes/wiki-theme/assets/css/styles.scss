@@ -469,16 +469,16 @@ body {
         direction: ltr;
         column-count: 3;
         column-width: 24em;
-        break-inside: avoid;
 
         .letter-group {
+            break-inside: avoid;
             h3 {
                 margin: 0;
             }
             ul {
                 margin: 0;
+                padding-left: 2rem;
             }
-            direction: ltr;
         }
     }
 
