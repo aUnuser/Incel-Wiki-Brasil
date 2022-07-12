@@ -1,7 +1,7 @@
 +++
 title = "Denise Donelly"
 categorias = [ "Incelologia", "Incelistas" ]
-description = 'Incel é a contração de celibatário involuntário ou celibato involuntário, um termo sociológico para uma circunstância de vida adversa. A condição de ser um incel também é chamada de incelidade. Essa condição de ser um incel é um tipo de não-sexualidade. "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "malecel"); para celibatárias involuntárias mulheres o termo femcel é usado.'
+description = 'Denise A. Donelly é professora associada na Georgia State University e docente sênior do programa Advancement for Women da mesma universidade. Ela oferece uma "comunidade de aprendizado" de raça, religião e conflitos para calouros e dá aulas na graduação e pós-graduação, leciona sobre violência íntima e sexual, gênero e diversidade familiar,  é envolvida no conselho da universidade e também trabalha com grupos que lidam com a violência contra mulheres.'
 
 [artigo_original]
 title = "Denise Donelly"
