@@ -25,7 +25,7 @@ Esta é uma wiki estática baseada no framework [Hugo](https://gohugo.io/) e ala
 * Sempre coloque o índice no mesmo lugar do artigo original.
 
 ## Organização de arquivos
-Abaixo está a estrutura de pastas do site, e as que nos interessam agora são a `/assets` e a `/content`. Dentro da pasta `/content` ficam todas as páginas do site, e na pasta `/content/artigos` ficam especificamente os artigos. As páginas que ficam fora da pasta `/content/artigos` são páginas que não são artigos. Dentro da pasta `/assets/imagens` ficam todas as imagens utilizadas nas páginas.
+Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do Github](https://github.com/aUnuser/Incel-Wiki-Brasil). As que nos interessam agora são a `/assets` e a `/content`. Dentro da pasta `/content` ficam todas as páginas do site, e na pasta `/content/artigos` ficam especificamente os artigos. As páginas que ficam fora da pasta `/content/artigos` são páginas que não são artigos. Dentro da pasta `/assets/imagens` ficam todas as imagens utilizadas nas páginas.
 ```
 ├───assets
 │   └───imagens
@@ -49,7 +49,6 @@ Abaixo está a estrutura de pastas do site, e as que nos interessam agora são a
 ## Criando uma página
 ![O que é slug?](imagens/o-que-e-slug.jpg "desktop-right")
 
-Você provavelmente ainda não tem acesso aos arquivos do site, mas mais adiante vou explicar isso.
 1. Simplesmente crie um arquivo `.md` dentro da pasta `/content` ou da `/content/artigos`.
 2. O nome do arquivo **deve** ser o nome da página, mas com todas as letras minúsculas, sem acentos, sem "ç" e com hífens no lugar dos espaços. A razão disso é que o nome do arquivo será a *slug* da página.
 3. Dentro do arquivo em branco, insira a chamada *frontmatter* (também será explicada adiante).
