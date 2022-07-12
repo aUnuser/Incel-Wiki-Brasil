@@ -1,7 +1,8 @@
 main_panel:
   - weight: 1
     Content: |
-      [Como contribuir](/como-contribuir)
+      [Manual de contribuição](/manual-de-contribuicao)
+      Nos ajude a pagar um domínio!
 
 desktop_sidebar:
   - weight: 1
@@ -14,18 +15,23 @@ desktop_sidebar:
       * [Sobre a wiki](/sobre)
       * [Aviso legal](/aviso-legal)
       * [Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
-  - title: História e FAQ
+  - title: Redes sociais
     weight: 2
     Content: |
-      * [FAQ da Incelidade](/artigos/perguntas-frequentes-incelidade)
-      * [Linha do Tempo da Incelosfera](/artigos/linha-tempo-incelosfera)
-      * [Glossário Incel](/artigos/glossario-incel)
-      * [Demografia da Incelidade](/artigos/demografia-incelidade)
+      * [Twitter](https://twitter.com/incelwikibrasil)
+      * [Discord](/404)
   - title: Páginas Importantes
     weight: 3
     Content: |
       * [Lista de Teorias](/categorias/teorias)
       * [Denise Donelly](/artigos/denise-donelly)
+  - title: História e FAQ
+    weight: 4
+    Content: |
+      * [FAQ da Incelidade](/artigos/perguntas-frequentes-incelidade)
+      * [Linha do Tempo da Incelosfera](/artigos/linha-tempo-incelosfera)
+      * [Glossário Incel](/artigos/glossario-incel)
+      * [Demografia da Incelidade](/artigos/demografia-incelidade)
 
 mobile_sidebar:
   - weight: 1
@@ -35,6 +41,8 @@ mobile_sidebar:
   - weight: 2
     Content: |
       * [<i class="icon github"></i>Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
+      * [<i class="icon github"></i>Twitter](https://twitter.com/incelwikibrasil)
+      * [<i class="icon github"></i>Discord](/404)
   - weight: 3
     Content: |
       * [<i class="icon incel-logo"></i>Incel Wiki original](https://incels.wiki/artigos/Main_Page)
