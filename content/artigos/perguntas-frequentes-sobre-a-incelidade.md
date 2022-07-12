@@ -1,5 +1,5 @@
 +++
-title = "Denise Donelly"
+title = "Perguntas Frequentes sobre a Incelidade"
 categorias = [ "Incelidade" ]
 description = ''
 
