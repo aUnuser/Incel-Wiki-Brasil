@@ -20,4 +20,6 @@ Esta é uma wiki estática baseada no framework [Hugo](https://gohugo.io/) e ala
 * Artigos ficam na pasta `artigos`
 * Páginas simples ficam na pasta `content`
 * Quando for criar uma nova página, nomeie o arquivo com o título do artigo em letras minúsculas, sem acentos, sem "Ç" e com hífens no lugar dos espaços. Isso é necessário porque o nome do arquivo vai ser a [slug](https://pt.m.wikipedia.org/wiki/Slug_(programa%C3%A7%C3%A3o)) da página.
-* Quando precisar linkar uma página interna da wiki que ainda não existe, se refira à futura URL da página seguindo a regra citada acima. Por exemplo, a futura URL do artigo "/artigos/
+* Quando precisar linkar uma página interna da wiki que ainda não existe, se refira à futura URL da página seguindo a regra citada acima. Por exemplo, a futura URL do artigo "Love Shyness" seria "/artigos/timidez-amorosa". Quando for fazer isso, olhe se a mesma página já foi linkada em outro artigo e se refira à mesma URL linkada lá, de forma a manter a coerência e o funcionamento da wiki.
+* Não traduza com tradutores automáticos.
+* Sempre coloque o índice no mesmo lugar do artigo original.
