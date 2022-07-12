@@ -1,5 +1,5 @@
 +++
-title = "Manual de Contribuição"
+title = "Manual de Edição"
 description = "Esta é uma wiki estática baseada no framework Hugo e alavancada no Github, e por isso o processo de edição é bastante diferente do das wikis tradicionais. Segue abaixo um manual explicando como funciona, como editar e as práticas exigidas."
 +++
 Esta é uma wiki estática baseada no framework [Hugo](https://gohugo.io/) e alavancada no [Github](https://github.com/), e por isso o processo de edição é bastante diferente do das wikis tradicionais. Segue abaixo um manual explicando como funciona, como editar, as regras e as guidelines.
@@ -51,7 +51,7 @@ Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do
 
 1. Simplesmente crie um arquivo `.md` dentro da pasta `/content` ou da `/content/artigos`.
 2. O nome do arquivo **deve** ser o nome da página, mas com todas as letras minúsculas, sem acentos, sem "ç" e com hífens no lugar dos espaços. A razão disso é que o nome do arquivo será a *slug* da página.
-3. Dentro do arquivo em branco, insira a chamada *frontmatter* (também será explicada adiante).
+3. Dentro do arquivo em branco, insira a chamada *frontmatter* (será explicada adiante).
 
 ## Editando uma página
 ### Frontmatter
