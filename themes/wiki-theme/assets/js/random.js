@@ -6,10 +6,8 @@
 {{- end -}}
 {{ $scratch.Get "tmp" | jsonify | $scratch.Set "tmp" }}
 
-{{- range $.Site.Params.remove_from_random -}}
-  {{ with . }}
-    {{ $scratch.Add "tmp2" (slice . ) }}
-  {{ end }}
+{{- range $.Site.Params.removeFromRandom -}}
+  {{ $scratch.Add "tmp2" (slice . ) }}
 {{- end -}}
 {{ $scratch.Get "tmp2" | jsonify | $scratch.Set "tmp2" }}
 
@@ -29,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
+  console.log(recipe);
   recipe = recipe.filter(function(x) { return x !== null });
   var index = Math.floor(Math.random() * recipe.length);
   var randomlink = document.getElementsByClassName("random-link");
