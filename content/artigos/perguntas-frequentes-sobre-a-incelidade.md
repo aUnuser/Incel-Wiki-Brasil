@@ -1,7 +1,7 @@
 +++
 title = "Perguntas Frequentes sobre a Incelidade"
 categorias = [ "Incelidade" ]
-description = ''
+description = "Esta página lista perguntas frequentes a respeito da incelidade."
 
 [artigo_original]
 title = "Inceldom FAQ"
