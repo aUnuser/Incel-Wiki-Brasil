@@ -749,8 +749,20 @@ body {
                                 text-decoration: none;
                                 color: #72777d;
                             }
-
-
+                        }
+                        .SearchPageThatContains {
+                            height: 100%;
+                            a {
+                                padding: 1em 0;
+                                padding-left: 15px;
+                                display: block;
+                                div {
+                                    display: inline-block;
+                                }
+                                div:after {
+                                    content: "\00a0";
+                                }
+                            }
                         }
                     }
                 }
@@ -1248,16 +1260,17 @@ body {
                             list-style-type: none;
                             background-color: #fff;
                             border: 1px solid #a2a9b1;
-                            border-top: none;
+                            border-top-style: none;
                             padding-left: 0;
                             font-size: .8125em;
                             display: none;
 
                             li {
-                                padding-left: .3rem;
                                 a {
+                                    padding-left: .3rem;
                                     color: #000000;
                                     display: block;
+                                    text-decoration: none;
                                 }
                             }
 
@@ -1266,6 +1279,18 @@ body {
                                 background-color: #3366cc;
                                 padding-left: .3rem;
                                 a {
+                                    color: #fff;
+                                }
+                            }
+
+                            .SearchPageThatContains {
+                                border-top: 1px solid #a2a9b1;
+                                div {
+                                    color: #54595d;
+                                }
+                            }
+                            .SearchPageThatContains:focus {
+                                div {
                                     color: #fff;
                                 }
                             }

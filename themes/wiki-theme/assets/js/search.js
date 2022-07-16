@@ -77,12 +77,23 @@ function upDownArrows(event) {
     }
 }
 
+// Desktop
 function clickOutside(event) {
     if ((event.target !== inputDesktop && !inputDesktop.contains(event.target)) && (event.target !== resultsDesktop && !resultsDesktop.contains(event.target))) {
         resultsDesktop.style.display = "none";
         desktopSearchFocused = false;
     }
 }
+function focusOutside(event) {
+    var searchContainerDesktop = document.getElementsByClassName("searchContainer")[0]
+    if(!searchContainerDesktop.contains(event.target)) {
+        resultsDesktop.style.display = "none";
+        desktopSearchFocused = false;
+    } else if (event.target == inputDesktop && inputDesktop.value) {
+        executeSearch(inputDesktop.value, resultsDesktop);
+    }
+}
+///
 
 document.addEventListener("DOMContentLoaded", function () {
     if (window.innerWidth < 600) {
@@ -96,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Desktop
         document.addEventListener("keydown", upDownArrows);
         document.addEventListener("click", clickOutside);
+        document.addEventListener("focus", focusOutside, true);
     }
 });
 
@@ -109,6 +121,7 @@ mobileDesktop.addEventListener("change", event => {
         document.addEventListener("click", tabletOverlayFunc);
         document.removeEventListener("keydown", upDownArrows);
         document.removeEventListener("click", clickOutside);
+        document.removeEventListener("focus", focusOutside, true);
     } else {
         // Desktop
         document.removeEventListener("click", tabletOverlayFunc);
@@ -116,6 +129,7 @@ mobileDesktop.addEventListener("change", event => {
         resetBodyNoScroll();
         document.addEventListener("keydown", upDownArrows);
         document.addEventListener("click", clickOutside);
+        document.addEventListener("focus", focusOutside, true);
     }
 });
 bigSmallMobile.addEventListener("change", event => {
@@ -152,14 +166,10 @@ function resetBodyNoScroll() {
 document.addEventListener("focus", function (e) {
     if (e.path[0].tagName === "INPUT") {
         if (firstRun) {
-            loadSearch();
+            titleSearch();
             firstRun = false;
         }
-        if (e.path[0].id === "searchInputMobile") {
-
-        } else if (e.path[0].id === "searchInputDesktop") {
-
-        }
+        
     }
 }, true);
 
@@ -168,9 +178,10 @@ inputMobile.onkeyup = function (e) {
 }
 inputDesktop.onkeyup = function (e) {
     executeSearch(this.value, resultsDesktop);
-    if (!desktopSearchFocused) {
+    if(!this.value) {
+        resultsDesktop.style.display = "none";
+    } else if (resultsDesktop.style.display === "none") {
         resultsDesktop.style.display = "block";
-        desktopSearchFocused = true;
     }
 }
 
@@ -188,19 +199,17 @@ function fetchJSONFile(path, callback) {
     httpRequest.send();
 }
 
-function loadSearch() {
+function titleSearch() {
     fetchJSONFile('/index.json', function (data) {
         var options = {
             shouldSort: true,
             location: 0,
             distance: 100,
-            threshold: 0.2,
+            threshold: 0,
             minMatchCharLength: 2,
             keys: [
-                {name: "title", weight: 1},
-                {name: "permalink", weight: 1},
-                {name: "content", weight: 0.3},
-                {name: "categorias", weight: 0.4}
+                "title",
+                "permalink",
             ]
         };
         fuse = new Fuse(data, options);
@@ -219,10 +228,42 @@ function executeSearch(term, destination) {
             if (window.innerWidth < 1200) {
                 searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><div class=\"thumb\"></div><div class=\"meta\"><h3>" + results[i].item.title + "</h3></div></a></li>";
             } else {
-                searchitems = searchitems + "<li tabindex=\"0\"><a href=\"" + results[i].item.permalink + "\">" + results[i].item.title.replace(term, "<b>" + term + "</b>") + "</a></li>";
+                var reg = new RegExp('(' + term + ')', 'gi');
+                searchitems = searchitems + "<li tabindex=\"0\"><a href=\"" + results[i].item.permalink + "\">" + results[i].item.title.replace(reg, "<b>$1</b>") + "</a></li>";
             }
         }
         resultsAvailable = true;
     }
+    searchitems = searchitems + "<li tabindex=\"0\" class=\"SearchPageThatContains\"><a href=\"/busca?q=" + term + "\"><div>Buscar por páginas que contenham</div><i>" + term + "</i></a></li>";
     destination.innerHTML = searchitems;
+
+    if (!desktopSearchFocused) {
+        resultsDesktop.style.display = "block";
+        desktopSearchFocused = true;
+    }
+}
+
+function param(name) {
+    return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ')
+}
+var isSearchPage = window.location.href.search(/\/busca\//g)
+if(isSearchPage != -1) {
+    var searchQuery = param("q");
+    fetchJSONFile('/index.json', function (data) {
+        var options = {
+            shouldSort: true,
+            location: 0,
+            distance: 100,
+            threshold: 0,
+            minMatchCharLength: 2,
+            keys: [
+                "title",
+                "permalink",
+            ]
+        };
+        fusePage = new Fuse(data, options);
+    });
+    if(searchQuery) {
+        executeSearch(inputDesktop.value, searchPageResults);
+    }
 }
