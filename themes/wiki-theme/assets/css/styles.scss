@@ -14,6 +14,22 @@ body {
     margin: 0;
     word-wrap: break-word;
     
+    #searchPageResults {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            .data {
+                color: green;
+                font-size: 97%;
+            }
+            margin-bottom: 1rem;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+
     .fig-wrapper {
         margin: auto;
         max-width: 300px;
@@ -49,6 +65,9 @@ body {
         color: #3366cc;
         text-decoration: none;
         background: none;
+    }
+    a:visited {
+        color: #0b0080;
     }
 
     p {
@@ -1112,6 +1131,12 @@ body {
         background-color: #f6f6f6;
         overflow-y: scroll;
 
+        #searchPageResults {
+            li {
+                max-width: 100%;
+            }
+        }
+
         .fig-wrapper {
             border: 1px solid #c8ccd1;
             padding: 3px;
@@ -1277,7 +1302,6 @@ body {
                             li:focus {
                                 outline: 0;
                                 background-color: #3366cc;
-                                padding-left: .3rem;
                                 a {
                                     color: #fff;
                                 }

@@ -1,4 +1,5 @@
-var fuse;
+var fuseInBar;
+var fuseInPage;
 var firstRun = true;
 
 var resultsMobile = document.getElementById("searchResultsMobile");
@@ -6,6 +7,8 @@ var resultsDesktop = document.getElementById("searchResultsDesktop");
 
 var inputMobile = document.getElementById("searchInputMobile");
 var inputDesktop = document.getElementById("searchInputDesktop");
+
+var searchPageResults = document.getElementById("searchPageResults");
 
 var resultsAvailable = false;
 
@@ -90,7 +93,7 @@ function focusOutside(event) {
         resultsDesktop.style.display = "none";
         desktopSearchFocused = false;
     } else if (event.target == inputDesktop && inputDesktop.value) {
-        executeSearch(inputDesktop.value, resultsDesktop);
+        executeSearchBar(inputDesktop.value, resultsDesktop);
     }
 }
 ///
@@ -166,7 +169,7 @@ function resetBodyNoScroll() {
 document.addEventListener("focus", function (e) {
     if (e.path[0].tagName === "INPUT") {
         if (firstRun) {
-            titleSearch();
+            createSearch();
             firstRun = false;
         }
         
@@ -174,10 +177,10 @@ document.addEventListener("focus", function (e) {
 }, true);
 
 inputMobile.onkeyup = function (e) {
-    executeSearch(this.value, resultsMobile);
+    executeSearchBar(this.value, resultsMobile);
 }
 inputDesktop.onkeyup = function (e) {
-    executeSearch(this.value, resultsDesktop);
+    executeSearchBar(this.value, resultsDesktop);
     if(!this.value) {
         resultsDesktop.style.display = "none";
     } else if (resultsDesktop.style.display === "none") {
@@ -199,25 +202,41 @@ function fetchJSONFile(path, callback) {
     httpRequest.send();
 }
 
-function titleSearch() {
+function createSearch() {
     fetchJSONFile('/index.json', function (data) {
-        var options = {
+        var optionsInBar = {
+            useExtendedSearch: true,
             shouldSort: true,
-            location: 0,
-            distance: 100,
+            ignoreLocation: true,
             threshold: 0,
-            minMatchCharLength: 2,
+            minMatchCharLength: 1,
             keys: [
-                "title",
-                "permalink",
+                "title"
             ]
         };
-        fuse = new Fuse(data, options);
+        fuseInBar = new Fuse(data, optionsInBar);
+        
+        var searchQuery = param("q");
+        if (searchQuery) {
+            var optionsInPage = {
+                useExtendedSearch: true,
+                shouldSort: true,
+                ignoreLocation: true,
+                threshold: 0,
+                minMatchCharLength: 1,
+                keys: [
+                    "content",
+                    "categorias"
+                ]
+            };
+            fuseInPage = new Fuse(data, optionsInPage);
+            executeSearchPage(searchQuery, searchPageResults);
+        }
     });
 }
 
-function executeSearch(term, destination) {
-    let results = fuse.search(term);
+function executeSearchBar(term, destination) {
+    var results = fuseInBar.search(term);
     let searchitems = "";
 
     if (results.length === 0) {
@@ -249,21 +268,21 @@ function param(name) {
 var isSearchPage = window.location.href.search(/\/busca\//g)
 if(isSearchPage != -1) {
     var searchQuery = param("q");
-    fetchJSONFile('/index.json', function (data) {
-        var options = {
-            shouldSort: true,
-            location: 0,
-            distance: 100,
-            threshold: 0,
-            minMatchCharLength: 2,
-            keys: [
-                "title",
-                "permalink",
-            ]
-        };
-        fusePage = new Fuse(data, options);
-    });
-    if(searchQuery) {
-        executeSearch(inputDesktop.value, searchPageResults);
+    createSearch();
+    firstRun = false;
+    
+}
+function executeSearchPage(term, destination) {
+    var results = fuseInPage.search(term);
+    let searchitems = "";
+
+    if (results.length === 0) {
+        searchitems = "";
+    } else {
+        for (let i in results.slice(0, 15)) { // only show first 15 results
+            searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><span>" + results[i].item.title + "</span></a><div class=\"desc\">" + results[i].item.desc + "</div><div class=\"data\">" + results[i].item.wordcount + " palavras - " + results[i].item.lastmod + "</div></li>";
+        }
     }
+    destination.innerHTML = searchitems;
+
 }
