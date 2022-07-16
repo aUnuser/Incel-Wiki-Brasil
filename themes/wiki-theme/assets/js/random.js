@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
-  console.log(recipe);
   recipe = recipe.filter(function(x) { return x !== null });
   var index = Math.floor(Math.random() * recipe.length);
   var randomlink = document.getElementsByClassName("random-link");
