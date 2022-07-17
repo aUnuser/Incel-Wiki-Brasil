@@ -55,4 +55,36 @@ Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do
 
 ## Editando uma página
 ### Frontmatter
-[Em construção]
+Frontmatter é o conjunto de dados de um arquivo `.md`. Todos os artigos `.md` devem tê-la, e ela é formatada da seguinte forma, sempre com três "`+`" em cima e três embaixo:
+{{< highlight toml >}}
++++
+title = "Perguntas Frequentes sobre a Incelidade"
+categorias = [ "Incelidade" ]
+description = "Esta página lista perguntas frequentes a respeito da incelidade."
+
+[artigo_original]
+title = "Inceldom FAQ"
+link = "https://incels.wiki/w/Inceldom_FAQ"
++++
+{{< / highlight >}}
+
+Abaixo estão os dados possíveis:
+
+| Frontmatter            | Conteúdo                                                   |
+|------------------------|------------------------------------------------------------|
+| title                  | Título do artigo                                           |
+| categorias             | Categorias do artigo                                       |
+| description            | Descrição do artigo                                        |
+| [artigo_original]      | Referência ao artigo original                              |
+| title                  | Título do artigo original                                  |
+| link                   | Link do artigo original                                    |
+| [personalidade]        | Quadro de personalidade (opcional)                         |
+| nome                   | Nome da personalidade                                      |
+| foto                   | Foto da personalidade (opcional)                           |
+| foto_desc              | Descrição da foto (opcional)                               |
+| [[personalidade.meta]] | Dados da personalidade                                     |
+| nascimento             | Nascimento                                                 |
+| morte                  | Morte                                                      |
+| ocupacao               | Ocupação                                                   |
+| alma_mater             | Universidades em que a personalidade se graduou (opcional) |
+| campo                  | Campo(s) de atuação (opcional)                             |
