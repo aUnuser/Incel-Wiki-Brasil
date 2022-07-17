@@ -49,9 +49,10 @@ Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do
 ## Criando uma página
 ![O que é slug?](imagens/o-que-e-slug.jpg "desktop-right")
 
-1. Simplesmente crie um arquivo `.md` dentro da pasta `/content` ou da `/content/artigos`.
+1. Crie um arquivo `.md` dentro da pasta `/content` ou da `/content/artigos`.
 2. O nome do arquivo **deve** ser o nome da página, mas com todas as letras minúsculas, sem acentos, sem "ç" e com hífens no lugar dos espaços. A razão disso é que o nome do arquivo será a *slug* da página.
-3. Dentro do arquivo em branco, insira a chamada *frontmatter* (será explicada adiante).
+3. Dentro do arquivo em branco, insira a *frontmatter*.
+4. Preencha a frontmatter.
 
 ## Editando uma página
 ### Frontmatter
