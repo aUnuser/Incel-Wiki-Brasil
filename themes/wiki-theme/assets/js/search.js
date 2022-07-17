@@ -244,10 +244,10 @@ function executeSearchBar(term, destination) {
         searchitems = "";
     } else {
         for (let i in results.slice(0, 15)) { // only show first 15 results
+            var reg = new RegExp('(' + term + ')', 'gi');
             if (window.innerWidth < 1200) {
-                searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><div class=\"thumb\"></div><div class=\"meta\"><h3>" + results[i].item.title + "</h3></div></a></li>";
+                searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><div class=\"thumb\"></div><div class=\"meta\"><h3>" + results[i].item.title.replace(reg, "<b>$1</b>") + "</h3></div></a></li>";
             } else {
-                var reg = new RegExp('(' + term + ')', 'gi');
                 searchitems = searchitems + "<li tabindex=\"0\"><a href=\"" + results[i].item.permalink + "\">" + results[i].item.title.replace(reg, "<b>$1</b>") + "</a></li>";
             }
         }
