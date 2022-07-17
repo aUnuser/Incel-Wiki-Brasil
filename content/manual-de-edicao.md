@@ -56,7 +56,7 @@ Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do
 ## Editando uma página
 ### Frontmatter
 Frontmatter é o conjunto de dados de um arquivo `.md`. Todos os artigos `.md` devem tê-la, e ela é formatada da seguinte forma, sempre com três "`+`" em cima e três embaixo:
-{{< highlight toml >}}
+{{< highlight toml "linenos=inline" >}}
 +++
 title = "Perguntas Frequentes sobre a Incelidade"
 categorias = [ "Incelidade" ]
