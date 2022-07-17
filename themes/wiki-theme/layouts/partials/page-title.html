@@ -18,5 +18,7 @@
     {{- end -}}
     {{ .Page.Title }}
 </h1>
+{{ if ne .Page.File.BaseFileName "busca" }}
 {{- partial "mobile/mobile-single-top-bar.html" . -}}
+{{ end }}
 {{ end }}
