@@ -18,7 +18,12 @@
     {{- end -}}
     {{ .Page.Title }}
 </h1>
-{{ if ne .Page.File.BaseFileName "busca" }}
-{{- partial "mobile/mobile-single-top-bar.html" . -}}
+{{ $ctx := . }}
+{{ with .Page.File }}
+{{ if ne .BaseFileName "busca" }}
+{{- partial "mobile/mobile-single-top-bar.html" $ctx -}}
+{{ end }}
+{{ else }}
+{{- partial "mobile/mobile-single-top-bar.html" $ctx -}}
 {{ end }}
 {{ end }}
