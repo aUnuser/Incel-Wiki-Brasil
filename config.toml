@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [params]
 description = "A Incel Wiki Brasil é uma iniciativa de trazer para a nossa língua o maior acervo de conhecimento incel existente na internet."
 dateFormat = "15h04m, 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
-site_subtitle = "a tradução brasileira da [Incel Wiki](https://incels.wiki/w/Main_Page)."
+siteSubtitle = "a versão brasileira da [Incel Wiki](https://incels.wiki/w/Main_Page)."
 repo_link = "https://github.com/aUnuser/Incel-Wiki-Brasil"
 discordInvite = "https://discord.gg/KfvZsvV3qg"
 

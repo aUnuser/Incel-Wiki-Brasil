@@ -4,7 +4,7 @@
         <span class="welcome">Bem vindo à</span>
         <a href="/" class="home-title">{{ .Site.Title }}</a>{{ with .Site.Params.site_subtitle }},{{ end }}
     </div>
-    {{ with .Site.Params.site_subtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
+    {{ with .Site.Params.siteSubtitle }}<span class="home-subtitle">{{ . | markdownify }}</span>{{ end }}
     {{ $artcount := len (where .Site.RegularPages "Section" "==" "artigos") }}
     <div class="article-count">
         <a href="/artigos/">{{ $artcount }}</a>&nbsp;artigos em português
