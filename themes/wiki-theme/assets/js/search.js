@@ -238,10 +238,12 @@ function createSearch() {
 function executeSearchBar(term, destination) {
     var results = fuseInBar.search(term);
     let searchitems = "";
-
+    
+    if (window.innerWidth < 1200) {
+        searchitems = searchitems + "<li class=\"SearchPageThatContains\"><a href=\"/busca?q=" + term + "\"><div>Buscar por páginas que contenham</div><i>" + term + "</i></a></li>";
+    }
     if (results.length === 0) {
         resultsAvailable = false;
-        searchitems = "";
     } else {
         for (let i in results.slice(0, 15)) { // only show first 15 results
             var reg = new RegExp('(' + term + ')', 'gi');
@@ -253,7 +255,10 @@ function executeSearchBar(term, destination) {
         }
         resultsAvailable = true;
     }
-    searchitems = searchitems + "<li tabindex=\"0\" class=\"SearchPageThatContains\"><a href=\"/busca?q=" + term + "\"><div>Buscar por páginas que contenham</div><i>" + term + "</i></a></li>";
+    if (window.innerWidth >= 1200) {
+        searchitems = searchitems + "<li tabindex=\"0\" class=\"SearchPageThatContains\"><a href=\"/busca?q=" + term + "\"><div>Buscar por páginas que contenham</div><i>" + term + "</i></a></li>";
+    }
+    
     destination.innerHTML = searchitems;
 
     if (!desktopSearchFocused) {
@@ -278,7 +283,9 @@ function executeSearchPage(term, destination) {
 
     if (results.length === 0) {
         searchitems = "";
+        searchitems = searchitems + "Nenhum resultado encontrado."
     } else {
+        searchitems = searchitems + "<h3>Resultados para \"" + term + "\":</h3><br>"
         for (let i in results.slice(0, 15)) { // only show first 15 results
             searchitems = searchitems + "<li><a href=\"" + results[i].item.permalink + "\"><span>" + results[i].item.title + "</span></a><div class=\"desc\">" + results[i].item.desc + "</div><div class=\"data\">" + results[i].item.wordcount + " palavras - " + results[i].item.lastmod + "</div></li>";
         }
