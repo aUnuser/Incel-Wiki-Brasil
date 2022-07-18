@@ -5,6 +5,9 @@ module.exports = {
                 discardComments: {
                     removeAll: true,
                 },
+                autoprefixer: {
+                    add: true,
+                },
             }]
         }),
     ],
