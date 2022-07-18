@@ -2,6 +2,8 @@
 title = "Manual de Edição"
 description = "Esta é uma wiki estática baseada no framework Hugo e alavancada no Github, e por isso o processo de edição é bastante diferente do das wikis tradicionais. Segue abaixo um manual explicando como funciona, como editar e as práticas exigidas."
 +++
+EM CONSTRUÇÃO 
+
 Esta é uma wiki estática baseada no framework [Hugo](https://gohugo.io/) e alavancada no [Github](https://github.com/), e por isso o processo de edição é bastante diferente do das wikis tradicionais. Segue abaixo um manual explicando como funciona, como editar, as regras e as guidelines.
 
 {{< toc >}}
@@ -89,5 +91,3 @@ Abaixo estão os dados possíveis:
 | ocupacao               | Ocupação                                                   |
 | alma_mater             | Universidades em que a personalidade se graduou (opcional) |
 | campo                  | Campo(s) de atuação (opcional)                             |
-
-## Em construção 
