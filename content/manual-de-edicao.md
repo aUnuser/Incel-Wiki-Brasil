@@ -89,3 +89,5 @@ Abaixo estão os dados possíveis:
 | ocupacao               | Ocupação                                                   |
 | alma_mater             | Universidades em que a personalidade se graduou (opcional) |
 | campo                  | Campo(s) de atuação (opcional)                             |
+
+## Em construção 
