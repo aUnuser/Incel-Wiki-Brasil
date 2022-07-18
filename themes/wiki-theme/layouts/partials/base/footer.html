@@ -1,7 +1,7 @@
 <footer>
     {{ with .File }}
-    {{ $editlink := printf "%s/commits/main/content/%s" ($.Site.Params.repo_link) (replace .Path "\\" "/") }}
-    <a href="{{ $editlink }}" class="last-modified" target="_blank" rel="noopener noreferrer">
+    {{ $editHistory := printf "%s/commits/main/content/%s" ($.Site.Params.repoLink) (replace .Path "\\" "/") }}
+    <a href="{{ $editHistory }}" class="last-modified" target="_blank" rel="noopener noreferrer">
         <div class="last-mod-inner-wrapper">
             <i class="icon clock"></i>
             <span>Ver histórico de edições desta página.</span>

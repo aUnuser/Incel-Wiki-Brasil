@@ -1,5 +1,5 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.RegularPages "Type" "artigos" -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "categorias" .Params.categorias "content" .Plain "desc" (.Description | truncate 100) "lastmod" (.Params.lastmod | time.Format $.Site.Params.dateFormat) "wordcount" (.WordCount) "permalink" .Permalink) -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "categorias" .Params.categorias "content" .Plain "desc" (.Description | truncate 100) "lastmod" (.Lastmod | time.Format $.Site.Params.dateFormat) "wordcount" (.WordCount) "permalink" .Permalink) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

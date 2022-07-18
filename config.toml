@@ -11,7 +11,7 @@ enableRobotsTXT = true
 description = "A Incel Wiki Brasil é uma iniciativa de trazer para a nossa língua o maior acervo de conhecimento incel existente na internet."
 dateFormat = "15h04m, 02 de January de 2006" # https://gohugohq.com/howto/hugo-dateformat/
 siteSubtitle = "a versão brasileira da [Incel Wiki](https://incels.wiki/w/Main_Page)."
-repo_link = "https://github.com/aUnuser/Incel-Wiki-Brasil"
+repoLink = "https://github.com/aUnuser/Incel-Wiki-Brasil"
 discordInvite = "https://discord.gg/KfvZsvV3qg"
 
   [params.removeFromRandom] # Random will use all .Site.RegularPages
@@ -22,7 +22,7 @@ discordInvite = "https://discord.gg/KfvZsvV3qg"
   default_image = "/main_thumb.jpg" # Used for articles without images
   jsonld = true # if true will use the SEO data object to output an json+ld script tag.
   disable_title_tag = false # if true module will handle follow/nofollow tags for pages depending on environment and Front Matter setting.
-  enable_follow = false
+  enable_follow = true # if true module will handle follow/nofollow tags for pages depending on environment and Front Matter setting.
 
   [params.dnb.opensearch]
   description = "Busque na Incel Wiki Brasil" # Search description, MUST be shorter than 1024 characters and MUST NOT contain markup. Default is Search on {{ site.Title }}
