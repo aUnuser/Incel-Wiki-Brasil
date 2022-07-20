@@ -167,7 +167,7 @@ function resetBodyNoScroll() {
 
 /// https://gist.github.com/cmod/5410eae147e4318164258742dd053993 - modded
 document.addEventListener("focus", function (e) {
-    if (e.composedPath[0].tagName === "INPUT") {
+    if (e.composedPath()[0].tagName === "INPUT") {
         if (firstRun) {
             createSearch();
             firstRun = false;
