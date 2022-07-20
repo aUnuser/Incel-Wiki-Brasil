@@ -184,6 +184,15 @@ body {
     .github:before {
         background-image: linear-gradient(transparent, transparent), url("/images/github.svg");
     }
+    .discord:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/Discord.svg");
+    }
+    .twitter:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/Twitter.svg");
+    }
+    .bug:before {
+        background-image: linear-gradient(transparent, transparent), url("/images/bug-solid.svg");
+    }
 
     .button {
         background-color: #f8f9fa;

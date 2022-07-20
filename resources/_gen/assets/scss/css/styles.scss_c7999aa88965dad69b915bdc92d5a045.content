@@ -130,6 +130,12 @@ body {
     background-image: linear-gradient(transparent, transparent), url("/images/die.svg"); }
   body .github:before {
     background-image: linear-gradient(transparent, transparent), url("/images/github.svg"); }
+  body .discord:before {
+    background-image: linear-gradient(transparent, transparent), url("/images/Discord.svg"); }
+  body .twitter:before {
+    background-image: linear-gradient(transparent, transparent), url("/images/Twitter.svg"); }
+  body .bug:before {
+    background-image: linear-gradient(transparent, transparent), url("/images/bug-solid.svg"); }
   body .button {
     background-color: #f8f9fa;
     color: #202122;

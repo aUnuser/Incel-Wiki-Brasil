@@ -53,8 +53,8 @@ Content = """
 weight = 2
 Content = """
 * [<i class="icon github"></i>Repositório no Github](https://github.com/aUnuser/Incel-Wiki-Brasil)
-* [<i class="icon github"></i>Twitter](https://twitter.com/incelwikibrasil)
-* [<i class="icon github"></i>Discord](/404)
+* [<i class="icon twitter"></i>Twitter](https://twitter.com/incelwikibrasil)
+* [<i class="icon discord"></i>Discord](/404)
 """
 
 [[mobile_sidebar]]
@@ -67,7 +67,7 @@ Content = """
 [[mobile_sidebar]]
 weight = 4
 Content = """
-* [<i class="icon"></i>Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
+* [<i class="icon bug"></i>Reporte um problema](https://github.com/aUnuser/Incel-Wiki-Brasil/issues)
 """
 
 [[footer]]
