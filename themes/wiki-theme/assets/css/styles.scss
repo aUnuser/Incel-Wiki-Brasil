@@ -182,15 +182,15 @@ body {
         background-image: linear-gradient(transparent, transparent), url("/images/github.svg");
     }
 
-    .discord:before {
+    .discord::before {
         background-image: linear-gradient(transparent, transparent), url("/images/discord.svg");
     }
 
-    .twitter:before {
+    .twitter::before {
         background-image: linear-gradient(transparent, transparent), url("/images/twitter.svg");
     }
 
-    .bug:before {
+    .bug::before {
         background-image: linear-gradient(transparent, transparent), url("/images/bug-solid.svg");
     }
 
