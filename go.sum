@@ -1,5 +1,7 @@
 github.com/davidsneighbour/hugo-robots v1.1.1 h1:7G+AdLypvxWIrAE44sAchkPYlPdPm0soKNvmoahcWz0=
 github.com/davidsneighbour/hugo-robots v1.1.1/go.mod h1:q4YHx8ppcEtXa7bpCC0h+ml6lXCPsvemZrufl5XU+9U=
+github.com/davidsneighbour/hugo-robots v1.2.3 h1:m4YqvaM11swCXq09Q9YnZLQ0yu5arDq6wCQKXT6GXWc=
+github.com/davidsneighbour/hugo-robots v1.2.3/go.mod h1:q4YHx8ppcEtXa7bpCC0h+ml6lXCPsvemZrufl5XU+9U=
 github.com/davidsneighbour/hugo-security v1.1.2 h1:NbLsWJP7Fm+QyIgJmSdGKaRo93r04wd1eyiYjS4j4O0=
 github.com/davidsneighbour/hugo-security v1.1.2/go.mod h1:MJvazS6ktIK7tbA+pddZopCTs1Rbw4iq21bv4J7GJ3U=
 github.com/davidsneighbour/hugo-sitemap v0.1.2 h1:ZPyGaL6w5xeh4t2dYhmaySP+Y87Sou6pz5uYT0gxybk=
