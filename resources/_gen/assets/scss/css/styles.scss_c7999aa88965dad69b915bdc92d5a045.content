@@ -47,8 +47,6 @@ body {
     color: #3366cc;
     text-decoration: none;
     background: none; }
-  body a:visited {
-    color: #0b0080; }
   body p {
     margin-top: 0; }
   body h1 {
