@@ -27,3 +27,8 @@ HUGO_ENABLEGITINFO = "true"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.101.0"
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
