@@ -41,7 +41,7 @@ home = [ "HTML", "RSS", "JSON" ]
 categoria = "categorias"
 
 [frontmatter]
-lastmod = [ "lastmod", ":fileModTime" ]
+lastmod = [ ":git", "lastmod", "date", "publishDate" ]
 
 [markup.goldmark.renderer]
 hardWraps = true
