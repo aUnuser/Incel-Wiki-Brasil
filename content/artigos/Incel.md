@@ -10,18 +10,18 @@ link = "https://incels.wiki/w/Incel"
 
 **Incel** é a contração de **celibatário involuntário** ou **celibato involuntário**, um [termo sociológico](/artigos/estudo-donelly) para uma circunstância de vida [adversa](/artigos/efeitos-adversos-da-incelidade).[^1][^2][^3][^4][^5] A condição de ser um incel também é chamada de **incelidade**. Essa condição de ser um *incel* é um tipo de [não-sexualidade](/artigos/nao-sexualidade). "Incel" é quase exclusivamente usado para designar homens incel (fazendo-o um sinônimo de "[malecel](/artigos/malecel)"); para celibatárias involuntárias mulheres o termo [femcel](/artigos/femcel) é usado.
 
-![A bandeira incel.](imagens/incel-flag.png "desktop-right")Ao contrário da percepção da mídia, incel não é nem um movimento político e nem uma [comunidade](/artigos/comunidade-incel)/subcultura, mas um termo descritivo para uma circunstância de vida de gênero neuro. Portanto, incels não compartilham um sistema de crenças, especialmente aqueles que não se identificam como um.
+![A bandeira incel.](imagens/incel-flag.png "dr")Ao contrário da percepção da mídia, incel não é nem um movimento político e nem uma [comunidade](/artigos/comunidade-incel)/subcultura, mas um termo descritivo para uma circunstância de vida de gênero neuro. Portanto, incels não compartilham um sistema de crenças, especialmente aqueles que não se identificam como um.
 
 O termo "incel" frequentemente tem diferentes significados para diferentes pessoas, o que causa confusão. Dentre acadêmicos e auto-descritos incel, a palavra se refere à condição literal de se ser celibatário contra a própria vontade. Porém, para comunidades mainstream, "incel" costuma ser usado para referir a um [misoginista](/artigos/misoginia) e/ou para um incel que faz parte de uma comunidade de misóginos.[^6] Isso muitas vezes leva [normies](/artigos/normie) a acreditar que incels usam o termo como uma forma de demonstrar ódio enquanto, para nós, o termo na verdade é usado de forma auto-depreciativa.
 
-![Como a [Wikipedia](/artigos/artigo-wikipedia-incel) tenta retratar os incels vs. o que eles realmente querem.](imagens/what-incels-want.jpg "desktop-right")Em alguns países, como na [Holanda](/artigos/modelo-holandes-de-a-combate-incelidade), houveram esforços para reconhecer o [sexo](/artigos/copulacao) como uma necessidade básica.[^7]
+![Como a [Wikipedia](/artigos/artigo-wikipedia-incel) tenta retratar os incels vs. o que eles realmente querem.](imagens/what-incels-want.jpg "dr")Em alguns países, como na [Holanda](/artigos/modelo-holandes-de-a-combate-incelidade), houveram esforços para reconhecer o [sexo](/artigos/copulacao) como uma necessidade básica.[^7]
 
 Não se sabe de nenhum assassino em massa que tenha sido primariamente motivado a cometer seus crimes por comunidades onlines dedicadas à incelidade. Nem o [4chan](/artigos/4chan) e nem o [PUAhate](/artigos/psl#Puahate.com) são forums autointitulados incels, embora alguns de seus usuários possam ser incels. Altualmente os maiores forums incel da internet são: [incels.co](/artigos/incels-ponto-is), [youarenotalone.co](/artigos/yourenotalone-ponto-co), [love-shy.com](/artigos/love-shy-ponto-com), [Incelswithouthate](/artigos/R/incelswithouthate) e [Foreveralone](/artigos/R/foreverAlone).
 
 {{< toc >}}
 
 ## Etimologia
-![Incels são a vanguarda da derrubada dos papéis de gênero.](imagens/Fragilebigots2.jpg "desktop-right")
+![Incels são a vanguarda da derrubada dos papéis de gênero.](imagens/Fragilebigots2.jpg "dr")
 
 Celibato vem do latim *caelibatus*, "não casado". A partir dos anos 1950 o significado de celibato mudou para referir a um estado de [falta de sexo](/artigos/estado-de-falta-de-sexo), [voluntária ou não](/artigos/volcel), sem referência ao [estado marital](/artigos/casamento).[^8] O termo celibato involuntário provavelmente foi concebido de forma independente ao longo da história por vários autores, mas a menção escrita mais antiga vem do clérigo francês [Antoine Banier](/artigos/antoine-bainier), que o usou em 1739 em sua coletânea de fábulas da Grécia Antiga.
 
@@ -32,7 +32,7 @@ A criadora do primeiro [fórum incel](/artigos/incelosfera), uma [feminista](/ar
 O termo incel foi depois usado no [estudo de Donelly](/artigos/estudo-donelly) em 2001, que foi o primeiro tratamento acadêmico do assunto. Mais tarde, em 2018, o termo foi lexicograficamente reconhecido por um dicionário online da língua holandesa.[^9]
 
 ## Definição
-![Perguntas de insegurança](imagens/300px-Securityquestions.jpg "desktop-right")
+![Perguntas de insegurança](imagens/300px-Securityquestions.jpg "dr")
 
 O [estudo de Denise Donelly](/artigos/estudo-donelly) definiu como incels todos os adultos que falham em encontrar uma parceira sexual por seis meses ou mais apesar de procurar por uma. Devido à possíveis brechas, ainda não há consenso sobre se essa definição é apropriada. Por exemplo, [bluepillers](/artigos/bluepill) costumam dizer, de má fé, que nessa definição incels homens podem simplesmente fazer sexo gay ou pagar uma prostituta e, portanto, são [volcels](/artigos/volcel) e incels não existem. Por isso, uma boa definição incluiria que incels são adultos que são repetidamente e <u>*romanticamente*</u> rejeitados por membros <u>*do sexo pelo qual são atraídos*</u>.
 
@@ -63,7 +63,7 @@ A vida incel é atormentada por [tentativas intermináveis](/artigos/masturbacao
 Quando pressionados, [alguns](/artigos/anti-incel) membros do público geral negam aos incels que sexo é de forma alguma uma necessidade, embora a maioria do público considere o sexo a experiência de vida regular mais prazerosa, alegre e significativa que eles têm.[^15] Mulheres acham homens que não fazem sexo menos atraentes, tanto como amigos quanto como parceiros românticos.[^16] Incels são geralmente completamente cientes de que nunca possuir um par afeta muito negativamente a sua auto-estima.
 
 ## Não pode um incel visitar uma prostituta?
-![**A maioria dos incels quer apenas amar e ser amado**](imagens/oneitis-400x135.webm "desktop-right")
+![**A maioria dos incels quer apenas amar e ser amado**](imagens/oneitis-400x135.webm "dr")
 
 Assim como para o público geral, incels não podem pagar por visitas frequentes à prostitutas, e ver uma prostituta acarreta em vários riscos à saúde. E mais importante, frequentar [prostitutas](/artigos/prostituta) não conta como uma relação romântica e nem mesmo social, mas apenas como uma relação comercial onde não existe afeto mútuo sem dinheiro. [Escortcels](/artigos/escortcel) costumam caracterizar a prostituição como uma experiência sexual incompleta, já que falta a validação sexual, um componente chave da maioria dos relacionamentos. Também falta a experiência elevadora de auto-estima de ser escolhido como um parceiro.
 
@@ -92,7 +92,7 @@ Incelismo é qualquer tipo de ativismo que procura resolver a incelidade numa es
 * Auxílio para homens emigrarem de regiões com população de homens e mulheres desigual.
 
 ## Chadsplanation
-![Normies, quando não estão mentindo sobre o [celibato](/artigos/celibatarios) ser fácil, brincam com o [absurdo](/artigos/lacuna-de-empatia) de passar [40 dias sem sexo](/artigos/seca).](imagens/40dias40noites.jpg "desktop-right")
+![Normies, quando não estão mentindo sobre o [celibato](/artigos/celibatarios) ser fácil, brincam com o [absurdo](/artigos/lacuna-de-empatia) de passar [40 dias sem sexo](/artigos/seca).](imagens/40dias40noites.jpg "dr")
 
 [Normies](/artigos/normie), [chads](/artigos/chad), [beckies](/artigos/becky) e [stacies](/artigos/stacy) costumam dizer que a culpa de incels não conseguirem namorar é deles mesmos. Geralmemte ao dizer isso também dão "[conselhos](/artigos/banalidade)" de auto-ajuda, como por exemplo:
 * Dizem que aparência não importa ao mesmo tempo em que olham o quão feios incels são, assumindo que não tomam banho ou não cortam o cabelo.

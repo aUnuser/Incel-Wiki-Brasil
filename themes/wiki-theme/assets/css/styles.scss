@@ -65,6 +65,26 @@ body {
         text-align: center;
     }
 
+    code {
+        background: #eaeaea;
+        border-radius: 5px;
+        padding: 1px 5px;
+        border: 1px solid #e2e2e2;
+    }
+    pre {
+        margin-top: 0;
+        background: #eaeaea;
+        border-radius: 5px;
+        border: 1px solid #e2e2e2;
+        display: inline-block;
+        code {
+            background: initial;
+            padding: 0;
+            border-radius: 0;
+            border: none;
+        }
+    }
+
     a {
         color: #3366cc;
         text-decoration: none;
@@ -1161,7 +1181,7 @@ body {
             }
         }
 
-        .desktop-right {
+        .dr {
             float: right;
             clear: both;
             margin-left: 1.4rem;

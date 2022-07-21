@@ -9,7 +9,7 @@ title = "Adverse Effects of Inceldom"
 link = "https://incels.wiki/w/Adverse_effects_of_inceldom"
 +++
 
-Pouco se sabe sobre os efeitos adversos da incelidade, já que essa é uma área pouco estudada. A maior parte dos resultados demonstra apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/artigos/incel) que [ascenderam](/artigos/deincelizacao) ou [casaram](/artigos/casamento). ![A importância de uma esposa.](imagens/einstein-mileva.jpg "desktop-right")
+Pouco se sabe sobre os efeitos adversos da incelidade, já que essa é uma área pouco estudada. A maior parte dos resultados demonstra apenas correlações, então não se pode dizer se é a incelidade que causa uma condição adversa ou vice-versa, ou se é algum outro fator que causa ambos. Não existem estudos longitudinais sobre [incels](/artigos/incel) que [ascenderam](/artigos/deincelizacao) ou [casaram](/artigos/casamento). ![A importância de uma esposa.](imagens/einstein-mileva.jpg "dr")
 
 {{< toc >}}
 
@@ -65,7 +65,7 @@ Segundo um grande estudo sobre a depressão conduzido em 23 países, estar solte
 Controlando por vários fatores demográficos, as chances de morrer no próximo ano são 1,33 maiores para um homem não casado do que para um homem casado, mas apenas 1,14 vezes maior para mulheres não casadas. O casamento é importante para a sobrevivência para ambos homens e mulheres, mas mais para o homem.[^71]
 
 ## Solidão
-!["Qual o sentido de ter isso tudo quando se é sozinho?"](imagens/Does_it_mean_anything.jpg "desktop-right")
+!["Qual o sentido de ter isso tudo quando se é sozinho?"](imagens/Does_it_mean_anything.jpg "dr")
 
 Incels costumam sentir solidão, o que pode acontecer em parte por conta do constrangimento causado pela falta de sucesso sexual. Muitos incels são deprimidos, e, por exemplo, em uma pesquisa informal do [incels.co](/artigos/incels-ponto-is), 49,3% dos incels disseram não ter nenhum amigo.[^72] Não está claro se é a incelidade que causa solidão ou vice-versa, mas ambos são plausíveis.
 

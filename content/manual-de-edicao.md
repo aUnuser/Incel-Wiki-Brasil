@@ -49,45 +49,45 @@ Abaixo está a estrutura de pastas do site, localizada no [nosso repositório do
 ```
 
 ## Criando uma página
-![O que é slug?](imagens/o-que-e-slug.jpg "desktop-right")
+![O que é slug?](imagens/o-que-e-slug.jpg "dr")
 
 1. Crie um arquivo `.md` dentro da pasta `/content` ou da `/content/artigos`.
 2. O nome do arquivo **deve** ser o nome da página, mas com todas as letras minúsculas, sem acentos, sem "ç" e com hífens no lugar dos espaços. A razão disso é que o nome do arquivo será a *slug* da página.
 3. Dentro do arquivo em branco, insira a *frontmatter*.
 4. Preencha a frontmatter.
 
-## Editando uma página
+## Estrutura de uma página
 ### Frontmatter
-Frontmatter é o conjunto de dados de um arquivo `.md`. Todos os artigos `.md` devem tê-la, e ela é formatada da seguinte forma, sempre com três "`+`" em cima e três embaixo:
+Frontmatter é o conjunto de dados de um arquivo `.md`. Todos os artigos `.md` devem tê-la. Ela usa a sintaxe [TOML](https://pt.frwiki.wiki/wiki/TOML), sempre com três "`+`" em cima e três embaixo:
 {{< highlight toml "linenos=inline" >}}
 +++
-title = "Perguntas Frequentes sobre a Incelidade"
-categorias = [ "Incelidade" ]
-description = "Esta página lista perguntas frequentes a respeito da incelidade."
+title = "Título do artigo"
+categorias = [ "Categoria 1", "Categoria 2" ]
+description = "Descrição. Pode ser o primeiro parágrafo do artigo, porém sem markdown."
 
+# Título e link do artigo original.
 [artigo_original]
-title = "Inceldom FAQ"
-link = "https://incels.wiki/w/Inceldom_FAQ"
+title = "Denise Donelly"
+link = "https://incels.wiki/w/Denise_Donnelly"
+
+# Dados da personalidade do artigo (opcional).
+[personalidade]
+nome = "Denise Donelly"
+foto = ""
+foto_desc = ""
+[[personalidade.meta]]
+nascimento = "?"
+morte = ""
+ocupacao = "Acadêmica"
+alma_mater = """
+* Florida University
+* University of New Hampshire
+"""
+campo = "Sociologia"
 +++
 {{< / highlight >}}
-
-Abaixo estão os dados possíveis:
-
-| Frontmatter            | Conteúdo                                                   |
-|------------------------|------------------------------------------------------------|
-| title                  | Título do artigo                                           |
-| categorias             | Categorias do artigo                                       |
-| description            | Descrição do artigo                                        |
-| [artigo_original]      | Referência ao artigo original                              |
-| title                  | Título do artigo original                                  |
-| link                   | Link do artigo original                                    |
-| [personalidade]        | Quadro de personalidade (opcional)                         |
-| nome                   | Nome da personalidade                                      |
-| foto                   | Foto da personalidade (opcional)                           |
-| foto_desc              | Descrição da foto (opcional)                               |
-| [[personalidade.meta]] | Dados da personalidade                                     |
-| nascimento             | Nascimento                                                 |
-| morte                  | Morte                                                      |
-| ocupacao               | Ocupação                                                   |
-| alma_mater             | Universidades em que a personalidade se graduou (opcional) |
-| campo                  | Campo(s) de atuação (opcional)                             |
+### Conteúdo
+O conteúdo é escrito com [Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
+* Observações:
+  * Nunca use o título 1 nas páginas.
+  * As imagens devem ser escritas da seguinte forma, incluindo sempre o "dr": `![Legenda da imagem](imagens/nome-da-imagem.jpg "dr)`.
