@@ -133,7 +133,7 @@ body {
   body .twitter:before {
     background-image: linear-gradient(transparent, transparent), url("/images/twitter.svg"); }
   body .bug:before {
-    background-image: linear-gradient(transparent, transparent), url("/images/bug-solid.svg"); }
+    background-image: linear-gradient(transparent, transparent), url("/images/bug.svg"); }
   body .button {
     background-color: #f8f9fa;
     color: #202122;

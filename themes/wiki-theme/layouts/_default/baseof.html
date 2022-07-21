@@ -9,9 +9,9 @@
     </noscript>
     <main id="{{ if .IsHome }}home-main{{ else if eq .Page.Kind "section" }}section-main{{ else }}single-main{{ end }}">
         {{- partial "page-title.html" . -}}
-        <div id="content">
+        <article id="content">
             {{- block "main" . }}{{- end }}
-        </div>
+        </article>
     </main>
     {{- partial "base/footer.html" . -}}
 </body>
