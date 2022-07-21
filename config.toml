@@ -19,7 +19,7 @@ discordInvite = "https://discord.gg/KfvZsvV3qg"
 
   [params.tnd_seo]
   site_name = "Incel Wiki Brasil" # overrides .Site.Title
-  default_image = "/main_thumb.jpg" # Used for articles without images
+  default_image = "/images/main_thumb.jpg" # Used for articles without images
   jsonld = true # if true will use the SEO data object to output an json+ld script tag.
   disable_title_tag = false # if true module will handle follow/nofollow tags for pages depending on environment and Front Matter setting.
   enable_follow = true # if true module will handle follow/nofollow tags for pages depending on environment and Front Matter setting.
