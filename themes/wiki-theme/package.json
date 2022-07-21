@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "cssnano": "^5.1.12",
     "cssnano-preset-advanced": "^5.3.8",
     "postcss": "^8.4.14",

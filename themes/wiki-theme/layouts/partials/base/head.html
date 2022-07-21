@@ -9,19 +9,23 @@
 
     <style>
       {{- if hugo.IsProduction -}}
-      {{- with resources.Get "/css/normalize.min.css" | resources.PostCSS -}}  
-      {{- .Content | safeCSS -}}
-      {{- end -}}
-      {{- with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS | resources.PostCSS -}}
-      {{- .Content | safeCSS -}}
-      {{- end -}}
+
+        {{- with resources.Get "/css/normalize.min.css" | resources.PostCSS -}}  
+        {{- .Content | safeCSS -}}
+        {{- end -}}
+        {{- with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS | resources.PostCSS -}}
+        {{- .Content | safeCSS -}}
+        {{- end -}}
+
       {{- else -}}
-      {{- with resources.Get "/css/normalize.min.css" -}}  
-      {{- .Content | safeCSS -}}
-      {{- end -}}
-      {{- with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS -}}
-      {{- .Content | safeCSS -}}
-      {{- end -}}
+
+        {{- with resources.Get "/css/normalize.min.css" -}}  
+        {{- .Content | safeCSS -}}
+        {{- end -}}
+        {{- with resources.Get "/css/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | resources.ToCSS -}}
+        {{- .Content | safeCSS -}}
+        {{- end -}}
+
       {{- end -}}
     </style>
 </head>
